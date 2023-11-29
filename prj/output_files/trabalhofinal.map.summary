@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Nov 28 20:25:06 2023
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Web Edition
+Revision Name : trabalhofinal
+Top-level Entity Name : casca
+Family : Cyclone III
+Total logic elements : 334
+    Total combinational functions : 322
+    Dedicated logic registers : 186
+Total registers : 186
+Total pins : 9
+Total virtual pins : 0
+Total memory bits : 6,144
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 3
