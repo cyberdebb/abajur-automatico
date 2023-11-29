@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="trabalhofinal">
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|pllcanhao:p3|altpll:altpll_component" CBX_FILE_NAME="pllcanhao_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|pllcanhao:p2|altpll:altpll_component" CBX_FILE_NAME="pllcanhao_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u01|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_bfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u01|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0" CBX_FILE_NAME="altsyncram_0uv.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u03|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_bfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u03|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0" CBX_FILE_NAME="altsyncram_2uv.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|pllcanhao:p1|altpll:altpll_component" CBX_FILE_NAME="pllcanhao_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u02|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_bfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u02|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0" CBX_FILE_NAME="altsyncram_1uv.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

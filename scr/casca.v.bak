@@ -1,0 +1,24 @@
+module casca(
+
+clk_50MHz
+
+);
+
+wire c0_sig;
+
+pllcanhao	u00 (
+	.inclk0 ( clk_50MHz ),
+	.c0 ( c0_sig )
+	);
+
+	top u01
+	(
+	.clk(c0_sig),
+	.rest_n(),
+	.pwm()
+	
+	
+	)
+	
+
+endmodule
