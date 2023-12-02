@@ -1,5 +1,5 @@
 Fitter report for trabalhofinal
-Tue Nov 28 20:25:11 2023
+Sat Dec 02 20:44:07 2023
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -75,18 +75,18 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Fitter Summary                                                                  ;
 +------------------------------------+--------------------------------------------+
-; Fitter Status                      ; Successful - Tue Nov 28 20:25:11 2023      ;
+; Fitter Status                      ; Successful - Sat Dec 02 20:44:07 2023      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; trabalhofinal                              ;
 ; Top-level Entity Name              ; casca                                      ;
 ; Family                             ; Cyclone III                                ;
 ; Device                             ; EP3C16F484C6                               ;
 ; Timing Models                      ; Final                                      ;
-; Total logic elements               ; 331 / 15,408 ( 2 % )                       ;
-;     Total combinational functions  ; 322 / 15,408 ( 2 % )                       ;
+; Total logic elements               ; 334 / 15,408 ( 2 % )                       ;
+;     Total combinational functions  ; 325 / 15,408 ( 2 % )                       ;
 ;     Dedicated logic registers      ; 186 / 15,408 ( 1 % )                       ;
 ; Total registers                    ; 186                                        ;
-; Total pins                         ; 9 / 347 ( 3 % )                            ;
+; Total pins                         ; 16 / 347 ( 5 % )                           ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 6,144 / 516,096 ( 1 % )                    ;
 ; Embedded Multiplier 9-bit elements ; 0 / 112 ( 0 % )                            ;
@@ -160,16 +160,16 @@ applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 12          ;
 ;                            ;             ;
-; Average used               ; 1.75        ;
-; Maximum used               ; 4           ;
+; Average used               ; 3.20        ;
+; Maximum used               ; 12          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;  25.0%      ;
-;     Processors 5-8         ;   0.0%      ;
+;     Processors 2-12        ;  20.0%      ;
+;     Processors 13-16       ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -181,6 +181,9 @@ applicable agreement for further details.
 ; pwm_casca1 ; Missing drive strength and slew rate ;
 ; pwm_casca2 ; Missing drive strength and slew rate ;
 ; pwm_casca3 ; Missing drive strength and slew rate ;
+; led1       ; Missing drive strength and slew rate ;
+; led2       ; Missing drive strength and slew rate ;
+; led3       ; Missing drive strength and slew rate ;
 +------------+--------------------------------------+
 
 
@@ -202,8 +205,8 @@ applicable agreement for further details.
 ; Type                ; Total [A + B]      ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+--------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                    ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 562 ) ; 0.00 % ( 0 / 562 )         ; 0.00 % ( 0 / 562 )       ;
-;     -- Achieved     ; 0.00 % ( 0 / 562 ) ; 0.00 % ( 0 / 562 )         ; 0.00 % ( 0 / 562 )       ;
+;     -- Requested    ; 0.00 % ( 0 / 579 ) ; 0.00 % ( 0 / 579 )         ; 0.00 % ( 0 / 579 )       ;
+;     -- Achieved     ; 0.00 % ( 0 / 579 ) ; 0.00 % ( 0 / 579 )         ; 0.00 % ( 0 / 579 )       ;
 ;                     ;                    ;                            ;                          ;
 ; Routing (by net)    ;                    ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )   ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -226,7 +229,7 @@ applicable agreement for further details.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 550 )    ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 567 )    ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 12 )     ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -234,7 +237,7 @@ applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/prj/output_files/trabalhofinal.pin.
+The pin-out file can be found in C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/output_files/trabalhofinal.pin.
 
 
 +------------------------------------------------------------------------+
@@ -242,29 +245,29 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 +---------------------------------------------+--------------------------+
 ; Resource                                    ; Usage                    ;
 +---------------------------------------------+--------------------------+
-; Total logic elements                        ; 331 / 15,408 ( 2 % )     ;
-;     -- Combinational with no register       ; 145                      ;
+; Total logic elements                        ; 334 / 15,408 ( 2 % )     ;
+;     -- Combinational with no register       ; 148                      ;
 ;     -- Register only                        ; 9                        ;
 ;     -- Combinational with a register        ; 177                      ;
 ;                                             ;                          ;
 ; Logic element usage by number of LUT inputs ;                          ;
 ;     -- 4 input functions                    ; 69                       ;
-;     -- 3 input functions                    ; 66                       ;
-;     -- <=2 input functions                  ; 187                      ;
+;     -- 3 input functions                    ; 68                       ;
+;     -- <=2 input functions                  ; 188                      ;
 ;     -- Register only                        ; 9                        ;
 ;                                             ;                          ;
 ; Logic elements by mode                      ;                          ;
-;     -- normal mode                          ; 103                      ;
+;     -- normal mode                          ; 106                      ;
 ;     -- arithmetic mode                      ; 219                      ;
 ;                                             ;                          ;
 ; Total registers*                            ; 186 / 17,068 ( 1 % )     ;
 ;     -- Dedicated logic registers            ; 186 / 15,408 ( 1 % )     ;
 ;     -- I/O registers                        ; 0 / 1,660 ( 0 % )        ;
 ;                                             ;                          ;
-; Total LABs:  partially or completely used   ; 29 / 963 ( 3 % )         ;
+; Total LABs:  partially or completely used   ; 30 / 963 ( 3 % )         ;
 ; Virtual pins                                ; 0                        ;
-; I/O pins                                    ; 9 / 347 ( 3 % )          ;
-;     -- Clock pins                           ; 2 / 8 ( 25 % )           ;
+; I/O pins                                    ; 16 / 347 ( 5 % )         ;
+;     -- Clock pins                           ; 1 / 8 ( 13 % )           ;
 ;     -- Dedicated input pins                 ; 0 / 9 ( 0 % )            ;
 ;                                             ;                          ;
 ; Global signals                              ; 1                        ;
@@ -279,11 +282,11 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; ASMI blocks                                 ; 0 / 1 ( 0 % )            ;
 ; Impedance control blocks                    ; 0 / 4 ( 0 % )            ;
 ; Average interconnect usage (total/H/V)      ; 0% / 0% / 0%             ;
-; Peak interconnect usage (total/H/V)         ; 2% / 2% / 2%             ;
+; Peak interconnect usage (total/H/V)         ; 2% / 2% / 1%             ;
 ; Maximum fan-out                             ; 189                      ;
 ; Highest non-global fan-out                  ; 41                       ;
-; Total fan-out                               ; 1291                     ;
-; Average fan-out                             ; 2.35                     ;
+; Total fan-out                               ; 1307                     ;
+; Average fan-out                             ; 2.31                     ;
 +---------------------------------------------+--------------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -296,29 +299,29 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 +---------------------------------------------+---------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low                 ; Low                            ;
 ;                                             ;                     ;                                ;
-; Total logic elements                        ; 331 / 15408 ( 2 % ) ; 0 / 15408 ( 0 % )              ;
-;     -- Combinational with no register       ; 145                 ; 0                              ;
+; Total logic elements                        ; 334 / 15408 ( 2 % ) ; 0 / 15408 ( 0 % )              ;
+;     -- Combinational with no register       ; 148                 ; 0                              ;
 ;     -- Register only                        ; 9                   ; 0                              ;
 ;     -- Combinational with a register        ; 177                 ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Logic element usage by number of LUT inputs ;                     ;                                ;
 ;     -- 4 input functions                    ; 69                  ; 0                              ;
-;     -- 3 input functions                    ; 66                  ; 0                              ;
-;     -- <=2 input functions                  ; 187                 ; 0                              ;
+;     -- 3 input functions                    ; 68                  ; 0                              ;
+;     -- <=2 input functions                  ; 188                 ; 0                              ;
 ;     -- Register only                        ; 9                   ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Logic elements by mode                      ;                     ;                                ;
-;     -- normal mode                          ; 103                 ; 0                              ;
+;     -- normal mode                          ; 106                 ; 0                              ;
 ;     -- arithmetic mode                      ; 219                 ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Total registers                             ; 186                 ; 0                              ;
 ;     -- Dedicated logic registers            ; 186 / 15408 ( 1 % ) ; 0 / 15408 ( 0 % )              ;
 ;     -- I/O registers                        ; 0                   ; 0                              ;
 ;                                             ;                     ;                                ;
-; Total LABs:  partially or completely used   ; 29 / 963 ( 3 % )    ; 0 / 963 ( 0 % )                ;
+; Total LABs:  partially or completely used   ; 30 / 963 ( 3 % )    ; 0 / 963 ( 0 % )                ;
 ;                                             ;                     ;                                ;
 ; Virtual pins                                ; 0                   ; 0                              ;
-; I/O pins                                    ; 9                   ; 0                              ;
+; I/O pins                                    ; 16                  ; 0                              ;
 ; Embedded Multiplier 9-bit elements          ; 0 / 112 ( 0 % )     ; 0 / 112 ( 0 % )                ;
 ; Total memory bits                           ; 6144                ; 0                              ;
 ; Total RAM block bits                        ; 27648               ; 0                              ;
@@ -333,7 +336,7 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ;     -- Registered Output Connections        ; 0                   ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Internal Connections                        ;                     ;                                ;
-;     -- Total Connections                    ; 1428                ; 197                            ;
+;     -- Total Connections                    ; 1444                ; 197                            ;
 ;     -- Registered Connections               ; 516                 ; 0                              ;
 ;                                             ;                     ;                                ;
 ; External Connections                        ;                     ;                                ;
@@ -341,8 +344,8 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ;     -- hard_block:auto_generated_inst       ; 190                 ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Partition Interface                         ;                     ;                                ;
-;     -- Input Ports                          ; 6                   ; 3                              ;
-;     -- Output Ports                         ; 3                   ; 3                              ;
+;     -- Input Ports                          ; 10                  ; 3                              ;
+;     -- Output Ports                         ; 6                   ; 3                              ;
 ;     -- Bidir Ports                          ; 0                   ; 0                              ;
 ;                                             ;                     ;                                ;
 ; Registered Ports                            ;                     ;                                ;
@@ -366,12 +369,16 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 +------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+
 ; Name       ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination Control Block ; Location assigned by ;
 +------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+
-; clk_50MHz1 ; G21   ; 6        ; 41           ; 15           ; 0            ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
-; clk_50MHz2 ; G1    ; 1        ; 0            ; 14           ; 7            ; 0                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
-; clk_50MHz3 ; G15   ; 7        ; 39           ; 29           ; 28           ; 0                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ;
-; rst_casca1 ; B16   ; 7        ; 28           ; 29           ; 0            ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ;
-; rst_casca2 ; A13   ; 7        ; 21           ; 29           ; 0            ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ;
-; rst_casca3 ; E11   ; 7        ; 21           ; 29           ; 21           ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ;
+; clk_50MHz  ; G21   ; 6        ; 41           ; 15           ; 0            ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
+; rst_casca1 ; D2    ; 1        ; 0            ; 25           ; 0            ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
+; rst_casca2 ; E4    ; 1        ; 0            ; 26           ; 0            ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
+; rst_casca3 ; E3    ; 1        ; 0            ; 26           ; 7            ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
+; switch1    ; H13   ; 7        ; 28           ; 29           ; 28           ; 0                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ;
+; switch2    ; L6    ; 2        ; 0            ; 13           ; 0            ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ;
+; switch3    ; M1    ; 2        ; 0            ; 13           ; 21           ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ;
+; switch4    ; V9    ; 3        ; 14           ; 0            ; 21           ; 3                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ;
+; switch5    ; R14   ; 4        ; 39           ; 0            ; 14           ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ;
+; switch6    ; E15   ; 7        ; 30           ; 29           ; 0            ; 1                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; Fitter               ;
 +------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+
 
 
@@ -380,9 +387,12 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 +------------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
 ; Name       ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Output Register ; Output Enable Register ; Power Up High ; Slew Rate ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination                       ; Termination Control Block ; Output Buffer Pre-emphasis ; Voltage Output Differential ; Location assigned by ; Output Enable Source ; Output Enable Group ;
 +------------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
-; pwm_casca1 ; H13   ; 7        ; 28           ; 29           ; 28           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; pwm_casca2 ; D13   ; 7        ; 23           ; 29           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; pwm_casca3 ; H22   ; 6        ; 41           ; 20           ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led1       ; U15   ; 4        ; 39           ; 0            ; 28           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led2       ; B20   ; 7        ; 35           ; 29           ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; led3       ; N14   ; 5        ; 41           ; 5            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; pwm_casca1 ; AA20  ; 4        ; 37           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
+; pwm_casca2 ; AB10  ; 3        ; 21           ; 0            ; 28           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; pwm_casca3 ; AB19  ; 4        ; 35           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 +------------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
 
 
@@ -391,6 +401,7 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 +----------+-----------------------------+--------------------------+-------------------------+---------------------------+
 ; Location ; Pin Name                    ; Reserved As              ; User Signal Name        ; Pin Type                  ;
 +----------+-----------------------------+--------------------------+-------------------------+---------------------------+
+; E4       ; DIFFIO_L2p, nRESET          ; Use as regular IO        ; rst_casca2              ; Dual Purpose Pin          ;
 ; D1       ; DIFFIO_L4n, DATA1, ASDO     ; As input tri-stated      ; ~ALTERA_ASDO_DATA1~     ; Dual Purpose Pin          ;
 ; E2       ; DIFFIO_L6p, FLASH_nCE, nCSO ; As input tri-stated      ; ~ALTERA_FLASH_nCE_nCSO~ ; Dual Purpose Pin          ;
 ; K6       ; nSTATUS                     ; -                        ; -                       ; Dedicated Programming Pin ;
@@ -404,9 +415,6 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; L17      ; MSEL2                       ; -                        ; -                       ; Dedicated Programming Pin ;
 ; K20      ; MSEL3                       ; -                        ; -                       ; Dedicated Programming Pin ;
 ; K22      ; DIFFIO_R16n, nCEO           ; Use as programming pin   ; ~ALTERA_nCEO~           ; Dual Purpose Pin          ;
-; D13      ; DIFFIO_T19p, PADD8          ; Use as regular IO        ; pwm_casca2              ; Dual Purpose Pin          ;
-; A13      ; DIFFIO_T17n, PADD11         ; Use as regular IO        ; rst_casca2              ; Dual Purpose Pin          ;
-; E11      ; DIFFIO_T16n, PADD13         ; Use as regular IO        ; rst_casca3              ; Dual Purpose Pin          ;
 +----------+-----------------------------+--------------------------+-------------------------+---------------------------+
 
 
@@ -415,13 +423,13 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 +----------+-----------------+---------------+--------------+
 ; I/O Bank ; Usage           ; VCCIO Voltage ; VREF Voltage ;
 +----------+-----------------+---------------+--------------+
-; 1        ; 5 / 33 ( 15 % ) ; 2.5V          ; --           ;
-; 2        ; 0 / 48 ( 0 % )  ; 2.5V          ; --           ;
-; 3        ; 0 / 46 ( 0 % )  ; 2.5V          ; --           ;
-; 4        ; 0 / 41 ( 0 % )  ; 2.5V          ; --           ;
-; 5        ; 0 / 46 ( 0 % )  ; 2.5V          ; --           ;
-; 6        ; 3 / 43 ( 7 % )  ; 2.5V          ; --           ;
-; 7        ; 6 / 47 ( 13 % ) ; 2.5V          ; --           ;
+; 1        ; 7 / 33 ( 21 % ) ; 2.5V          ; --           ;
+; 2        ; 2 / 48 ( 4 % )  ; 2.5V          ; --           ;
+; 3        ; 2 / 46 ( 4 % )  ; 2.5V          ; --           ;
+; 4        ; 4 / 41 ( 10 % ) ; 2.5V          ; --           ;
+; 5        ; 1 / 46 ( 2 % )  ; 2.5V          ; --           ;
+; 6        ; 2 / 43 ( 5 % )  ; 2.5V          ; --           ;
+; 7        ; 3 / 47 ( 6 % )  ; 2.5V          ; --           ;
 ; 8        ; 0 / 43 ( 0 % )  ; 2.5V          ; --           ;
 +----------+-----------------+---------------+--------------+
 
@@ -443,7 +451,7 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; A10      ; 326        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; A11      ; 321        ; 8        ; GND+                                                      ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; A12      ; 319        ; 7        ; GND+                                                      ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
-; A13      ; 314        ; 7        ; rst_casca2                                                ; input  ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; A13      ; 314        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; A14      ; 312        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; A15      ; 307        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; A16      ; 298        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
@@ -472,7 +480,7 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; AA17     ; 151        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AA18     ; 163        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AA19     ; 164        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; AA20     ; 169        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
+; AA20     ; 169        ; 4        ; pwm_casca1                                                ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AA21     ; 179        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; AA22     ; 178        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; AB1      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -484,7 +492,7 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; AB7      ; 116        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AB8      ; 124        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AB9      ; 127        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; AB10     ; 133        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
+; AB10     ; 133        ; 3        ; pwm_casca2                                                ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; AB11     ; 135        ; 3        ; GND+                                                      ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; AB12     ; 137        ; 4        ; GND+                                                      ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; AB13     ; 139        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
@@ -493,7 +501,7 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; AB16     ; 150        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AB17     ; 152        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AB18     ; 162        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; AB19     ; 165        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
+; AB19     ; 165        ; 4        ; pwm_casca3                                                ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AB20     ; 170        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; AB21     ;            ; 4        ; VCCIO4                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; AB22     ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -512,11 +520,11 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; B13      ; 315        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; B14      ; 313        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; B15      ; 308        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; B16      ; 299        ; 7        ; rst_casca1                                                ; input  ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; B16      ; 299        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; B17      ; 297        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; B18      ; 292        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; B19      ; 289        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; B20      ; 285        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
+; B20      ; 285        ; 7        ; led2                                                      ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; B21      ; 269        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; B22      ; 268        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; C1       ; 7          ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -542,7 +550,7 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; C21      ; 267        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; C22      ; 266        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; D1       ; 9          ; 1        ; ~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP     ; input  ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; On           ;
-; D2       ; 8          ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
+; D2       ; 8          ; 1        ; rst_casca1                                                ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; D3       ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; D4       ;            ; 1        ; VCCIO1                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; D5       ;            ; 8        ; VCCIO8                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
@@ -553,7 +561,7 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; D10      ; 324        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; D11      ;            ; 8        ; VCCIO8                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; D12      ;            ; 7        ; VCCIO7                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
-; D13      ; 310        ; 7        ; pwm_casca2                                                ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; D13      ; 310        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; D14      ;            ; 7        ; VCCIO7                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; D15      ; 293        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; D16      ;            ; 7        ; VCCIO7                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
@@ -565,19 +573,19 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; D22      ; 260        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; E1       ; 14         ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; E2       ; 13         ; 1        ; ~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP ; input  ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; On           ;
-; E3       ; 5          ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
-; E4       ; 4          ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
+; E3       ; 5          ; 1        ; rst_casca3                                                ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; E4       ; 4          ; 1        ; rst_casca2                                                ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; E5       ; 363        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; E6       ; 362        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; E7       ; 357        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; E8       ;            ; 8        ; VCCIO8                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; E9       ; 338        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
 ; E10      ; 325        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; E11      ; 317        ; 7        ; rst_casca3                                                ; input  ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; E11      ; 317        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; E12      ; 316        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; E13      ; 311        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; E14      ; 301        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; E15      ; 294        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
+; E15      ; 294        ; 7        ; switch6                                                   ; input  ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; E16      ; 275        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; E17      ;            ;          ; VCCD_PLL2                                                 ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; E18      ;            ;          ; GNDA2                                                     ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -607,7 +615,7 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; F20      ; 262        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; F21      ; 251        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; F22      ; 250        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
-; G1       ; 39         ; 1        ; clk_50MHz2                                                ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; G1       ; 39         ; 1        ; GND+                                                      ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; G2       ; 38         ; 1        ; GND+                                                      ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; G3       ; 18         ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; G4       ; 17         ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -621,13 +629,13 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; G12      ; 305        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; G13      ; 295        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; G14      ; 280        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; G15      ; 278        ; 7        ; clk_50MHz3                                                ; input  ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; G15      ; 278        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; G16      ; 277        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; G17      ; 273        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; G18      ; 264        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; G19      ;            ; 6        ; VCCIO6                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; G20      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; G21      ; 226        ; 6        ; clk_50MHz1                                                ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; G21      ; 226        ; 6        ; clk_50MHz                                                 ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; G22      ; 225        ; 6        ; GND+                                                      ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; H1       ; 26         ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; H2       ; 25         ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -641,7 +649,7 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; H10      ; 343        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; H11      ; 323        ; 8        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; H12      ; 304        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; H13      ; 303        ; 7        ; pwm_casca1                                                ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; H13      ; 303        ; 7        ; switch1                                                   ; input  ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; H14      ; 288        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; H15      ; 287        ; 7        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; H16      ; 259        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -650,7 +658,7 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; H19      ; 254        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; H20      ; 253        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; H21      ; 246        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
-; H22      ; 245        ; 6        ; pwm_casca3                                                ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
+; H22      ; 245        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; J1       ; 29         ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; J2       ; 28         ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; J3       ; 27         ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
@@ -700,7 +708,7 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; L3       ; 37         ; 1        ; ^nCE                                                      ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; L4       ; 36         ; 1        ; #TDO                                                      ; output ;              ;         ; --         ;                 ; --       ; --           ;
 ; L5       ; 33         ; 1        ; #TDI                                                      ; input  ;              ;         ; --         ;                 ; --       ; --           ;
-; L6       ; 42         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
+; L6       ; 42         ; 2        ; switch2                                                   ; input  ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; L7       ; 50         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; L8       ; 20         ; 1        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; L9       ;            ;          ; VCCINT                                                    ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
@@ -717,7 +725,7 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; L20      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; L21      ; 235        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; L22      ; 234        ; 6        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
-; M1       ; 45         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
+; M1       ; 45         ; 2        ; switch3                                                   ; input  ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; M2       ; 44         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; M3       ; 47         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; M4       ; 46         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -752,7 +760,7 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; N11      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; N12      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; N13      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; N14      ; 189        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
+; N14      ; 189        ; 5        ; led3                                                      ; output ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; N15      ; 196        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; N16      ; 205        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; N17      ; 214        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -796,7 +804,7 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; R11      ; 97         ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; R12      ; 98         ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; R13      ; 153        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; R14      ; 175        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
+; R14      ; 175        ; 4        ; switch5                                                   ; input  ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; R15      ; 176        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; R16      ; 172        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; R17      ; 194        ; 5        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
@@ -841,7 +849,7 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; U12      ; 147        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; U13      ; 156        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; U14      ; 174        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; U15      ; 173        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
+; U15      ; 173        ; 4        ; led1                                                      ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; U16      ;            ;          ; VCCINT                                                    ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; U17      ;            ;          ; VCCINT                                                    ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; U18      ;            ; --       ; VCCA4                                                     ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
@@ -857,7 +865,7 @@ The pin-out file can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/
 ; V6       ; 92         ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; V7       ; 105        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; V8       ; 113        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
-; V9       ; 119        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
+; V9       ; 119        ; 3        ; switch4                                                   ; input  ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; V10      ; 120        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; V11      ; 129        ; 3        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
 ; V12      ; 142        ; 4        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Column I/O ;                 ; no       ; On           ;
@@ -953,7 +961,7 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; Scan chain MIF file           ; --                                                                        ;
 ; Preserve PLL counter order    ; Off                                                                       ;
 ; PLL location                  ; PLL_2                                                                     ;
-; Inclk0 signal                 ; clk_50MHz1                                                                ;
+; Inclk0 signal                 ; clk_50MHz                                                                 ;
 ; Inclk1 signal                 ; --                                                                        ;
 ; Inclk0 signal type            ; Dedicated Pin                                                             ;
 ; Inclk1 signal type            ; --                                                                        ;
@@ -974,7 +982,7 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +---------------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                        ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                                                                                                          ; Library Name ;
 +---------------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |casca                                            ; 331 (1)     ; 186 (0)                   ; 0 (0)         ; 6144        ; 3    ; 0            ; 0       ; 0         ; 9    ; 0            ; 145 (1)      ; 9 (0)             ; 177 (0)          ; |casca                                                                                                                       ; work         ;
+; |casca                                            ; 334 (4)     ; 186 (0)                   ; 0 (0)         ; 6144        ; 3    ; 0            ; 0       ; 0         ; 16   ; 0            ; 148 (4)      ; 9 (0)             ; 177 (0)          ; |casca                                                                                                                       ; work         ;
 ;    |pllcanhao:p3|                                 ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |casca|pllcanhao:p3                                                                                                          ; work         ;
 ;       |altpll:altpll_component|                   ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |casca|pllcanhao:p3|altpll:altpll_component                                                                                  ; work         ;
 ;          |pllcanhao_altpll:auto_generated|        ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |casca|pllcanhao:p3|altpll:altpll_component|pllcanhao_altpll:auto_generated                                                  ; work         ;
@@ -1024,14 +1032,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name       ; Pin Type ; Pad to Core 0 ; Pad to Core 1 ; Pad to Input Register ; TCO ; TCOE ;
 +------------+----------+---------------+---------------+-----------------------+-----+------+
 ; pwm_casca1 ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; clk_50MHz2 ; Input    ; --            ; --            ; --                    ; --  ; --   ;
 ; pwm_casca2 ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; clk_50MHz3 ; Input    ; --            ; --            ; --                    ; --  ; --   ;
 ; pwm_casca3 ; Output   ; --            ; --            ; --                    ; --  ; --   ;
+; led1       ; Output   ; --            ; --            ; --                    ; --  ; --   ;
+; led2       ; Output   ; --            ; --            ; --                    ; --  ; --   ;
+; led3       ; Output   ; --            ; --            ; --                    ; --  ; --   ;
+; switch1    ; Input    ; --            ; --            ; --                    ; --  ; --   ;
+; switch4    ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
+; switch2    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; switch3    ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
+; switch5    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; switch6    ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 ; rst_casca1 ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; clk_50MHz1 ; Input    ; --            ; --            ; --                    ; --  ; --   ;
-; rst_casca2 ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; rst_casca3 ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; clk_50MHz  ; Input    ; --            ; --            ; --                    ; --  ; --   ;
+; rst_casca2 ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
+; rst_casca3 ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 +------------+----------+---------------+---------------+-----------------------+-----+------+
 
 
@@ -1040,15 +1055,26 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------------------+-------------------+---------+
 ; Source Pin / Fanout                       ; Pad To Core Index ; Setting ;
 +-------------------------------------------+-------------------+---------+
-; clk_50MHz2                                ;                   ;         ;
-; clk_50MHz3                                ;                   ;         ;
+; switch1                                   ;                   ;         ;
+; switch4                                   ;                   ;         ;
+;      - pwm_casca1~0                       ; 1                 ; 6       ;
+;      - pwm_casca2~0                       ; 1                 ; 6       ;
+;      - pwm_casca3~0                       ; 1                 ; 6       ;
+; switch2                                   ;                   ;         ;
+;      - pwm_casca2~0                       ; 0                 ; 6       ;
+; switch3                                   ;                   ;         ;
+;      - pwm_casca3~0                       ; 1                 ; 6       ;
+; switch5                                   ;                   ;         ;
+;      - led1~output                        ; 0                 ; 6       ;
+; switch6                                   ;                   ;         ;
+;      - led2~output                        ; 1                 ; 6       ;
 ; rst_casca1                                ;                   ;         ;
-;      - top:u01|reset:RESET|sreg[0]~feeder ; 0                 ; 6       ;
-; clk_50MHz1                                ;                   ;         ;
+;      - top:u01|reset:RESET|sreg[0]        ; 0                 ; 6       ;
+; clk_50MHz                                 ;                   ;         ;
 ; rst_casca2                                ;                   ;         ;
-;      - top:u02|reset:RESET|sreg[0]        ; 0                 ; 6       ;
+;      - top:u02|reset:RESET|sreg[0]        ; 1                 ; 6       ;
 ; rst_casca3                                ;                   ;         ;
-;      - top:u03|reset:RESET|sreg[0]~feeder ; 0                 ; 6       ;
+;      - top:u03|reset:RESET|sreg[0]~feeder ; 1                 ; 6       ;
 +-------------------------------------------+-------------------+---------+
 
 
@@ -1057,14 +1083,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------------------------------------------------------------+--------------------+---------+-------------------------+--------+----------------------+------------------+---------------------------+
 ; Name                                                                                  ; Location           ; Fan-Out ; Usage                   ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +---------------------------------------------------------------------------------------+--------------------+---------+-------------------------+--------+----------------------+------------------+---------------------------+
-; clk_50MHz1                                                                            ; PIN_G21            ; 1       ; Clock                   ; no     ; --                   ; --               ; --                        ;
+; clk_50MHz                                                                             ; PIN_G21            ; 1       ; Clock                   ; no     ; --                   ; --               ; --                        ;
 ; pllcanhao:p3|altpll:altpll_component|pllcanhao_altpll:auto_generated|wire_pll1_clk[0] ; PLL_2              ; 189     ; Clock                   ; yes    ; Global Clock         ; GCLK8            ; --                        ;
-; top:u01|reset:RESET|Equal0~0                                                          ; LCCOMB_X28_Y26_N16 ; 41      ; Sync. clear, Sync. load ; no     ; --                   ; --               ; --                        ;
-; top:u01|servo:SERVO|counter[5]~54                                                     ; LCCOMB_X28_Y20_N20 ; 18      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
-; top:u02|reset:RESET|Equal0~0                                                          ; LCCOMB_X22_Y26_N0  ; 41      ; Sync. clear, Sync. load ; no     ; --                   ; --               ; --                        ;
-; top:u02|servo:SERVO|counter[6]~54                                                     ; LCCOMB_X21_Y26_N20 ; 18      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
-; top:u03|reset:RESET|Equal0~0                                                          ; LCCOMB_X22_Y20_N0  ; 41      ; Sync. clear, Sync. load ; no     ; --                   ; --               ; --                        ;
-; top:u03|servo:SERVO|counter[0]~54                                                     ; LCCOMB_X23_Y20_N20 ; 18      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
+; top:u01|reset:RESET|Equal0~0                                                          ; LCCOMB_X21_Y22_N0  ; 41      ; Sync. clear, Sync. load ; no     ; --                   ; --               ; --                        ;
+; top:u01|servo:SERVO|counter[1]~54                                                     ; LCCOMB_X33_Y24_N20 ; 18      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
+; top:u02|reset:RESET|Equal0~0                                                          ; LCCOMB_X23_Y22_N16 ; 41      ; Sync. clear, Sync. load ; no     ; --                   ; --               ; --                        ;
+; top:u02|servo:SERVO|counter[0]~54                                                     ; LCCOMB_X22_Y15_N20 ; 18      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
+; top:u03|reset:RESET|Equal0~0                                                          ; LCCOMB_X29_Y22_N8  ; 41      ; Sync. clear, Sync. load ; no     ; --                   ; --               ; --                        ;
+; top:u03|servo:SERVO|counter[17]~54                                                    ; LCCOMB_X32_Y21_N20 ; 18      ; Sync. clear             ; no     ; --                   ; --               ; --                        ;
 +---------------------------------------------------------------------------------------+--------------------+---------+-------------------------+--------+----------------------+------------------+---------------------------+
 
 
@@ -1085,9 +1111,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; top:u03|reset:RESET|Equal0~0                                                                                                  ; 41      ;
 ; top:u02|reset:RESET|Equal0~0                                                                                                  ; 41      ;
 ; top:u01|reset:RESET|Equal0~0                                                                                                  ; 41      ;
-; top:u03|servo:SERVO|counter[0]~54                                                                                             ; 18      ;
-; top:u02|servo:SERVO|counter[6]~54                                                                                             ; 18      ;
-; top:u01|servo:SERVO|counter[5]~54                                                                                             ; 18      ;
+; top:u03|servo:SERVO|counter[17]~54                                                                                            ; 18      ;
+; top:u02|servo:SERVO|counter[0]~54                                                                                             ; 18      ;
+; top:u01|servo:SERVO|counter[1]~54                                                                                             ; 18      ;
 ; ~GND                                                                                                                          ; 12      ;
 ; top:u03|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_2uv:auto_generated|ram_block1a4                                    ; 10      ;
 ; top:u03|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_2uv:auto_generated|ram_block1a0                                    ; 10      ;
@@ -1119,6 +1145,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; top:u02|servo:SERVO|counter[14]                                                                                               ; 4       ;
 ; top:u01|servo:SERVO|counter[12]                                                                                               ; 4       ;
 ; top:u01|servo:SERVO|counter[14]                                                                                               ; 4       ;
+; switch4~input                                                                                                                 ; 3       ;
 ; top:u03|servo:SERVO|counter[15]                                                                                               ; 3       ;
 ; top:u03|servo:SERVO|counter[17]                                                                                               ; 3       ;
 ; top:u03|servo:SERVO|counter[16]                                                                                               ; 3       ;
@@ -1202,8 +1229,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; top:u01|servo:SERVO|counter[0]                                                                                                ; 2       ;
 ; rst_casca3~input                                                                                                              ; 1       ;
 ; rst_casca2~input                                                                                                              ; 1       ;
-; clk_50MHz1~input                                                                                                              ; 1       ;
+; clk_50MHz~input                                                                                                               ; 1       ;
 ; rst_casca1~input                                                                                                              ; 1       ;
+; switch6~input                                                                                                                 ; 1       ;
+; switch5~input                                                                                                                 ; 1       ;
+; switch3~input                                                                                                                 ; 1       ;
+; switch2~input                                                                                                                 ; 1       ;
 ; top:u03|servo:SERVO|duty_cycle~35                                                                                             ; 1       ;
 ; top:u03|servo:SERVO|duty_cycle~34                                                                                             ; 1       ;
 ; top:u03|servo:SERVO|duty_cycle~33                                                                                             ; 1       ;
@@ -1223,12 +1254,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; top:u03|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|romout[1][8]~2                                                          ; 1       ;
 ; top:u03|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|romout[1][9]~1                                                          ; 1       ;
 ; top:u03|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|romout[1][10]~0                                                         ; 1       ;
-; top:u03|servo:SERVO|counter[0]~53                                                                                             ; 1       ;
-; top:u03|servo:SERVO|counter[0]~52                                                                                             ; 1       ;
-; top:u03|servo:SERVO|counter[0]~51                                                                                             ; 1       ;
-; top:u03|servo:SERVO|counter[0]~50                                                                                             ; 1       ;
-; top:u03|servo:SERVO|counter[0]~49                                                                                             ; 1       ;
-; top:u03|servo:SERVO|counter[0]~48                                                                                             ; 1       ;
+; top:u03|servo:SERVO|counter[17]~53                                                                                            ; 1       ;
+; top:u03|servo:SERVO|counter[17]~52                                                                                            ; 1       ;
+; top:u03|servo:SERVO|counter[17]~51                                                                                            ; 1       ;
+; top:u03|servo:SERVO|counter[17]~50                                                                                            ; 1       ;
+; top:u03|servo:SERVO|counter[17]~49                                                                                            ; 1       ;
+; top:u03|servo:SERVO|counter[17]~48                                                                                            ; 1       ;
 ; top:u02|servo:SERVO|duty_cycle~35                                                                                             ; 1       ;
 ; top:u02|servo:SERVO|duty_cycle~34                                                                                             ; 1       ;
 ; top:u02|servo:SERVO|duty_cycle~33                                                                                             ; 1       ;
@@ -1248,12 +1279,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; top:u02|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|romout[1][8]~2                                                          ; 1       ;
 ; top:u02|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|romout[1][9]~1                                                          ; 1       ;
 ; top:u02|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|romout[1][10]~0                                                         ; 1       ;
-; top:u02|servo:SERVO|counter[6]~53                                                                                             ; 1       ;
-; top:u02|servo:SERVO|counter[6]~52                                                                                             ; 1       ;
-; top:u02|servo:SERVO|counter[6]~51                                                                                             ; 1       ;
-; top:u02|servo:SERVO|counter[6]~50                                                                                             ; 1       ;
-; top:u02|servo:SERVO|counter[6]~49                                                                                             ; 1       ;
-; top:u02|servo:SERVO|counter[6]~48                                                                                             ; 1       ;
+; top:u02|servo:SERVO|counter[0]~53                                                                                             ; 1       ;
+; top:u02|servo:SERVO|counter[0]~52                                                                                             ; 1       ;
+; top:u02|servo:SERVO|counter[0]~51                                                                                             ; 1       ;
+; top:u02|servo:SERVO|counter[0]~50                                                                                             ; 1       ;
+; top:u02|servo:SERVO|counter[0]~49                                                                                             ; 1       ;
+; top:u02|servo:SERVO|counter[0]~48                                                                                             ; 1       ;
 ; top:u01|servo:SERVO|duty_cycle~35                                                                                             ; 1       ;
 ; top:u01|servo:SERVO|duty_cycle~34                                                                                             ; 1       ;
 ; top:u01|servo:SERVO|duty_cycle~33                                                                                             ; 1       ;
@@ -1273,12 +1304,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; top:u01|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|romout[1][8]~2                                                          ; 1       ;
 ; top:u01|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|romout[1][9]~1                                                          ; 1       ;
 ; top:u01|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|romout[1][10]~0                                                         ; 1       ;
-; top:u01|servo:SERVO|counter[5]~53                                                                                             ; 1       ;
-; top:u01|servo:SERVO|counter[5]~52                                                                                             ; 1       ;
-; top:u01|servo:SERVO|counter[5]~51                                                                                             ; 1       ;
-; top:u01|servo:SERVO|counter[5]~50                                                                                             ; 1       ;
-; top:u01|servo:SERVO|counter[5]~49                                                                                             ; 1       ;
-; top:u01|servo:SERVO|counter[5]~48                                                                                             ; 1       ;
+; top:u01|servo:SERVO|counter[1]~53                                                                                             ; 1       ;
+; top:u01|servo:SERVO|counter[1]~52                                                                                             ; 1       ;
+; top:u01|servo:SERVO|counter[1]~51                                                                                             ; 1       ;
+; top:u01|servo:SERVO|counter[1]~50                                                                                             ; 1       ;
+; top:u01|servo:SERVO|counter[1]~49                                                                                             ; 1       ;
+; top:u01|servo:SERVO|counter[1]~48                                                                                             ; 1       ;
 ; top:u03|servo:SERVO|pwm~1                                                                                                     ; 1       ;
 ; top:u03|servo:SERVO|pwm~0                                                                                                     ; 1       ;
 ; top:u03|servo:SERVO|duty_cycle[1]                                                                                             ; 1       ;
@@ -1297,8 +1328,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; top:u01|servo:SERVO|duty_cycle[2]                                                                                             ; 1       ;
 ; top:u01|servo:SERVO|duty_cycle[3]                                                                                             ; 1       ;
 ; top:u01|reset:RESET|sreg[3]                                                                                                   ; 1       ;
+; pwm_casca3~0                                                                                                                  ; 1       ;
 ; top:u03|servo:SERVO|pwm                                                                                                       ; 1       ;
+; pwm_casca2~0                                                                                                                  ; 1       ;
 ; top:u02|servo:SERVO|pwm                                                                                                       ; 1       ;
+; pwm_casca1~0                                                                                                                  ; 1       ;
 ; top:u01|servo:SERVO|pwm                                                                                                       ; 1       ;
 ; top:u03|counter:COUNTER|counter_i[24]~73                                                                                      ; 1       ;
 ; top:u03|counter:COUNTER|counter_i[23]~72                                                                                      ; 1       ;
@@ -1807,9 +1841,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+--------------+------------------------+-------------------------+------------------------+-------------------------+------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+---------------------+------+------------------------------+----------------+----------------------+-----------------+-----------------+---------------+
 ; Name                                                                                     ; Type ; Mode ; Clock Mode   ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Port A Input Registers ; Port A Output Registers ; Port B Input Registers ; Port B Output Registers ; Size ; Implementation Port A Depth ; Implementation Port A Width ; Implementation Port B Depth ; Implementation Port B Width ; Implementation Bits ; M9Ks ; MIF                          ; Location       ; Mixed Width RDW Mode ; Port A RDW Mode ; Port B RDW Mode ; Fits in MLABs ;
 +------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+--------------+------------------------+-------------------------+------------------------+-------------------------+------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+---------------------+------+------------------------------+----------------+----------------------+-----------------+-----------------+---------------+
-; top:u01|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_0uv:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; Single Clock ; 256          ; 8            ; --           ; --           ; yes                    ; no                      ; --                     ; --                      ; 2048 ; 256                         ; 8                           ; --                          ; --                          ; 2048                ; 1    ; trabalhofinal.casca0.rtl.mif ; M9K_X25_Y24_N0 ; Don't care           ; Old data        ; Old data        ; No - Unknown  ;
-; top:u02|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_1uv:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; Single Clock ; 256          ; 8            ; --           ; --           ; yes                    ; no                      ; --                     ; --                      ; 2048 ; 256                         ; 8                           ; --                          ; --                          ; 2048                ; 1    ; trabalhofinal.casca1.rtl.mif ; M9K_X25_Y26_N0 ; Don't care           ; Old data        ; Old data        ; No - Unknown  ;
-; top:u03|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_2uv:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; Single Clock ; 256          ; 8            ; --           ; --           ; yes                    ; no                      ; --                     ; --                      ; 2048 ; 256                         ; 8                           ; --                          ; --                          ; 2048                ; 1    ; trabalhofinal.casca2.rtl.mif ; M9K_X25_Y19_N0 ; Don't care           ; Old data        ; Old data        ; No - Unknown  ;
+; top:u01|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_0uv:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; Single Clock ; 256          ; 8            ; --           ; --           ; yes                    ; no                      ; --                     ; --                      ; 2048 ; 256                         ; 8                           ; --                          ; --                          ; 2048                ; 1    ; trabalhofinal.casca0.rtl.mif ; M9K_X25_Y26_N0 ; Don't care           ; Old data        ; Old data        ; No - Unknown  ;
+; top:u02|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_1uv:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; Single Clock ; 256          ; 8            ; --           ; --           ; yes                    ; no                      ; --                     ; --                      ; 2048 ; 256                         ; 8                           ; --                          ; --                          ; 2048                ; 1    ; trabalhofinal.casca1.rtl.mif ; M9K_X25_Y23_N0 ; Don't care           ; Old data        ; Old data        ; No - Unknown  ;
+; top:u03|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_2uv:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; Single Clock ; 256          ; 8            ; --           ; --           ; yes                    ; no                      ; --                     ; --                      ; 2048 ; 256                         ; 8                           ; --                          ; --                          ; 2048                ; 1    ; trabalhofinal.casca2.rtl.mif ; M9K_X25_Y22_N0 ; Don't care           ; Old data        ; Old data        ; No - Unknown  ;
 +------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+--------------+------------------------+-------------------------+------------------------+-------------------------+------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+---------------------+------+------------------------------+----------------+----------------------+-----------------+-----------------+---------------+
 Note: Fitter may spread logical memories into multiple blocks to improve timing. The actual required RAM blocks can be found in the Fitter Resource Usage section.
 
@@ -1939,21 +1973,21 @@ RAM content values are presented in the following format: (Binary) (Octal) (Deci
 +-----------------------+------------------------+
 ; Routing Resource Type ; Usage                  ;
 +-----------------------+------------------------+
-; Block interconnects   ; 259 / 47,787 ( < 1 % ) ;
-; C16 interconnects     ; 2 / 1,804 ( < 1 % )    ;
-; C4 interconnects      ; 80 / 31,272 ( < 1 % )  ;
-; Direct links          ; 90 / 47,787 ( < 1 % )  ;
+; Block interconnects   ; 263 / 47,787 ( < 1 % ) ;
+; C16 interconnects     ; 4 / 1,804 ( < 1 % )    ;
+; C4 interconnects      ; 124 / 31,272 ( < 1 % ) ;
+; Direct links          ; 59 / 47,787 ( < 1 % )  ;
 ; Global clocks         ; 1 / 20 ( 5 % )         ;
-; Local interconnects   ; 168 / 15,408 ( 1 % )   ;
-; R24 interconnects     ; 1 / 1,775 ( < 1 % )    ;
-; R4 interconnects      ; 114 / 41,310 ( < 1 % ) ;
+; Local interconnects   ; 165 / 15,408 ( 1 % )   ;
+; R24 interconnects     ; 10 / 1,775 ( < 1 % )   ;
+; R4 interconnects      ; 150 / 41,310 ( < 1 % ) ;
 +-----------------------+------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Logic Elements                                                         ;
 +---------------------------------------------+------------------------------+
-; Number of Logic Elements  (Average = 11.41) ; Number of LABs  (Total = 29) ;
+; Number of Logic Elements  (Average = 11.13) ; Number of LABs  (Total = 30) ;
 +---------------------------------------------+------------------------------+
 ; 1                                           ; 0                            ;
 ; 2                                           ; 0                            ;
@@ -1964,20 +1998,20 @@ RAM content values are presented in the following format: (Binary) (Octal) (Deci
 ; 7                                           ; 0                            ;
 ; 8                                           ; 0                            ;
 ; 9                                           ; 0                            ;
-; 10                                          ; 2                            ;
-; 11                                          ; 1                            ;
+; 10                                          ; 3                            ;
+; 11                                          ; 2                            ;
 ; 12                                          ; 6                            ;
 ; 13                                          ; 3                            ;
-; 14                                          ; 2                            ;
+; 14                                          ; 3                            ;
 ; 15                                          ; 4                            ;
-; 16                                          ; 5                            ;
+; 16                                          ; 3                            ;
 +---------------------------------------------+------------------------------+
 
 
 +-------------------------------------------------------------------+
 ; LAB-wide Signals                                                  ;
 +------------------------------------+------------------------------+
-; LAB-wide Signals  (Average = 1.14) ; Number of LABs  (Total = 29) ;
+; LAB-wide Signals  (Average = 1.10) ; Number of LABs  (Total = 30) ;
 +------------------------------------+------------------------------+
 ; 1 Clock                            ; 21                           ;
 ; 1 Sync. clear                      ; 9                            ;
@@ -1988,22 +2022,22 @@ RAM content values are presented in the following format: (Binary) (Octal) (Deci
 +-----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Signals Sourced  (Average = 16.45) ; Number of LABs  (Total = 29) ;
+; Number of Signals Sourced  (Average = 15.97) ; Number of LABs  (Total = 30) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
-; 1                                            ; 2                            ;
+; 1                                            ; 3                            ;
 ; 2                                            ; 0                            ;
 ; 3                                            ; 3                            ;
 ; 4                                            ; 0                            ;
-; 5                                            ; 1                            ;
+; 5                                            ; 0                            ;
 ; 6                                            ; 0                            ;
-; 7                                            ; 1                            ;
-; 8                                            ; 2                            ;
+; 7                                            ; 2                            ;
+; 8                                            ; 1                            ;
 ; 9                                            ; 0                            ;
 ; 10                                           ; 0                            ;
 ; 11                                           ; 0                            ;
 ; 12                                           ; 0                            ;
-; 13                                           ; 2                            ;
+; 13                                           ; 3                            ;
 ; 14                                           ; 0                            ;
 ; 15                                           ; 0                            ;
 ; 16                                           ; 3                            ;
@@ -2012,20 +2046,18 @@ RAM content values are presented in the following format: (Binary) (Octal) (Deci
 ; 19                                           ; 0                            ;
 ; 20                                           ; 0                            ;
 ; 21                                           ; 2                            ;
-; 22                                           ; 1                            ;
+; 22                                           ; 2                            ;
 ; 23                                           ; 1                            ;
 ; 24                                           ; 4                            ;
 ; 25                                           ; 3                            ;
 ; 26                                           ; 3                            ;
-; 27                                           ; 0                            ;
-; 28                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
 
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 6.31) ; Number of LABs  (Total = 29) ;
+; Number of Signals Sourced Out  (Average = 6.30) ; Number of LABs  (Total = 30) ;
 +-------------------------------------------------+------------------------------+
 ; 0                                               ; 3                            ;
 ; 1                                               ; 6                            ;
@@ -2037,38 +2069,35 @@ RAM content values are presented in the following format: (Binary) (Octal) (Deci
 ; 7                                               ; 0                            ;
 ; 8                                               ; 4                            ;
 ; 9                                               ; 4                            ;
-; 10                                              ; 5                            ;
-; 11                                              ; 1                            ;
+; 10                                              ; 6                            ;
+; 11                                              ; 2                            ;
 ; 12                                              ; 2                            ;
-; 13                                              ; 0                            ;
-; 14                                              ; 0                            ;
-; 15                                              ; 1                            ;
 +-------------------------------------------------+------------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                        ;
 +---------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 8.31) ; Number of LABs  (Total = 29) ;
+; Number of Distinct Inputs  (Average = 8.13) ; Number of LABs  (Total = 30) ;
 +---------------------------------------------+------------------------------+
 ; 0                                           ; 0                            ;
 ; 1                                           ; 0                            ;
-; 2                                           ; 6                            ;
-; 3                                           ; 5                            ;
+; 2                                           ; 7                            ;
+; 3                                           ; 4                            ;
 ; 4                                           ; 3                            ;
 ; 5                                           ; 3                            ;
 ; 6                                           ; 3                            ;
 ; 7                                           ; 0                            ;
 ; 8                                           ; 0                            ;
-; 9                                           ; 0                            ;
+; 9                                           ; 1                            ;
 ; 10                                          ; 0                            ;
 ; 11                                          ; 0                            ;
 ; 12                                          ; 0                            ;
 ; 13                                          ; 4                            ;
-; 14                                          ; 1                            ;
+; 14                                          ; 2                            ;
 ; 15                                          ; 0                            ;
 ; 16                                          ; 0                            ;
-; 17                                          ; 1                            ;
+; 17                                          ; 0                            ;
 ; 18                                          ; 0                            ;
 ; 19                                          ; 0                            ;
 ; 20                                          ; 0                            ;
@@ -2079,9 +2108,7 @@ RAM content values are presented in the following format: (Binary) (Octal) (Deci
 ; 25                                          ; 0                            ;
 ; 26                                          ; 0                            ;
 ; 27                                          ; 0                            ;
-; 28                                          ; 2                            ;
-; 29                                          ; 0                            ;
-; 30                                          ; 1                            ;
+; 28                                          ; 3                            ;
 +---------------------------------------------+------------------------------+
 
 
@@ -2142,19 +2169,26 @@ RAM content values are presented in the following format: (Binary) (Octal) (Deci
 +--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
 ; Pin/Rules          ; IO_000001    ; IO_000002    ; IO_000003    ; IO_000004    ; IO_000005    ; IO_000006 ; IO_000007    ; IO_000008    ; IO_000009 ; IO_000010 ; IO_000011    ; IO_000012    ; IO_000013    ; IO_000014    ; IO_000015    ; IO_000018    ; IO_000019    ; IO_000020    ; IO_000021    ; IO_000022    ; IO_000023    ; IO_000024    ; IO_000026    ; IO_000027    ; IO_000045    ; IO_000046    ; IO_000047    ; IO_000033 ; IO_000034    ; IO_000042    ;
 +--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
-; Total Pass         ; 2            ; 0            ; 2            ; 0            ; 0            ; 9         ; 2            ; 0            ; 9         ; 9         ; 0            ; 3            ; 0            ; 0            ; 6            ; 0            ; 3            ; 6            ; 0            ; 0            ; 0            ; 3            ; 0            ; 0            ; 0            ; 0            ; 0            ; 9         ; 0            ; 0            ;
+; Total Pass         ; 6            ; 0            ; 6            ; 0            ; 0            ; 16        ; 6            ; 0            ; 16        ; 16        ; 0            ; 6            ; 0            ; 0            ; 10           ; 0            ; 6            ; 10           ; 0            ; 0            ; 0            ; 6            ; 0            ; 0            ; 0            ; 0            ; 0            ; 16        ; 0            ; 0            ;
 ; Total Unchecked    ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
-; Total Inapplicable ; 7            ; 9            ; 7            ; 9            ; 9            ; 0         ; 7            ; 9            ; 0         ; 0         ; 9            ; 6            ; 9            ; 9            ; 3            ; 9            ; 6            ; 3            ; 9            ; 9            ; 9            ; 6            ; 9            ; 9            ; 9            ; 9            ; 9            ; 0         ; 9            ; 9            ;
+; Total Inapplicable ; 10           ; 16           ; 10           ; 16           ; 16           ; 0         ; 10           ; 16           ; 0         ; 0         ; 16           ; 10           ; 16           ; 16           ; 6            ; 16           ; 10           ; 6            ; 16           ; 16           ; 16           ; 10           ; 16           ; 16           ; 16           ; 16           ; 16           ; 0         ; 16           ; 16           ;
 ; Total Fail         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ;
-; pwm_casca1         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; clk_50MHz2         ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; pwm_casca1         ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; pwm_casca2         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; clk_50MHz3         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; pwm_casca3         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; rst_casca1         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; clk_50MHz1         ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; rst_casca2         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; rst_casca3         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; pwm_casca3         ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; led1               ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; led2               ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; led3               ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; switch1            ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; switch4            ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; switch2            ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; switch3            ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; switch5            ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; switch6            ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; rst_casca1         ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; clk_50MHz          ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; rst_casca2         ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; rst_casca3         ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 +--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
 
 
@@ -2200,7 +2234,7 @@ RAM content values are presented in the following format: (Binary) (Octal) (Deci
 +------------------------------------------------+------------------------------------------------+-------------------+
 ; Source Clock(s)                                ; Destination Clock(s)                           ; Delay Added in ns ;
 +------------------------------------------------+------------------------------------------------+-------------------+
-; p3|altpll_component|auto_generated|pll1|clk[0] ; p3|altpll_component|auto_generated|pll1|clk[0] ; 2.9               ;
+; p3|altpll_component|auto_generated|pll1|clk[0] ; p3|altpll_component|auto_generated|pll1|clk[0] ; 1.5               ;
 +------------------------------------------------+------------------------------------------------+-------------------+
 Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
 This will disable optimization of problematic paths and expose them for further analysis using the TimeQuest Timing Analyzer.
@@ -2211,29 +2245,22 @@ This will disable optimization of problematic paths and expose them for further 
 +---------------------------------------+-------------------------+-------------------+
 ; Source Register                       ; Destination Register    ; Delay Added in ns ;
 +---------------------------------------+-------------------------+-------------------+
-; top:u01|counter:COUNTER|counter_i[17] ; top:u01|servo:SERVO|pwm ; 0.207             ;
-; top:u03|counter:COUNTER|counter_i[20] ; top:u03|servo:SERVO|pwm ; 0.193             ;
-; top:u03|counter:COUNTER|counter_i[19] ; top:u03|servo:SERVO|pwm ; 0.193             ;
-; top:u02|counter:COUNTER|counter_i[20] ; top:u02|servo:SERVO|pwm ; 0.193             ;
-; top:u02|counter:COUNTER|counter_i[19] ; top:u02|servo:SERVO|pwm ; 0.193             ;
-; top:u03|counter:COUNTER|counter_i[23] ; top:u03|servo:SERVO|pwm ; 0.191             ;
-; top:u03|counter:COUNTER|counter_i[22] ; top:u03|servo:SERVO|pwm ; 0.191             ;
-; top:u03|counter:COUNTER|counter_i[21] ; top:u03|servo:SERVO|pwm ; 0.191             ;
-; top:u03|counter:COUNTER|counter_i[18] ; top:u03|servo:SERVO|pwm ; 0.191             ;
-; top:u03|counter:COUNTER|counter_i[24] ; top:u03|servo:SERVO|pwm ; 0.191             ;
-; top:u02|counter:COUNTER|counter_i[23] ; top:u02|servo:SERVO|pwm ; 0.191             ;
-; top:u02|counter:COUNTER|counter_i[22] ; top:u02|servo:SERVO|pwm ; 0.191             ;
-; top:u02|counter:COUNTER|counter_i[21] ; top:u02|servo:SERVO|pwm ; 0.191             ;
-; top:u02|counter:COUNTER|counter_i[18] ; top:u02|servo:SERVO|pwm ; 0.191             ;
-; top:u02|counter:COUNTER|counter_i[24] ; top:u02|servo:SERVO|pwm ; 0.191             ;
+; top:u02|counter:COUNTER|counter_i[17] ; top:u02|servo:SERVO|pwm ; 0.207             ;
+; top:u01|counter:COUNTER|counter_i[20] ; top:u01|servo:SERVO|pwm ; 0.193             ;
+; top:u01|counter:COUNTER|counter_i[19] ; top:u01|servo:SERVO|pwm ; 0.193             ;
+; top:u01|counter:COUNTER|counter_i[23] ; top:u01|servo:SERVO|pwm ; 0.191             ;
+; top:u01|counter:COUNTER|counter_i[22] ; top:u01|servo:SERVO|pwm ; 0.191             ;
+; top:u01|counter:COUNTER|counter_i[21] ; top:u01|servo:SERVO|pwm ; 0.191             ;
+; top:u01|counter:COUNTER|counter_i[18] ; top:u01|servo:SERVO|pwm ; 0.191             ;
+; top:u01|counter:COUNTER|counter_i[24] ; top:u01|servo:SERVO|pwm ; 0.191             ;
 +---------------------------------------+-------------------------+-------------------+
-Note: This table only shows the top 15 path(s) that have the largest delay added for hold.
+Note: This table only shows the top 8 path(s) that have the largest delay added for hold.
 
 
 +-----------------+
 ; Fitter Messages ;
 +-----------------+
-Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Info (11104): Parallel Compilation has detected 16 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 12 of the 12 physical processors detected instead.
 Info (119006): Selected device EP3C16F484C6 for design "trabalhofinal"
 Info (21077): Core supply voltage is 1.2V
 Info (21077): Low junction temperature is 0 degrees C
@@ -2258,14 +2285,17 @@ Info (169124): Fitter converted 5 user pins into dedicated programming pins
     Info (169125): Pin ~ALTERA_nCEO~ is reserved at location K22
 Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
 Info (176045): Design uses memory blocks. Violating setup or hold times of memory block address registers for either read or write operations could cause memory contents to be corrupted. Make sure that all memory block address registers meet the setup and hold time requirements.
-Critical Warning (169085): No exact pin location assignment(s) for 7 pins of 9 total pins
-    Info (169086): Pin pwm_casca1 not assigned to an exact location on the device
+Critical Warning (169085): No exact pin location assignment(s) for 10 pins of 16 total pins
     Info (169086): Pin pwm_casca2 not assigned to an exact location on the device
-    Info (169086): Pin clk_50MHz3 not assigned to an exact location on the device
-    Info (169086): Pin pwm_casca3 not assigned to an exact location on the device
-    Info (169086): Pin rst_casca1 not assigned to an exact location on the device
-    Info (169086): Pin rst_casca2 not assigned to an exact location on the device
-    Info (169086): Pin rst_casca3 not assigned to an exact location on the device
+    Info (169086): Pin led1 not assigned to an exact location on the device
+    Info (169086): Pin led2 not assigned to an exact location on the device
+    Info (169086): Pin led3 not assigned to an exact location on the device
+    Info (169086): Pin switch1 not assigned to an exact location on the device
+    Info (169086): Pin switch4 not assigned to an exact location on the device
+    Info (169086): Pin switch2 not assigned to an exact location on the device
+    Info (169086): Pin switch3 not assigned to an exact location on the device
+    Info (169086): Pin switch5 not assigned to an exact location on the device
+    Info (169086): Pin switch6 not assigned to an exact location on the device
 Info (176132): Successfully merged PLL pllcanhao:p2|altpll:altpll_component|pllcanhao_altpll:auto_generated|pll1 and PLL pllcanhao:p1|altpll:altpll_component|pllcanhao_altpll:auto_generated|pll1
 Info (176132): Successfully merged PLL pllcanhao:p3|altpll:altpll_component|pllcanhao_altpll:auto_generated|pll1 and PLL pllcanhao:p2|altpll:altpll_component|pllcanhao_altpll:auto_generated|pll1
 Info (176353): Automatically promoted node pllcanhao:p3|altpll:altpll_component|pllcanhao_altpll:auto_generated|wire_pll1_clk[0] (placed in counter C0 of PLL_2)
@@ -2281,19 +2311,19 @@ Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
 Info (176214): Statistics of I/O pins that need to be placed that use the same VCCIO and VREF, before I/O pin placement
-    Info (176211): Number of I/O pins in group: 7 (unused VREF, 2.5V VCCIO, 4 input, 3 output, 0 bidirectional)
+    Info (176211): Number of I/O pins in group: 10 (unused VREF, 2.5V VCCIO, 6 input, 4 output, 0 bidirectional)
         Info (176212): I/O standards used: 2.5 V.
 Info (176215): I/O bank details before I/O pin placement
     Info (176214): Statistics of I/O banks
-        Info (176213): I/O bank number 1 does not use VREF pins and has undetermined VCCIO pins. 5 total pin(s) used --  28 pins available
+        Info (176213): I/O bank number 1 does not use VREF pins and has undetermined VCCIO pins. 7 total pin(s) used --  26 pins available
         Info (176213): I/O bank number 2 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  48 pins available
         Info (176213): I/O bank number 3 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  46 pins available
-        Info (176213): I/O bank number 4 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  41 pins available
+        Info (176213): I/O bank number 4 does not use VREF pins and has 2.5V VCCIO pins. 2 total pin(s) used --  39 pins available
         Info (176213): I/O bank number 5 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  46 pins available
         Info (176213): I/O bank number 6 does not use VREF pins and has undetermined VCCIO pins. 2 total pin(s) used --  41 pins available
         Info (176213): I/O bank number 7 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  47 pins available
         Info (176213): I/O bank number 8 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  43 pins available
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
@@ -2306,23 +2336,23 @@ Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.03 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.13 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
-Info (144001): Generated suppressed messages file C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/prj/output_files/trabalhofinal.fit.smsg
+Info (144001): Generated suppressed messages file C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/output_files/trabalhofinal.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 5332 megabytes
-    Info: Processing ended: Tue Nov 28 20:25:11 2023
-    Info: Elapsed time: 00:00:05
+    Info: Peak virtual memory: 5802 megabytes
+    Info: Processing ended: Sat Dec 02 20:44:07 2023
+    Info: Elapsed time: 00:00:07
     Info: Total CPU time (on all processors): 00:00:03
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/prj/output_files/trabalhofinal.fit.smsg.
+The suppressed messages can be found in C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/output_files/trabalhofinal.fit.smsg.
 
 
