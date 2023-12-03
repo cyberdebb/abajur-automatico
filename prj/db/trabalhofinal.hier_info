@@ -1,13 +1,22 @@
 |casca
+clk_50MHz => clk_50MHz.IN3
 rst_casca1 => rst_casca1.IN1
-clk_50MHz1 => clk_50MHz1.IN3
-pwm_casca1 <= top:u01.pwm
+pwm_casca1 <= pwm_casca1.DB_MAX_OUTPUT_PORT_TYPE
 rst_casca2 => rst_casca2.IN1
-clk_50MHz2 => ~NO_FANOUT~
-pwm_casca2 <= top:u02.pwm
+pwm_casca2 <= pwm_casca2.DB_MAX_OUTPUT_PORT_TYPE
 rst_casca3 => rst_casca3.IN1
-clk_50MHz3 => ~NO_FANOUT~
-pwm_casca3 <= top:u03.pwm
+pwm_casca3 <= pwm_casca3.DB_MAX_OUTPUT_PORT_TYPE
+led1 <= switch5.DB_MAX_OUTPUT_PORT_TYPE
+led2 <= switch6.DB_MAX_OUTPUT_PORT_TYPE
+led3 <= <GND>
+switch1 => ~NO_FANOUT~
+switch2 => pwm_casca2.OUTPUTSELECT
+switch3 => pwm_casca3.OUTPUTSELECT
+switch4 => pwm_casca1.OUTPUTSELECT
+switch4 => pwm_casca2.OUTPUTSELECT
+switch4 => pwm_casca3.OUTPUTSELECT
+switch5 => led1.DATAIN
+switch6 => led2.DATAIN
 
 
 |casca|pllcanhao:p1
