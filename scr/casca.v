@@ -2,7 +2,7 @@ module casca(
 input clk_50MHz,
 input rst_casca1,
 output reg pwm_casca1,
-input rst_casca2,
+input rst_casca2, 
 output reg pwm_casca2,
 input rst_casca3,
 output reg pwm_casca3,
