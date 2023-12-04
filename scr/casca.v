@@ -55,7 +55,7 @@ top u03 (
 
 reg [25:0] counter; // Contador
 
-always @ (posedge clk_50MHz or posedge switch1 or posedge switch2 or posedge switch3 or posedge switch4 or posedge switch5 or posedge switch6) begin
+always @ (posedge clk_50MHz) begin
         if (switch1) begin
             pwm_casca1 <= pwm_output1;
         end else begin 
@@ -64,12 +64,12 @@ always @ (posedge clk_50MHz or posedge switch1 or posedge switch2 or posedge swi
         if (switch2) begin
             pwm_casca2 <= pwm_output2;
         end else begin
-            pwm_casca2 <=1'b0;
+            pwm_casca2 <= 1'b0;
         end 
         if (switch3) begin
             pwm_casca3 <= pwm_output3;
         end else begin
-            pwm_casca3 <=1'b0;
+            pwm_casca3 <= 1'b0;
         end
         if (switch4) begin
              if (counter < 100_000_000) begin
@@ -81,6 +81,20 @@ always @ (posedge clk_50MHz or posedge switch1 or posedge switch2 or posedge swi
                  counter <= 0;
              end
         end else begin
+				 pwm_casca1 <= 1'b0;
+				 pwm_casca2 <= 1'b0;
+		  end
+        if (switch5) begin
+            led1 <= 1'b1;
+        end else begin
+            led1 <= 1'b0;
+        end
+        if (switch6) begin
+            led2 <= 1'b1;
+        end else begin
+            led2<= 1'b0;
+        end
+        if (!switch1 && !switch2 && !switch3 && !switch4 && !switch5 && !switch6) begin
             pwm_casca1 <= 1'b0;
             pwm_casca2 <= 1'b0;
             pwm_casca3 <= 1'b0;
@@ -88,16 +102,6 @@ always @ (posedge clk_50MHz or posedge switch1 or posedge switch2 or posedge swi
             led2 <= 1'b0;
             led3 <= 1'b0;
             counter <= 0;
-        end
-        if (switch5) begin
-            led1 <= 1'b1;
-        end else begin
-            led1 <= 1'b0;
-        end
-        if (switch6) begin
-            led2 <=1'b1;
-        end else begin
-            led2<=1'b0;
         end
 end
 
