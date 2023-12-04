@@ -1,22 +1,30 @@
 |casca
 clk_50MHz => clk_50MHz.IN3
 rst_casca1 => rst_casca1.IN1
-pwm_casca1 <= pwm_casca1.DB_MAX_OUTPUT_PORT_TYPE
+pwm_casca1 <= pwm_casca1~reg0.DB_MAX_OUTPUT_PORT_TYPE
 rst_casca2 => rst_casca2.IN1
-pwm_casca2 <= pwm_casca2.DB_MAX_OUTPUT_PORT_TYPE
+pwm_casca2 <= pwm_casca2~reg0.DB_MAX_OUTPUT_PORT_TYPE
 rst_casca3 => rst_casca3.IN1
-pwm_casca3 <= pwm_casca3.DB_MAX_OUTPUT_PORT_TYPE
-led1 <= switch5.DB_MAX_OUTPUT_PORT_TYPE
-led2 <= switch6.DB_MAX_OUTPUT_PORT_TYPE
-led3 <= <GND>
-switch1 => ~NO_FANOUT~
-switch2 => pwm_casca2.OUTPUTSELECT
-switch3 => pwm_casca3.OUTPUTSELECT
-switch4 => pwm_casca1.OUTPUTSELECT
-switch4 => pwm_casca2.OUTPUTSELECT
-switch4 => pwm_casca3.OUTPUTSELECT
-switch5 => led1.DATAIN
-switch6 => led2.DATAIN
+pwm_casca3 <= pwm_casca3~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led1 <= led1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led2 <= led2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led3 <= led3~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led4 <= led4~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SW9 => pwm_casca1.OUTPUTSELECT
+SW9 => always0.IN0
+SW8 => pwm_casca2.OUTPUTSELECT
+SW8 => always0.IN1
+SW7 => pwm_casca3.OUTPUTSELECT
+SW7 => always0.IN1
+SW6 => led1.DATAA
+SW6 => always0.IN1
+SW5 => led2.DATAA
+SW5 => always0.IN1
+SW4 => led3.DATAA
+SW4 => always0.IN1
+SW3 => led4.DATAA
+SW3 => always0.IN1
+SW2 => always0.IN1
 
 
 |casca|pllcanhao:p1

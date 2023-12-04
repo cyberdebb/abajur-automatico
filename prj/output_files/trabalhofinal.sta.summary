@@ -2,52 +2,76 @@
 TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
+Type  : Slow 1200mV 85C Model Setup 'clk_50MHz'
+Slack : 0.129
+TNS   : 0.000
+
 Type  : Slow 1200mV 85C Model Setup 'p3|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 75.068
+Slack : 75.630
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'p3|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.307
+Slack : 0.313
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_50MHz'
+Slack : 1.677
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_50MHz'
-Slack : 9.825
+Slack : 9.686
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'p3|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 41.402
+Slack : 41.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk_50MHz'
+Slack : 0.358
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Setup 'p3|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 75.942
+Slack : 76.423
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'p3|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.300
+Slack : 0.304
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk_50MHz'
+Slack : 1.662
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_50MHz'
-Slack : 9.785
+Slack : 9.683
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'p3|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 41.408
+Slack : 41.409
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk_50MHz'
+Slack : 1.174
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'p3|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 78.777
+Slack : 79.149
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'p3|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.154
+Slack : 0.156
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_50MHz'
+Slack : 0.918
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_50MHz'
-Slack : 9.585
+Slack : 9.442
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'p3|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 41.413
+Slack : 41.415
 TNS   : 0.000
 
 ------------------------------------------------------------

@@ -9,16 +9,19 @@ output reg pwm_casca3,
 output reg led1,
 output reg led2,
 output reg led3,
-input switch1,
-input switch2,
-input switch3,
-input switch4,
-input switch5,
-input switch6
+output reg led4,
+input SW9,
+input SW8,
+input SW7,
+input SW6,
+input SW5,
+input SW4,
+input SW3,
+input SW2
 );
 
 wire c0_sig1, c0_sig2, c0_sig3;
-wire pwm_output1, pwm_output2, pwm_output3;
+reg pwm_output1, pwm_output2, pwm_output3;
 
 pllcanhao p1 (
     .inclk0 (clk_50MHz),
@@ -56,51 +59,49 @@ top u03 (
 reg [25:0] counter; // Contador
 
 always @ (posedge clk_50MHz) begin
-        if (switch1) begin
+        if (SW9) begin
             pwm_casca1 <= pwm_output1;
         end else begin 
             pwm_casca1 <= 1'b0;
         end 
-        if (switch2) begin
+        if (SW8) begin
             pwm_casca2 <= pwm_output2;
-        end else begin
+        end else begin 
             pwm_casca2 <= 1'b0;
         end 
-        if (switch3) begin
+        if (SW7) begin
             pwm_casca3 <= pwm_output3;
-        end else begin
+        end else begin 
             pwm_casca3 <= 1'b0;
-        end
-        if (switch4) begin
-             if (counter < 100_000_000) begin
-                 pwm_casca1 <= pwm_output1;
-                 counter <= counter + 1;
-             end else begin
-                 pwm_casca1 <= 1'b0;
-                 pwm_casca2 <= pwm_output2;
-                 counter <= 0;
-             end
-        end else begin
-				 pwm_casca1 <= 1'b0;
-				 pwm_casca2 <= 1'b0;
-		  end
-        if (switch5) begin
+        end 
+        if (SW6) begin
             led1 <= 1'b1;
         end else begin
             led1 <= 1'b0;
         end
-        if (switch6) begin
+        if (SW5) begin
             led2 <= 1'b1;
         end else begin
-            led2<= 1'b0;
+            led2 <= 1'b0;
         end
-        if (!switch1 && !switch2 && !switch3 && !switch4 && !switch5 && !switch6) begin
+        if (SW4) begin
+            led3 <= 1'b1;
+        end else begin
+            led3 <= 1'b0;
+        end
+        if (SW3) begin
+            led4 <= 1'b1;
+        end else begin
+            led4 <= 1'b0;
+        end
+        if (!SW9 && !SW8 && !SW7 && !SW6 && !SW5 && !SW4 && !SW3 && !SW2) begin
             pwm_casca1 <= 1'b0;
             pwm_casca2 <= 1'b0;
             pwm_casca3 <= 1'b0;
             led1 <= 1'b0;
             led2 <= 1'b0;
             led3 <= 1'b0;
+            led4 <= 1'b0;
             counter <= 0;
         end
 end
