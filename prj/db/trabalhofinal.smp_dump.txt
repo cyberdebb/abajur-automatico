@@ -1,0 +1,6 @@
+
+State Machine - |casca|switch_state
+Name switch_state.00 switch_state.10 switch_state.01 
+switch_state.00 0 0 0 
+switch_state.01 1 0 1 
+switch_state.10 1 1 0 

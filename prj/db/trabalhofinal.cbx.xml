@@ -1,14 +1,34 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="trabalhofinal">
-		<CBX_INST_ENTRY INSTANCE_NAME="|casca|pllcanhao:p3|altpll:altpll_component" CBX_FILE_NAME="pllcanhao_altpll.v"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|casca|pllcanhao:p2|altpll:altpll_component" CBX_FILE_NAME="pllcanhao_altpll.v"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u01|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_bfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|pllcanhao:p7|altpll:altpll_component" CBX_FILE_NAME="pllcanhao_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u04|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_bfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_decode:wdecoder" CBX_FILE_NAME="decode_4uf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_read_pointer_counter" CBX_FILE_NAME="cntr_p1j.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u01|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0" CBX_FILE_NAME="altsyncram_0uv.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u03|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_bfh.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u03|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0" CBX_FILE_NAME="altsyncram_2uv.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u05|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_bfh.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|casca|pllcanhao:p1|altpll:altpll_component" CBX_FILE_NAME="pllcanhao_altpll.v"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u02|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_bfh.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u02|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0" CBX_FILE_NAME="altsyncram_1uv.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u06|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_bfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|pllcanhao:p2|altpll:altpll_component" CBX_FILE_NAME="pllcanhao_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram" CBX_FILE_NAME="altsyncram_lv14.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u03|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0" CBX_FILE_NAME="altsyncram_2uv.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u07|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_bfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|pllcanhao:p3|altpll:altpll_component" CBX_FILE_NAME="pllcanhao_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_mux:mux" CBX_FILE_NAME="mux_krc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:\adv_point_3_and_more:advance_pointer_counter" CBX_FILE_NAME="cntr_2fi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u04|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0" CBX_FILE_NAME="altsyncram_3uv.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|pllcanhao:p4|altpll:altpll_component" CBX_FILE_NAME="pllcanhao_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_ela_control:ela_control|sld_ela_trigger:\multi_level_advanced_trigger_gen:advanced_trigger_wrapper" CBX_FILE_NAME="sld_ela_trigger_f8p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u01|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_bfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u05|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0" CBX_FILE_NAME="altsyncram_4uv.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|pllcanhao:p5|altpll:altpll_component" CBX_FILE_NAME="pllcanhao_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:read_pointer_counter" CBX_FILE_NAME="cntr_d8j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u02|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_bfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u06|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0" CBX_FILE_NAME="altsyncram_5uv.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|pllcanhao:p6|altpll:altpll_component" CBX_FILE_NAME="pllcanhao_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_advance_pointer_counter" CBX_FILE_NAME="cntr_7fi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u03|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_bfh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|casca|top:u07|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0" CBX_FILE_NAME="altsyncram_6uv.tdf"/>
 	</PROJECT>
 </LOG_ROOT>
