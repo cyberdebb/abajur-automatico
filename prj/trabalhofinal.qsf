@@ -49,17 +49,13 @@ set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
 set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
 set_location_assignment PIN_AA20 -to pwm_casca1
 set_location_assignment PIN_AB19 -to pwm_casca3
 set_location_assignment PIN_H2 -to rst_casca1
 set_location_assignment PIN_G3 -to rst_casca2
-set_location_assignment PIN_F1 -to rst_casca3
 set_location_assignment PIN_G21 -to clk_50MHz
-set_location_assignment PIN_AB20 -to pwm_casca2
+set_location_assignment PIN_F1 -to pwm_casca2
 set_location_assignment PIN_V5 -to led1
 set_location_assignment PIN_W7 -to led2
 set_location_assignment PIN_T8 -to led3
@@ -74,15 +70,18 @@ set_location_assignment PIN_G4 -to SW3
 set_location_assignment PIN_H6 -to SW2
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_location_assignment PIN_E11 -to a
-set_location_assignment PIN_F11 -to b
-set_location_assignment PIN_H12 -to c
+set_location_assignment PIN_F13 -to a
+set_location_assignment PIN_F12 -to b
+set_location_assignment PIN_G12 -to c
 set_location_assignment PIN_H13 -to d
-set_location_assignment PIN_G12 -to e
-set_location_assignment PIN_F12 -to f
-set_location_assignment PIN_F13 -to g
-set_location_assignment PIN_D13 -to h
+set_location_assignment PIN_H12 -to e
+set_location_assignment PIN_F11 -to f
+set_location_assignment PIN_E11 -to g
 set_location_assignment PIN_H5 -to SW1
+set_location_assignment PIN_F1 -to btn
+set_global_assignment -name VERILOG_FILE ../scr/casca.v
+set_global_assignment -name VHDL_FILE ../scr/top_level.vhd
+set_global_assignment -name VHDL_FILE ../scr/display_7seg.vhd
 set_global_assignment -name VHDL_FILE ../scr/disp7seg.vhd
 set_global_assignment -name VHDL_FILE ../scr/top.vhd
 set_global_assignment -name VHDL_FILE ../scr/sine_rom.vhd
@@ -90,5 +89,7 @@ set_global_assignment -name VHDL_FILE ../scr/servo.vhd
 set_global_assignment -name VHDL_FILE ../scr/reset.vhd
 set_global_assignment -name VHDL_FILE ../scr/counter.vhd
 set_global_assignment -name QIP_FILE pllcanhao.qip
-set_global_assignment -name VERILOG_FILE ../scr/casca.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,103 +1,88 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
-use ieee.math_real.round;  -- Adicione esta linha para incluir o pacote math_real
-
-
+use ieee.math_real.all;
 
 entity led_controller is
   generic (
-    clk_hz : real := 50.0e6; -- Frequência do clock
-    pwm_hz : real := 1000.0; -- Frequência PWM
-    max_brightness : positive := 255; -- Máxima intensidade (8-bit)
-    slow_breath_rate : positive := 500; -- Taxa de respiração lenta (alterações por segundo)
-    fast_breath_rate : positive := 2000 -- Taxa de respiração rápida (alterações por segundo)
+    clk_hz : real; -- Frequência do clock
+    pwm_hz : real; -- Frequência PWM
+    min_brightness_us : real; -- Largura de pulso mínima em microssegundos
+    max_brightness_us : real; -- Largura de pulso máxima em microssegundos
+    step_count : positive -- Número de passos do brilho mínimo ao máximo
   );
   port (
     clk : in std_logic;
     rst : in std_logic;
-    speed_sel : in std_logic; -- Selecionador de velocidade
-    led : out std_logic
+    brightness : in integer range 0 to step_count - 1;
+    led_pwm : out std_logic
   );
 end led_controller;
 
 architecture rtl of led_controller is
 
-  constant clk_hz_int : integer := integer(clk_hz);
-  constant slow_breath_period : integer := clk_hz_int / slow_breath_rate;
-  constant fast_breath_period : integer := clk_hz_int / fast_breath_rate;
-
-  signal breath_period : integer;  -- Removida a faixa
-  signal breath_rate : positive := slow_breath_rate; -- Inicialmente, use a taxa de respiração lenta
-
-  constant pwm_period : integer := clk_hz_int / integer(pwm_hz);
-  signal counter : integer range 0 to pwm_period := 0;
-  signal breath_counter : integer range 0 to breath_period := 0;
-  signal brightness : integer range 0 to max_brightness := 0;
-  signal duty_cycle : integer range 0 to pwm_period := 0;
-
-begin
-process(clk, rst, speed_sel)
-begin
-    -- Atualiza a taxa de respiração com base em speed_sel
-  process(clk, rst, speed_sel)
+  function cycles_per_us(us_count : real) return integer is
   begin
-    if rising_edge(clk) then
-      if rst = '1' then
-        breath_rate <= slow_breath_rate;
-      else
-        if speed_sel = '1' then
-          breath_rate <= fast_breath_rate;
-        else
-          breath_rate <= slow_breath_rate;
-        end if;
-      end if;
-    end if;
-  end process;
+    return integer(round(clk_hz / 1.0e6 * us_count));
+  end function;
 
-  -- Contador PWM e de Respiração
-  pwm_counter : process(clk)
+  constant min_count : integer := cycles_per_us(min_brightness_us);
+  constant max_count : integer := cycles_per_us(max_brightness_us);
+  constant min_max_range_us : real := max_brightness_us - min_brightness_us;
+  constant step_us : real := min_max_range_us / real(step_count - 1);
+  -- A variável intermediária antes de ser atribuída a cycles_per_step
+  variable temp_cycles_per_step : integer;
+  constant counter_max : integer := integer(round(clk_hz / pwm_hz)) - 1;
+  signal counter : integer range 0 to counter_max;
+
+  signal duty_cycle : integer range 0 to max_count;
+
+begin
+  -- Calcula temp_cycles_per_step e garante que seja pelo menos 1
+  temp_cycles_per_step := cycles_per_us(step_us);
+  if temp_cycles_per_step = 0 then
+    temp_cycles_per_step := 1;
+  end if;
+  constant cycles_per_step : positive := temp_cycles_per_step;
+  
+  counter_proc: process(clk)
   begin
     if rising_edge(clk) then
       if rst = '1' then
         counter <= 0;
-        brightness <= 0; -- Reseta a intensidade
-        breath_counter <= 0; -- Reseta o contador de respiração
       else
-        -- Incrementa o contador PWM
-        if counter < pwm_period then
+        if counter < counter_max then
           counter <= counter + 1;
         else
           counter <= 0;
         end if;
-        
-        -- Incrementa o contador de respiração
-        if breath_counter < breath_period then
-          breath_counter <= breath_counter + 1;
-        else
-          breath_counter <= 0;
-          brightness <= (brightness + 1) mod max_brightness;
-        end if;
       end if;
     end if;
   end process;
 
-  -- Processo para gerar o sinal PWM
-  pwm_process : process(clk)
+  pwm_proc: process(clk)
   begin
     if rising_edge(clk) then
       if rst = '1' then
-        led <= '0';
+        led_pwm <= '0';
       else
-        -- Calcula o ciclo de trabalho com base na intensidade
-        duty_cycle <= (brightness * pwm_period) / max_brightness;
-        -- Define o estado do LED
-        led <= '0';
+        led_pwm <= '0';
         if counter < duty_cycle then
-          led <= '1';
+          led_pwm <= '1';
         end if;
       end if;
     end if;
   end process;
 
-end architecture rtl;
+  duty_cycle_proc: process(clk)
+  begin
+    if rising_edge(clk) then
+      if rst = '1' then
+        duty_cycle <= min_count;
+      else
+        duty_cycle <= brightness * cycles_per_step + min_count;
+      end if;
+    end if;
+  end process;
+
+end rtl;

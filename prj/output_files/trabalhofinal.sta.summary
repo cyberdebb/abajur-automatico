@@ -3,19 +3,19 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'clk_50MHz'
-Slack : -0.045
-TNS   : -0.045
+Slack : 0.173
+TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Setup 'p7|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 75.442
+Slack : 74.989
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'p7|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.307
+Slack : 0.309
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'clk_50MHz'
-Slack : 1.628
+Slack : 0.548
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_50MHz'
@@ -23,27 +23,27 @@ Slack : 9.688
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'p7|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 41.403
+Slack : 41.401
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Setup 'clk_50MHz'
-Slack : 0.209
+Slack : 0.418
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Setup 'p7|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 76.301
+Slack : 75.909
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'p7|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.299
+Slack : 0.304
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'clk_50MHz'
-Slack : 1.607
+Slack : 0.493
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_50MHz'
-Slack : 9.683
+Slack : 9.684
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'p7|altpll_component|auto_generated|pll1|clk[0]'
@@ -51,19 +51,19 @@ Slack : 41.407
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'clk_50MHz'
-Slack : 1.050
+Slack : 1.202
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'p7|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 79.005
+Slack : 78.741
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'p7|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.154
+Slack : 0.155
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'clk_50MHz'
-Slack : 0.855
+Slack : 0.293
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_50MHz'
