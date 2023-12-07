@@ -1,16 +1,16 @@
-Fitter Status : Successful - Mon Dec 04 17:54:44 2023
+Fitter Status : Successful - Thu Dec 07 08:43:12 2023
 Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Web Edition
 Revision Name : trabalhofinal
 Top-level Entity Name : casca
 Family : Cyclone III
 Device : EP3C16F484C6
 Timing Models : Final
-Total logic elements : 341 / 15,408 ( 2 % )
-    Total combinational functions : 325 / 15,408 ( 2 % )
-    Dedicated logic registers : 193 / 15,408 ( 1 % )
-Total registers : 193
-Total pins : 19 / 347 ( 5 % )
+Total logic elements : 791 / 15,408 ( 5 % )
+    Total combinational functions : 763 / 15,408 ( 5 % )
+    Dedicated logic registers : 443 / 15,408 ( 3 % )
+Total registers : 443
+Total pins : 34 / 347 ( 10 % )
 Total virtual pins : 0
-Total memory bits : 6,144 / 516,096 ( 1 % )
+Total memory bits : 14,336 / 516,096 ( 3 % )
 Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
 Total PLLs : 1 / 4 ( 25 % )
