@@ -68,28 +68,5 @@ set_location_assignment PIN_J7 -to SW5
 set_location_assignment PIN_G5 -to SW4
 set_location_assignment PIN_G4 -to SW3
 set_location_assignment PIN_H6 -to SW2
-set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
-set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_location_assignment PIN_F13 -to a
-set_location_assignment PIN_F12 -to b
-set_location_assignment PIN_G12 -to c
-set_location_assignment PIN_H13 -to d
-set_location_assignment PIN_H12 -to e
-set_location_assignment PIN_F11 -to f
-set_location_assignment PIN_E11 -to g
-set_location_assignment PIN_H5 -to SW1
-set_location_assignment PIN_F1 -to btn
-set_global_assignment -name VERILOG_FILE ../scr/casca.v
-set_global_assignment -name VHDL_FILE ../scr/top_level.vhd
-set_global_assignment -name VHDL_FILE ../scr/display_7seg.vhd
-set_global_assignment -name VHDL_FILE ../scr/disp7seg.vhd
-set_global_assignment -name VHDL_FILE ../scr/top.vhd
-set_global_assignment -name VHDL_FILE ../scr/sine_rom.vhd
-set_global_assignment -name VHDL_FILE ../scr/servo.vhd
-set_global_assignment -name VHDL_FILE ../scr/reset.vhd
-set_global_assignment -name VHDL_FILE ../scr/counter.vhd
-set_global_assignment -name QIP_FILE pllcanhao.qip
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name SLD_FILE db/stp1_auto_stripped.stp

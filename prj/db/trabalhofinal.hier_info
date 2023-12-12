@@ -3,6 +3,7 @@ clk_50MHz => clk_50MHz.IN7
 rst_casca1 => rst_casca1.IN5
 rst_casca2 => rst_casca2.IN1
 rst_casca3 => rst_casca3.IN1
+<<<<<<< HEAD
 SW9 => data_i.OUTPUTSELECT
 SW9 => data_i.OUTPUTSELECT
 SW9 => data_i.OUTPUTSELECT
@@ -47,13 +48,32 @@ SW3 => always0.IN1
 SW2 => data_i.OUTPUTSELECT
 SW2 => data_i.OUTPUTSELECT
 SW2 => data_i.OUTPUTSELECT
+=======
+SW9 => pwm_casca1.OUTPUTSELECT
+SW9 => always0.IN0
+SW8 => pwm_casca2.OUTPUTSELECT
+SW8 => always0.IN1
+SW7 => pwm_casca3.OUTPUTSELECT
+SW7 => always0.IN1
+SW6 => led1.DATAA
+SW6 => always0.IN1
+SW5 => led2.DATAA
+SW5 => always0.IN1
+SW4 => led3.DATAA
+SW4 => always0.IN1
+SW3 => led4.DATAA
+SW3 => always0.IN1
+>>>>>>> main
 SW2 => led1.OUTPUTSELECT
 SW2 => led2.OUTPUTSELECT
 SW2 => led3.OUTPUTSELECT
 SW2 => led4.OUTPUTSELECT
 SW2 => always0.IN1
+<<<<<<< HEAD
 SW1 => data_i.OUTPUTSELECT
 SW1 => data_i.OUTPUTSELECT
+=======
+>>>>>>> main
 SW1 => led1.OUTPUTSELECT
 SW1 => led2.OUTPUTSELECT
 SW1 => led3.OUTPUTSELECT
@@ -82,14 +102,20 @@ SW1 => counter.OUTPUTSELECT
 SW1 => counter.OUTPUTSELECT
 SW1 => counter.OUTPUTSELECT
 SW1 => counter.OUTPUTSELECT
+<<<<<<< HEAD
 SW1 => data_i.DATAA
+=======
+>>>>>>> main
 SW1 => always0.IN1
 SW0 => led1.OUTPUTSELECT
 SW0 => led2.OUTPUTSELECT
 SW0 => led3.OUTPUTSELECT
 SW0 => led4.OUTPUTSELECT
+<<<<<<< HEAD
 SW0 => data_i.DATAA
 SW0 => data_i.DATAA
+=======
+>>>>>>> main
 SW0 => always0.IN1
 pwm_casca1 <= pwm_casca1~reg0.DB_MAX_OUTPUT_PORT_TYPE
 pwm_casca2 <= pwm_casca2~reg0.DB_MAX_OUTPUT_PORT_TYPE
@@ -98,6 +124,7 @@ led1 <= led1~reg0.DB_MAX_OUTPUT_PORT_TYPE
 led2 <= led2~reg0.DB_MAX_OUTPUT_PORT_TYPE
 led3 <= led3~reg0.DB_MAX_OUTPUT_PORT_TYPE
 led4 <= led4~reg0.DB_MAX_OUTPUT_PORT_TYPE
+<<<<<<< HEAD
 a <= display_7seg:display.disp_7seg_o
 b <= display_7seg:display.disp_7seg_o
 c <= display_7seg:display.disp_7seg_o
@@ -179,6 +206,8 @@ disp_7seg_o[3] <= disp_7seg_o[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
 disp_7seg_o[4] <= disp_7seg_o[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
 disp_7seg_o[5] <= disp_7seg_o[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
 disp_7seg_o[6] <= disp_7seg_o[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+=======
+>>>>>>> main
 
 
 |casca|pllcanhao:p1

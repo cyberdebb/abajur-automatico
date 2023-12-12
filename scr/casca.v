@@ -25,6 +25,8 @@ output wire a, b, c, d, e, f, g // Saídas para os segmentos do display
 
 // motores
 wire c0_sig1, c0_sig2, c0_sig3; 
+// motores
+wire c0_sig1, c0_sig2, c0_sig3; 
 reg pwm_output1, pwm_output2, pwm_output3;
 
 // leds
