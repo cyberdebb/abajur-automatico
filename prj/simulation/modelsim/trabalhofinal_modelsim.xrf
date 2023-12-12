@@ -1,13 +1,16 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/scr/top.vhd
-source_file = 1, C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/scr/sine_rom.vhd
-source_file = 1, C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/scr/servo.vhd
-source_file = 1, C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/scr/reset.vhd
-source_file = 1, C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/scr/counter.vhd
-source_file = 1, C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/prj/pllcanhao.qip
-source_file = 1, C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/prj/pllcanhao.v
-source_file = 1, C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/scr/casca.v
-source_file = 1, C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/prj/db/trabalhofinal.cbx.xml
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/scr/casca.v
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/scr/top_level.vhd
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/scr/display_7seg.vhd
+source_file = 1, ../scr/disp7seg.vhd
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/scr/top.vhd
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/scr/sine_rom.vhd
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/scr/servo.vhd
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/scr/reset.vhd
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/scr/counter.vhd
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/pllcanhao.qip
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/pllcanhao.v
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/trabalhofinal.cbx.xml
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
@@ -18,6 +21,9 @@ source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/stratix_pll.inc
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/stratixii_pll.inc
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/cycloneii_pll.inc
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/cbx.lst
+<<<<<<< HEAD
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/pllcanhao_altpll.v
+=======
 source_file = 1, C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/prj/db/pllcanhao_altpll.v
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/sld_signaltap.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/sld_signaltap_impl.vhd
@@ -31,6 +37,7 @@ source_file = 1, C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/pr
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/sld_mbpmg.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/sld_ela_trigger_flow_mgr.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/sld_buffer_manager.vhd
+>>>>>>> main
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/altsyncram.tdf
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/stratix_ram_block.inc
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/lpm_mux.inc
@@ -39,6 +46,22 @@ source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/a_rdenreg.inc
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/altrom.inc
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/altram.inc
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/altdpram.inc
+<<<<<<< HEAD
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/altsyncram_0uv.tdf
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/trabalhofinal.casca0.rtl.mif
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/altsyncram_1uv.tdf
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/trabalhofinal.casca1.rtl.mif
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/altsyncram_2uv.tdf
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/trabalhofinal.casca2.rtl.mif
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/altsyncram_3uv.tdf
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/trabalhofinal.casca3.rtl.mif
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/altsyncram_4uv.tdf
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/trabalhofinal.casca4.rtl.mif
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/altsyncram_5uv.tdf
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/trabalhofinal.casca5.rtl.mif
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/altsyncram_6uv.tdf
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/trabalhofinal.casca6.rtl.mif
+=======
 source_file = 1, C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/prj/db/altsyncram_lv14.tdf
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/altdpram.tdf
 source_file = 1, c:/altera/13.1/quartus/libraries/others/maxplus2/memmodes.inc
@@ -83,6 +106,7 @@ source_file = 1, C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/pr
 source_file = 1, C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/prj/db/trabalhofinal.casca5.rtl.mif
 source_file = 1, C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/prj/db/altsyncram_6uv.tdf
 source_file = 1, C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/prj/db/trabalhofinal.casca6.rtl.mif
+>>>>>>> main
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/lpm_mult.tdf
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/multcore.inc
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/multcore.tdf
@@ -99,7 +123,7 @@ source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/lpm_add_sub.tdf
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/addcore.inc
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/look_add.inc
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/alt_stratix_add_sub.inc
-source_file = 1, C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/prj/db/add_sub_bfh.tdf
+source_file = 1, C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/add_sub_bfh.tdf
 source_file = 1, c:/altera/13.1/quartus/libraries/megafunctions/altshift.tdf
 design_name = casca
 instance = comp, \auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|trigger_out_ff , auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|trigger_out_ff, casca, 1
@@ -114,11 +138,27 @@ instance = comp, \led1~output , led1~output, casca, 1
 instance = comp, \led2~output , led2~output, casca, 1
 instance = comp, \led3~output , led3~output, casca, 1
 instance = comp, \led4~output , led4~output, casca, 1
+<<<<<<< HEAD
+instance = comp, \a~output , a~output, casca, 1
+instance = comp, \b~output , b~output, casca, 1
+instance = comp, \c~output , c~output, casca, 1
+instance = comp, \d~output , d~output, casca, 1
+instance = comp, \e~output , e~output, casca, 1
+instance = comp, \f~output , f~output, casca, 1
+instance = comp, \g~output , g~output, casca, 1
+instance = comp, \clk_50MHz~input , clk_50MHz~input, casca, 1
+instance = comp, \clk_50MHz~inputclkctrl , clk_50MHz~inputclkctrl, casca, 1
+instance = comp, \SW9~input , SW9~input, casca, 1
+instance = comp, \p7|altpll_component|auto_generated|pll1 , p7|altpll_component|auto_generated|pll1, casca, 1
+instance = comp, \p7|altpll_component|auto_generated|wire_pll1_clk[0]~clkctrl , p7|altpll_component|auto_generated|wire_pll1_clk[0]~clkctrl, casca, 1
+instance = comp, \u01|COUNTER|counter_i[0]~25 , u01|COUNTER|counter_i[0]~25, casca, 1
+=======
 instance = comp, \altera_reserved_tdo~output , altera_reserved_tdo~output, casca, 1
 instance = comp, \clk_50MHz~input , clk_50MHz~input, casca, 1
 instance = comp, \clk_50MHz~inputclkctrl , clk_50MHz~inputclkctrl, casca, 1
 instance = comp, \p7|altpll_component|auto_generated|pll1 , p7|altpll_component|auto_generated|pll1, casca, 1
 instance = comp, \p7|altpll_component|auto_generated|wire_pll1_clk[0]~clkctrl , p7|altpll_component|auto_generated|wire_pll1_clk[0]~clkctrl, casca, 1
+>>>>>>> main
 instance = comp, \rst_casca1~input , rst_casca1~input, casca, 1
 instance = comp, \u01|RESET|sreg[0]~feeder , u01|RESET|sreg[0]~feeder, casca, 1
 instance = comp, \u01|RESET|sreg[0] , u01|RESET|sreg[0], casca, 1
@@ -128,6 +168,8 @@ instance = comp, \u01|RESET|sreg[2]~feeder , u01|RESET|sreg[2]~feeder, casca, 1
 instance = comp, \u01|RESET|sreg[2] , u01|RESET|sreg[2], casca, 1
 instance = comp, \u01|RESET|sreg[3] , u01|RESET|sreg[3], casca, 1
 instance = comp, \u01|RESET|Equal0~0 , u01|RESET|Equal0~0, casca, 1
+<<<<<<< HEAD
+=======
 instance = comp, \u01|SERVO|counter[0]~18 , u01|SERVO|counter[0]~18, casca, 1
 instance = comp, \u01|SERVO|counter[0]~52 , u01|SERVO|counter[0]~52, casca, 1
 instance = comp, \u01|SERVO|counter[16]~57 , u01|SERVO|counter[16]~57, casca, 1
@@ -173,6 +215,7 @@ instance = comp, \u01|SERVO|counter[15] , u01|SERVO|counter[15], casca, 1
 instance = comp, \u01|SERVO|counter[16] , u01|SERVO|counter[16], casca, 1
 instance = comp, \u01|SERVO|pwm~0 , u01|SERVO|pwm~0, casca, 1
 instance = comp, \u01|COUNTER|counter_i[0]~25 , u01|COUNTER|counter_i[0]~25, casca, 1
+>>>>>>> main
 instance = comp, \u01|COUNTER|counter_i[0] , u01|COUNTER|counter_i[0], casca, 1
 instance = comp, \u01|COUNTER|counter_i[1]~27 , u01|COUNTER|counter_i[1]~27, casca, 1
 instance = comp, \u01|COUNTER|counter_i[1] , u01|COUNTER|counter_i[1], casca, 1
@@ -228,13 +271,21 @@ instance = comp, \u01|SERVO|Mult0|mult_core|romout[1][9]~1 , u01|SERVO|Mult0|mul
 instance = comp, \u01|SERVO|Mult0|mult_core|romout[1][8]~2 , u01|SERVO|Mult0|mult_core|romout[1][8]~2, casca, 1
 instance = comp, \u01|SERVO|Mult0|mult_core|romout[1][7]~3 , u01|SERVO|Mult0|mult_core|romout[1][7]~3, casca, 1
 instance = comp, \u01|SERVO|Mult0|mult_core|romout[1][6]~4 , u01|SERVO|Mult0|mult_core|romout[1][6]~4, casca, 1
+<<<<<<< HEAD
+instance = comp, \u01|SERVO|Mult0|mult_core|romout[1][5]~6 , u01|SERVO|Mult0|mult_core|romout[1][5]~6, casca, 1
+instance = comp, \u01|SERVO|Mult0|mult_core|romout[0][9] , u01|SERVO|Mult0|mult_core|romout[0][9], casca, 1
+instance = comp, \u01|SERVO|Mult0|mult_core|romout[1][4]~7 , u01|SERVO|Mult0|mult_core|romout[1][4]~7, casca, 1
+instance = comp, \u01|SERVO|Mult0|mult_core|romout[0][8]~8 , u01|SERVO|Mult0|mult_core|romout[0][8]~8, casca, 1
+=======
 instance = comp, \u01|SERVO|Mult0|mult_core|romout[0][10]~5 , u01|SERVO|Mult0|mult_core|romout[0][10]~5, casca, 1
 instance = comp, \u01|SERVO|Mult0|mult_core|romout[1][5]~6 , u01|SERVO|Mult0|mult_core|romout[1][5]~6, casca, 1
 instance = comp, \u01|SERVO|Mult0|mult_core|romout[0][9] , u01|SERVO|Mult0|mult_core|romout[0][9], casca, 1
 instance = comp, \u01|SERVO|Mult0|mult_core|romout[0][8]~8 , u01|SERVO|Mult0|mult_core|romout[0][8]~8, casca, 1
 instance = comp, \u01|SERVO|Mult0|mult_core|romout[1][4]~7 , u01|SERVO|Mult0|mult_core|romout[1][4]~7, casca, 1
 instance = comp, \u01|SERVO|Mult0|mult_core|romout[0][7]~10 , u01|SERVO|Mult0|mult_core|romout[0][7]~10, casca, 1
+>>>>>>> main
 instance = comp, \u01|SERVO|Mult0|mult_core|romout[1][3]~9 , u01|SERVO|Mult0|mult_core|romout[1][3]~9, casca, 1
+instance = comp, \u01|SERVO|Mult0|mult_core|romout[0][7]~10 , u01|SERVO|Mult0|mult_core|romout[0][7]~10, casca, 1
 instance = comp, \u01|SERVO|Mult0|mult_core|romout[0][6]~12 , u01|SERVO|Mult0|mult_core|romout[0][6]~12, casca, 1
 instance = comp, \u01|SERVO|Mult0|mult_core|romout[1][2]~11 , u01|SERVO|Mult0|mult_core|romout[1][2]~11, casca, 1
 instance = comp, \u01|SERVO|Mult0|mult_core|romout[0][5]~13 , u01|SERVO|Mult0|mult_core|romout[0][5]~13, casca, 1
@@ -262,6 +313,49 @@ instance = comp, \u01|SERVO|duty_cycle[13]~29 , u01|SERVO|duty_cycle[13]~29, cas
 instance = comp, \u01|SERVO|duty_cycle[14]~31 , u01|SERVO|duty_cycle[14]~31, casca, 1
 instance = comp, \~GND , ~GND, casca, 1
 instance = comp, \u01|SERVO|duty_cycle[14] , u01|SERVO|duty_cycle[14], casca, 1
+instance = comp, \u01|SERVO|counter[0]~18 , u01|SERVO|counter[0]~18, casca, 1
+instance = comp, \u01|SERVO|LessThan0~1 , u01|SERVO|LessThan0~1, casca, 1
+instance = comp, \u01|SERVO|LessThan0~0 , u01|SERVO|LessThan0~0, casca, 1
+instance = comp, \u01|SERVO|LessThan0~2 , u01|SERVO|LessThan0~2, casca, 1
+instance = comp, \u01|SERVO|counter[17]~50 , u01|SERVO|counter[17]~50, casca, 1
+instance = comp, \u01|SERVO|counter[17]~48 , u01|SERVO|counter[17]~48, casca, 1
+instance = comp, \u01|SERVO|counter[14]~46 , u01|SERVO|counter[14]~46, casca, 1
+instance = comp, \u01|SERVO|counter[15]~52 , u01|SERVO|counter[15]~52, casca, 1
+instance = comp, \u01|SERVO|counter[15] , u01|SERVO|counter[15], casca, 1
+instance = comp, \u01|SERVO|counter[16]~54 , u01|SERVO|counter[16]~54, casca, 1
+instance = comp, \u01|SERVO|counter[16] , u01|SERVO|counter[16], casca, 1
+instance = comp, \u01|SERVO|counter[17]~56 , u01|SERVO|counter[17]~56, casca, 1
+instance = comp, \u01|SERVO|counter[17] , u01|SERVO|counter[17], casca, 1
+instance = comp, \u01|SERVO|counter[17]~49 , u01|SERVO|counter[17]~49, casca, 1
+instance = comp, \u01|SERVO|counter[17]~51 , u01|SERVO|counter[17]~51, casca, 1
+instance = comp, \u01|SERVO|counter[0] , u01|SERVO|counter[0], casca, 1
+instance = comp, \u01|SERVO|counter[1]~20 , u01|SERVO|counter[1]~20, casca, 1
+instance = comp, \u01|SERVO|counter[1] , u01|SERVO|counter[1], casca, 1
+instance = comp, \u01|SERVO|counter[2]~22 , u01|SERVO|counter[2]~22, casca, 1
+instance = comp, \u01|SERVO|counter[2] , u01|SERVO|counter[2], casca, 1
+instance = comp, \u01|SERVO|counter[3]~24 , u01|SERVO|counter[3]~24, casca, 1
+instance = comp, \u01|SERVO|counter[3] , u01|SERVO|counter[3], casca, 1
+instance = comp, \u01|SERVO|counter[4]~26 , u01|SERVO|counter[4]~26, casca, 1
+instance = comp, \u01|SERVO|counter[4] , u01|SERVO|counter[4], casca, 1
+instance = comp, \u01|SERVO|counter[5]~28 , u01|SERVO|counter[5]~28, casca, 1
+instance = comp, \u01|SERVO|counter[5] , u01|SERVO|counter[5], casca, 1
+instance = comp, \u01|SERVO|counter[6]~30 , u01|SERVO|counter[6]~30, casca, 1
+instance = comp, \u01|SERVO|counter[6] , u01|SERVO|counter[6], casca, 1
+instance = comp, \u01|SERVO|counter[7]~32 , u01|SERVO|counter[7]~32, casca, 1
+instance = comp, \u01|SERVO|counter[7] , u01|SERVO|counter[7], casca, 1
+instance = comp, \u01|SERVO|counter[8]~34 , u01|SERVO|counter[8]~34, casca, 1
+instance = comp, \u01|SERVO|counter[8] , u01|SERVO|counter[8], casca, 1
+instance = comp, \u01|SERVO|counter[9]~36 , u01|SERVO|counter[9]~36, casca, 1
+instance = comp, \u01|SERVO|counter[9] , u01|SERVO|counter[9], casca, 1
+instance = comp, \u01|SERVO|counter[10]~38 , u01|SERVO|counter[10]~38, casca, 1
+instance = comp, \u01|SERVO|counter[10] , u01|SERVO|counter[10], casca, 1
+instance = comp, \u01|SERVO|counter[11]~40 , u01|SERVO|counter[11]~40, casca, 1
+instance = comp, \u01|SERVO|counter[11] , u01|SERVO|counter[11], casca, 1
+instance = comp, \u01|SERVO|counter[12]~42 , u01|SERVO|counter[12]~42, casca, 1
+instance = comp, \u01|SERVO|counter[12] , u01|SERVO|counter[12], casca, 1
+instance = comp, \u01|SERVO|counter[13]~44 , u01|SERVO|counter[13]~44, casca, 1
+instance = comp, \u01|SERVO|counter[13] , u01|SERVO|counter[13], casca, 1
+instance = comp, \u01|SERVO|counter[14] , u01|SERVO|counter[14], casca, 1
 instance = comp, \u01|SERVO|duty_cycle[13] , u01|SERVO|duty_cycle[13], casca, 1
 instance = comp, \u01|SERVO|duty_cycle[12] , u01|SERVO|duty_cycle[12], casca, 1
 instance = comp, \u01|SERVO|duty_cycle[11] , u01|SERVO|duty_cycle[11], casca, 1
@@ -292,15 +386,22 @@ instance = comp, \u01|SERVO|LessThan1~21 , u01|SERVO|LessThan1~21, casca, 1
 instance = comp, \u01|SERVO|LessThan1~23 , u01|SERVO|LessThan1~23, casca, 1
 instance = comp, \u01|SERVO|LessThan1~25 , u01|SERVO|LessThan1~25, casca, 1
 instance = comp, \u01|SERVO|LessThan1~26 , u01|SERVO|LessThan1~26, casca, 1
+instance = comp, \u01|SERVO|pwm~0 , u01|SERVO|pwm~0, casca, 1
 instance = comp, \u01|SERVO|pwm~1 , u01|SERVO|pwm~1, casca, 1
 instance = comp, \u01|SERVO|pwm , u01|SERVO|pwm, casca, 1
-instance = comp, \SW9~input , SW9~input, casca, 1
 instance = comp, \pwm_casca1~0 , pwm_casca1~0, casca, 1
+instance = comp, \pwm_casca1~reg0feeder , pwm_casca1~reg0feeder, casca, 1
 instance = comp, \pwm_casca1~reg0 , pwm_casca1~reg0, casca, 1
 instance = comp, \SW8~input , SW8~input, casca, 1
+<<<<<<< HEAD
+instance = comp, \u02|SERVO|counter[0]~18 , u02|SERVO|counter[0]~18, casca, 1
+instance = comp, \u02|SERVO|LessThan0~0 , u02|SERVO|LessThan0~0, casca, 1
+instance = comp, \u02|SERVO|LessThan0~1 , u02|SERVO|LessThan0~1, casca, 1
+instance = comp, \u02|SERVO|LessThan0~2 , u02|SERVO|LessThan0~2, casca, 1
+=======
 instance = comp, \u02|COUNTER|counter_i[0]~25 , u02|COUNTER|counter_i[0]~25, casca, 1
+>>>>>>> main
 instance = comp, \rst_casca2~input , rst_casca2~input, casca, 1
-instance = comp, \u02|RESET|sreg[0]~feeder , u02|RESET|sreg[0]~feeder, casca, 1
 instance = comp, \u02|RESET|sreg[0] , u02|RESET|sreg[0], casca, 1
 instance = comp, \u02|RESET|sreg[1]~feeder , u02|RESET|sreg[1]~feeder, casca, 1
 instance = comp, \u02|RESET|sreg[1] , u02|RESET|sreg[1], casca, 1
@@ -308,6 +409,49 @@ instance = comp, \u02|RESET|sreg[2]~feeder , u02|RESET|sreg[2]~feeder, casca, 1
 instance = comp, \u02|RESET|sreg[2] , u02|RESET|sreg[2], casca, 1
 instance = comp, \u02|RESET|sreg[3] , u02|RESET|sreg[3], casca, 1
 instance = comp, \u02|RESET|Equal0~0 , u02|RESET|Equal0~0, casca, 1
+<<<<<<< HEAD
+instance = comp, \u02|SERVO|counter[6]~50 , u02|SERVO|counter[6]~50, casca, 1
+instance = comp, \u02|SERVO|counter[6]~48 , u02|SERVO|counter[6]~48, casca, 1
+instance = comp, \u02|SERVO|counter[15]~52 , u02|SERVO|counter[15]~52, casca, 1
+instance = comp, \u02|SERVO|counter[16]~54 , u02|SERVO|counter[16]~54, casca, 1
+instance = comp, \u02|SERVO|counter[16] , u02|SERVO|counter[16], casca, 1
+instance = comp, \u02|SERVO|counter[17]~56 , u02|SERVO|counter[17]~56, casca, 1
+instance = comp, \u02|SERVO|counter[17] , u02|SERVO|counter[17], casca, 1
+instance = comp, \u02|SERVO|counter[6]~49 , u02|SERVO|counter[6]~49, casca, 1
+instance = comp, \u02|SERVO|counter[6]~51 , u02|SERVO|counter[6]~51, casca, 1
+instance = comp, \u02|SERVO|counter[0] , u02|SERVO|counter[0], casca, 1
+instance = comp, \u02|SERVO|counter[1]~20 , u02|SERVO|counter[1]~20, casca, 1
+instance = comp, \u02|SERVO|counter[1] , u02|SERVO|counter[1], casca, 1
+instance = comp, \u02|SERVO|counter[2]~22 , u02|SERVO|counter[2]~22, casca, 1
+instance = comp, \u02|SERVO|counter[2] , u02|SERVO|counter[2], casca, 1
+instance = comp, \u02|SERVO|counter[3]~24 , u02|SERVO|counter[3]~24, casca, 1
+instance = comp, \u02|SERVO|counter[3] , u02|SERVO|counter[3], casca, 1
+instance = comp, \u02|SERVO|counter[4]~26 , u02|SERVO|counter[4]~26, casca, 1
+instance = comp, \u02|SERVO|counter[4] , u02|SERVO|counter[4], casca, 1
+instance = comp, \u02|SERVO|counter[5]~28 , u02|SERVO|counter[5]~28, casca, 1
+instance = comp, \u02|SERVO|counter[5] , u02|SERVO|counter[5], casca, 1
+instance = comp, \u02|SERVO|counter[6]~30 , u02|SERVO|counter[6]~30, casca, 1
+instance = comp, \u02|SERVO|counter[6] , u02|SERVO|counter[6], casca, 1
+instance = comp, \u02|SERVO|counter[7]~32 , u02|SERVO|counter[7]~32, casca, 1
+instance = comp, \u02|SERVO|counter[7] , u02|SERVO|counter[7], casca, 1
+instance = comp, \u02|SERVO|counter[8]~34 , u02|SERVO|counter[8]~34, casca, 1
+instance = comp, \u02|SERVO|counter[8] , u02|SERVO|counter[8], casca, 1
+instance = comp, \u02|SERVO|counter[9]~36 , u02|SERVO|counter[9]~36, casca, 1
+instance = comp, \u02|SERVO|counter[9] , u02|SERVO|counter[9], casca, 1
+instance = comp, \u02|SERVO|counter[10]~38 , u02|SERVO|counter[10]~38, casca, 1
+instance = comp, \u02|SERVO|counter[10] , u02|SERVO|counter[10], casca, 1
+instance = comp, \u02|SERVO|counter[11]~40 , u02|SERVO|counter[11]~40, casca, 1
+instance = comp, \u02|SERVO|counter[11] , u02|SERVO|counter[11], casca, 1
+instance = comp, \u02|SERVO|counter[12]~42 , u02|SERVO|counter[12]~42, casca, 1
+instance = comp, \u02|SERVO|counter[12] , u02|SERVO|counter[12], casca, 1
+instance = comp, \u02|SERVO|counter[13]~44 , u02|SERVO|counter[13]~44, casca, 1
+instance = comp, \u02|SERVO|counter[13] , u02|SERVO|counter[13], casca, 1
+instance = comp, \u02|SERVO|counter[14]~46 , u02|SERVO|counter[14]~46, casca, 1
+instance = comp, \u02|SERVO|counter[14] , u02|SERVO|counter[14], casca, 1
+instance = comp, \u02|SERVO|counter[15] , u02|SERVO|counter[15], casca, 1
+instance = comp, \u02|COUNTER|counter_i[0]~25 , u02|COUNTER|counter_i[0]~25, casca, 1
+=======
+>>>>>>> main
 instance = comp, \u02|COUNTER|counter_i[0] , u02|COUNTER|counter_i[0], casca, 1
 instance = comp, \u02|COUNTER|counter_i[1]~27 , u02|COUNTER|counter_i[1]~27, casca, 1
 instance = comp, \u02|COUNTER|counter_i[1] , u02|COUNTER|counter_i[1], casca, 1
@@ -362,14 +506,18 @@ instance = comp, \u02|SERVO|Mult0|mult_core|romout[1][10]~0 , u02|SERVO|Mult0|mu
 instance = comp, \u02|SERVO|Mult0|mult_core|romout[1][9]~1 , u02|SERVO|Mult0|mult_core|romout[1][9]~1, casca, 1
 instance = comp, \u02|SERVO|Mult0|mult_core|romout[1][8]~2 , u02|SERVO|Mult0|mult_core|romout[1][8]~2, casca, 1
 instance = comp, \u02|SERVO|Mult0|mult_core|romout[1][7]~3 , u02|SERVO|Mult0|mult_core|romout[1][7]~3, casca, 1
-instance = comp, \u02|SERVO|Mult0|mult_core|romout[0][10]~5 , u02|SERVO|Mult0|mult_core|romout[0][10]~5, casca, 1
 instance = comp, \u02|SERVO|Mult0|mult_core|romout[1][6]~4 , u02|SERVO|Mult0|mult_core|romout[1][6]~4, casca, 1
+instance = comp, \u02|SERVO|Mult0|mult_core|romout[0][10]~5 , u02|SERVO|Mult0|mult_core|romout[0][10]~5, casca, 1
 instance = comp, \u02|SERVO|Mult0|mult_core|romout[0][9] , u02|SERVO|Mult0|mult_core|romout[0][9], casca, 1
 instance = comp, \u02|SERVO|Mult0|mult_core|romout[1][5]~6 , u02|SERVO|Mult0|mult_core|romout[1][5]~6, casca, 1
 instance = comp, \u02|SERVO|Mult0|mult_core|romout[1][4]~7 , u02|SERVO|Mult0|mult_core|romout[1][4]~7, casca, 1
 instance = comp, \u02|SERVO|Mult0|mult_core|romout[0][8]~8 , u02|SERVO|Mult0|mult_core|romout[0][8]~8, casca, 1
 instance = comp, \u02|SERVO|Mult0|mult_core|romout[1][3]~9 , u02|SERVO|Mult0|mult_core|romout[1][3]~9, casca, 1
 instance = comp, \u02|SERVO|Mult0|mult_core|romout[0][7]~10 , u02|SERVO|Mult0|mult_core|romout[0][7]~10, casca, 1
+<<<<<<< HEAD
+instance = comp, \u02|SERVO|Mult0|mult_core|romout[1][2]~11 , u02|SERVO|Mult0|mult_core|romout[1][2]~11, casca, 1
+=======
+>>>>>>> main
 instance = comp, \u02|SERVO|Mult0|mult_core|romout[0][6]~12 , u02|SERVO|Mult0|mult_core|romout[0][6]~12, casca, 1
 instance = comp, \u02|SERVO|Mult0|mult_core|romout[1][2]~11 , u02|SERVO|Mult0|mult_core|romout[1][2]~11, casca, 1
 instance = comp, \u02|SERVO|Mult0|mult_core|romout[0][5]~13 , u02|SERVO|Mult0|mult_core|romout[0][5]~13, casca, 1
@@ -474,7 +622,10 @@ instance = comp, \u02|SERVO|pwm~1 , u02|SERVO|pwm~1, casca, 1
 instance = comp, \u02|SERVO|pwm , u02|SERVO|pwm, casca, 1
 instance = comp, \pwm_casca2~0 , pwm_casca2~0, casca, 1
 instance = comp, \pwm_casca2~reg0 , pwm_casca2~reg0, casca, 1
+<<<<<<< HEAD
+=======
 instance = comp, \SW7~input , SW7~input, casca, 1
+>>>>>>> main
 instance = comp, \u03|COUNTER|counter_i[0]~25 , u03|COUNTER|counter_i[0]~25, casca, 1
 instance = comp, \rst_casca3~input , rst_casca3~input, casca, 1
 instance = comp, \u03|RESET|sreg[0] , u03|RESET|sreg[0], casca, 1
@@ -543,9 +694,15 @@ instance = comp, \u03|SERVO|Mult0|mult_core|romout[1][6]~4 , u03|SERVO|Mult0|mul
 instance = comp, \u03|SERVO|Mult0|mult_core|romout[1][5]~6 , u03|SERVO|Mult0|mult_core|romout[1][5]~6, casca, 1
 instance = comp, \u03|SERVO|Mult0|mult_core|romout[0][9] , u03|SERVO|Mult0|mult_core|romout[0][9], casca, 1
 instance = comp, \u03|SERVO|Mult0|mult_core|romout[0][8]~8 , u03|SERVO|Mult0|mult_core|romout[0][8]~8, casca, 1
+<<<<<<< HEAD
+instance = comp, \u03|SERVO|Mult0|mult_core|romout[0][7]~10 , u03|SERVO|Mult0|mult_core|romout[0][7]~10, casca, 1
+instance = comp, \u03|SERVO|Mult0|mult_core|romout[1][3]~9 , u03|SERVO|Mult0|mult_core|romout[1][3]~9, casca, 1
+instance = comp, \u03|SERVO|Mult0|mult_core|romout[1][2]~11 , u03|SERVO|Mult0|mult_core|romout[1][2]~11, casca, 1
+=======
 instance = comp, \u03|SERVO|Mult0|mult_core|romout[1][4]~7 , u03|SERVO|Mult0|mult_core|romout[1][4]~7, casca, 1
 instance = comp, \u03|SERVO|Mult0|mult_core|romout[1][3]~9 , u03|SERVO|Mult0|mult_core|romout[1][3]~9, casca, 1
 instance = comp, \u03|SERVO|Mult0|mult_core|romout[0][7]~10 , u03|SERVO|Mult0|mult_core|romout[0][7]~10, casca, 1
+>>>>>>> main
 instance = comp, \u03|SERVO|Mult0|mult_core|romout[0][6]~12 , u03|SERVO|Mult0|mult_core|romout[0][6]~12, casca, 1
 instance = comp, \u03|SERVO|Mult0|mult_core|romout[1][2]~11 , u03|SERVO|Mult0|mult_core|romout[1][2]~11, casca, 1
 instance = comp, \u03|SERVO|Mult0|mult_core|romout[0][5]~13 , u03|SERVO|Mult0|mult_core|romout[0][5]~13, casca, 1
@@ -573,6 +730,22 @@ instance = comp, \u03|SERVO|duty_cycle[13]~29 , u03|SERVO|duty_cycle[13]~29, cas
 instance = comp, \u03|SERVO|duty_cycle[14]~31 , u03|SERVO|duty_cycle[14]~31, casca, 1
 instance = comp, \u03|SERVO|duty_cycle[14] , u03|SERVO|duty_cycle[14], casca, 1
 instance = comp, \u03|SERVO|counter[0]~18 , u03|SERVO|counter[0]~18, casca, 1
+<<<<<<< HEAD
+instance = comp, \u03|SERVO|counter[14]~48 , u03|SERVO|counter[14]~48, casca, 1
+instance = comp, \u03|SERVO|LessThan0~0 , u03|SERVO|LessThan0~0, casca, 1
+instance = comp, \u03|SERVO|LessThan0~1 , u03|SERVO|LessThan0~1, casca, 1
+instance = comp, \u03|SERVO|counter[14]~49 , u03|SERVO|counter[14]~49, casca, 1
+instance = comp, \u03|SERVO|counter[14]~50 , u03|SERVO|counter[14]~50, casca, 1
+instance = comp, \u03|SERVO|counter[14]~46 , u03|SERVO|counter[14]~46, casca, 1
+instance = comp, \u03|SERVO|counter[15]~53 , u03|SERVO|counter[15]~53, casca, 1
+instance = comp, \u03|SERVO|counter[15] , u03|SERVO|counter[15], casca, 1
+instance = comp, \u03|SERVO|counter[16]~55 , u03|SERVO|counter[16]~55, casca, 1
+instance = comp, \u03|SERVO|counter[16] , u03|SERVO|counter[16], casca, 1
+instance = comp, \u03|SERVO|counter[17]~57 , u03|SERVO|counter[17]~57, casca, 1
+instance = comp, \u03|SERVO|counter[17] , u03|SERVO|counter[17], casca, 1
+instance = comp, \u03|SERVO|counter[14]~51 , u03|SERVO|counter[14]~51, casca, 1
+instance = comp, \u03|SERVO|counter[14]~52 , u03|SERVO|counter[14]~52, casca, 1
+=======
 instance = comp, \u03|SERVO|counter[14]~46 , u03|SERVO|counter[14]~46, casca, 1
 instance = comp, \u03|SERVO|counter[15]~55 , u03|SERVO|counter[15]~55, casca, 1
 instance = comp, \u03|SERVO|counter[15] , u03|SERVO|counter[15], casca, 1
@@ -587,6 +760,7 @@ instance = comp, \u03|SERVO|counter[15]~50 , u03|SERVO|counter[15]~50, casca, 1
 instance = comp, \u03|SERVO|counter[15]~51 , u03|SERVO|counter[15]~51, casca, 1
 instance = comp, \u03|SERVO|counter[15]~52 , u03|SERVO|counter[15]~52, casca, 1
 instance = comp, \u03|SERVO|counter[15]~54 , u03|SERVO|counter[15]~54, casca, 1
+>>>>>>> main
 instance = comp, \u03|SERVO|counter[0] , u03|SERVO|counter[0], casca, 1
 instance = comp, \u03|SERVO|counter[1]~20 , u03|SERVO|counter[1]~20, casca, 1
 instance = comp, \u03|SERVO|counter[1] , u03|SERVO|counter[1], casca, 1
@@ -650,6 +824,72 @@ instance = comp, \u03|SERVO|pwm~1 , u03|SERVO|pwm~1, casca, 1
 instance = comp, \u03|SERVO|pwm , u03|SERVO|pwm, casca, 1
 instance = comp, \pwm_casca3~0 , pwm_casca3~0, casca, 1
 instance = comp, \pwm_casca3~reg0 , pwm_casca3~reg0, casca, 1
+<<<<<<< HEAD
+instance = comp, \SW1~input , SW1~input, casca, 1
+instance = comp, \SW2~input , SW2~input, casca, 1
+instance = comp, \SW6~input , SW6~input, casca, 1
+instance = comp, \counter[0]~26 , counter[0]~26, casca, 1
+instance = comp, \SW5~input , SW5~input, casca, 1
+instance = comp, \SW3~input , SW3~input, casca, 1
+instance = comp, \SW4~input , SW4~input, casca, 1
+instance = comp, \display|disp_7seg_o[6]~62 , display|disp_7seg_o[6]~62, casca, 1
+instance = comp, \SW0~input , SW0~input, casca, 1
+instance = comp, \data_i~1 , data_i~1, casca, 1
+instance = comp, \display|disp_7seg_o[2]~54 , display|disp_7seg_o[2]~54, casca, 1
+instance = comp, \always0~0 , always0~0, casca, 1
+instance = comp, \data_i[2]~0 , data_i[2]~0, casca, 1
+instance = comp, \display|disp_7seg_o[6]~52 , display|disp_7seg_o[6]~52, casca, 1
+instance = comp, \counter[23]~74 , counter[23]~74, casca, 1
+instance = comp, \counter[0] , counter[0], casca, 1
+instance = comp, \counter[1]~28 , counter[1]~28, casca, 1
+instance = comp, \counter[1] , counter[1], casca, 1
+instance = comp, \counter[2]~30 , counter[2]~30, casca, 1
+instance = comp, \counter[2] , counter[2], casca, 1
+instance = comp, \counter[3]~32 , counter[3]~32, casca, 1
+instance = comp, \counter[3] , counter[3], casca, 1
+instance = comp, \counter[4]~34 , counter[4]~34, casca, 1
+instance = comp, \counter[4] , counter[4], casca, 1
+instance = comp, \counter[5]~36 , counter[5]~36, casca, 1
+instance = comp, \counter[5] , counter[5], casca, 1
+instance = comp, \counter[6]~38 , counter[6]~38, casca, 1
+instance = comp, \counter[6] , counter[6], casca, 1
+instance = comp, \counter[7]~40 , counter[7]~40, casca, 1
+instance = comp, \counter[7] , counter[7], casca, 1
+instance = comp, \counter[8]~42 , counter[8]~42, casca, 1
+instance = comp, \counter[8] , counter[8], casca, 1
+instance = comp, \counter[9]~44 , counter[9]~44, casca, 1
+instance = comp, \counter[9] , counter[9], casca, 1
+instance = comp, \counter[10]~46 , counter[10]~46, casca, 1
+instance = comp, \counter[10] , counter[10], casca, 1
+instance = comp, \counter[11]~48 , counter[11]~48, casca, 1
+instance = comp, \counter[11] , counter[11], casca, 1
+instance = comp, \counter[12]~50 , counter[12]~50, casca, 1
+instance = comp, \counter[12] , counter[12], casca, 1
+instance = comp, \counter[13]~52 , counter[13]~52, casca, 1
+instance = comp, \counter[13] , counter[13], casca, 1
+instance = comp, \counter[14]~54 , counter[14]~54, casca, 1
+instance = comp, \counter[14] , counter[14], casca, 1
+instance = comp, \counter[15]~56 , counter[15]~56, casca, 1
+instance = comp, \counter[15] , counter[15], casca, 1
+instance = comp, \counter[16]~58 , counter[16]~58, casca, 1
+instance = comp, \counter[16] , counter[16], casca, 1
+instance = comp, \counter[17]~60 , counter[17]~60, casca, 1
+instance = comp, \counter[17] , counter[17], casca, 1
+instance = comp, \counter[18]~62 , counter[18]~62, casca, 1
+instance = comp, \counter[18] , counter[18], casca, 1
+instance = comp, \counter[19]~64 , counter[19]~64, casca, 1
+instance = comp, \counter[19] , counter[19], casca, 1
+instance = comp, \counter[20]~66 , counter[20]~66, casca, 1
+instance = comp, \counter[20] , counter[20], casca, 1
+instance = comp, \counter[21]~68 , counter[21]~68, casca, 1
+instance = comp, \counter[21] , counter[21], casca, 1
+instance = comp, \counter[22]~70 , counter[22]~70, casca, 1
+instance = comp, \counter[22] , counter[22], casca, 1
+instance = comp, \counter[23]~72 , counter[23]~72, casca, 1
+instance = comp, \counter[23] , counter[23], casca, 1
+instance = comp, \led1~0 , led1~0, casca, 1
+instance = comp, \led1~reg0feeder , led1~reg0feeder, casca, 1
+=======
 instance = comp, \SW2~input , SW2~input, casca, 1
 instance = comp, \counter[0]~24 , counter[0]~24, casca, 1
 instance = comp, \SW0~input , SW0~input, casca, 1
@@ -723,6 +963,7 @@ instance = comp, \u04|SERVO|counter[10]~53 , u04|SERVO|counter[10]~53, casca, 1
 instance = comp, \u04|SERVO|counter[10]~51 , u04|SERVO|counter[10]~51, casca, 1
 instance = comp, \u04|SERVO|counter[10]~50 , u04|SERVO|counter[10]~50, casca, 1
 instance = comp, \u04|SERVO|counter[10]~52 , u04|SERVO|counter[10]~52, casca, 1
+>>>>>>> main
 instance = comp, \u04|RESET|sreg[0]~feeder , u04|RESET|sreg[0]~feeder, casca, 1
 instance = comp, \u04|RESET|sreg[0] , u04|RESET|sreg[0], casca, 1
 instance = comp, \u04|RESET|sreg[1]~feeder , u04|RESET|sreg[1]~feeder, casca, 1
@@ -731,6 +972,8 @@ instance = comp, \u04|RESET|sreg[2]~feeder , u04|RESET|sreg[2]~feeder, casca, 1
 instance = comp, \u04|RESET|sreg[2] , u04|RESET|sreg[2], casca, 1
 instance = comp, \u04|RESET|sreg[3] , u04|RESET|sreg[3], casca, 1
 instance = comp, \u04|RESET|Equal0~0 , u04|RESET|Equal0~0, casca, 1
+<<<<<<< HEAD
+=======
 instance = comp, \u04|SERVO|counter[10]~54 , u04|SERVO|counter[10]~54, casca, 1
 instance = comp, \u04|SERVO|counter[0] , u04|SERVO|counter[0], casca, 1
 instance = comp, \u04|SERVO|counter[1]~20 , u04|SERVO|counter[1]~20, casca, 1
@@ -763,6 +1006,7 @@ instance = comp, \u04|SERVO|counter[14]~46 , u04|SERVO|counter[14]~46, casca, 1
 instance = comp, \u04|SERVO|counter[14] , u04|SERVO|counter[14], casca, 1
 instance = comp, \u04|SERVO|counter[15] , u04|SERVO|counter[15], casca, 1
 instance = comp, \u04|SERVO|pwm~0 , u04|SERVO|pwm~0, casca, 1
+>>>>>>> main
 instance = comp, \u04|COUNTER|counter_i[0]~25 , u04|COUNTER|counter_i[0]~25, casca, 1
 instance = comp, \u04|COUNTER|counter_i[0] , u04|COUNTER|counter_i[0], casca, 1
 instance = comp, \u04|COUNTER|counter_i[1]~27 , u04|COUNTER|counter_i[1]~27, casca, 1
@@ -818,6 +1062,18 @@ instance = comp, \u04|SERVO|Mult0|mult_core|romout[1][10]~0 , u04|SERVO|Mult0|mu
 instance = comp, \u04|SERVO|Mult0|mult_core|romout[1][9]~1 , u04|SERVO|Mult0|mult_core|romout[1][9]~1, casca, 1
 instance = comp, \u04|SERVO|Mult0|mult_core|romout[1][8]~2 , u04|SERVO|Mult0|mult_core|romout[1][8]~2, casca, 1
 instance = comp, \u04|SERVO|Mult0|mult_core|romout[1][7]~3 , u04|SERVO|Mult0|mult_core|romout[1][7]~3, casca, 1
+<<<<<<< HEAD
+instance = comp, \u04|SERVO|Mult0|mult_core|romout[1][6]~4 , u04|SERVO|Mult0|mult_core|romout[1][6]~4, casca, 1
+instance = comp, \u04|SERVO|Mult0|mult_core|romout[0][10]~5 , u04|SERVO|Mult0|mult_core|romout[0][10]~5, casca, 1
+instance = comp, \u04|SERVO|Mult0|mult_core|romout[0][9] , u04|SERVO|Mult0|mult_core|romout[0][9], casca, 1
+instance = comp, \u04|SERVO|Mult0|mult_core|romout[1][5]~6 , u04|SERVO|Mult0|mult_core|romout[1][5]~6, casca, 1
+instance = comp, \u04|SERVO|Mult0|mult_core|romout[1][4]~7 , u04|SERVO|Mult0|mult_core|romout[1][4]~7, casca, 1
+instance = comp, \u04|SERVO|Mult0|mult_core|romout[0][8]~8 , u04|SERVO|Mult0|mult_core|romout[0][8]~8, casca, 1
+instance = comp, \u04|SERVO|Mult0|mult_core|romout[1][3]~9 , u04|SERVO|Mult0|mult_core|romout[1][3]~9, casca, 1
+instance = comp, \u04|SERVO|Mult0|mult_core|romout[0][7]~10 , u04|SERVO|Mult0|mult_core|romout[0][7]~10, casca, 1
+instance = comp, \u04|SERVO|Mult0|mult_core|romout[1][2]~11 , u04|SERVO|Mult0|mult_core|romout[1][2]~11, casca, 1
+instance = comp, \u04|SERVO|Mult0|mult_core|romout[0][6]~12 , u04|SERVO|Mult0|mult_core|romout[0][6]~12, casca, 1
+=======
 instance = comp, \u04|SERVO|Mult0|mult_core|romout[0][10]~5 , u04|SERVO|Mult0|mult_core|romout[0][10]~5, casca, 1
 instance = comp, \u04|SERVO|Mult0|mult_core|romout[1][6]~4 , u04|SERVO|Mult0|mult_core|romout[1][6]~4, casca, 1
 instance = comp, \u04|SERVO|Mult0|mult_core|romout[1][5]~6 , u04|SERVO|Mult0|mult_core|romout[1][5]~6, casca, 1
@@ -828,6 +1084,7 @@ instance = comp, \u04|SERVO|Mult0|mult_core|romout[1][3]~9 , u04|SERVO|Mult0|mul
 instance = comp, \u04|SERVO|Mult0|mult_core|romout[0][7]~10 , u04|SERVO|Mult0|mult_core|romout[0][7]~10, casca, 1
 instance = comp, \u04|SERVO|Mult0|mult_core|romout[0][6]~12 , u04|SERVO|Mult0|mult_core|romout[0][6]~12, casca, 1
 instance = comp, \u04|SERVO|Mult0|mult_core|romout[1][2]~11 , u04|SERVO|Mult0|mult_core|romout[1][2]~11, casca, 1
+>>>>>>> main
 instance = comp, \u04|SERVO|Mult0|mult_core|romout[0][5]~13 , u04|SERVO|Mult0|mult_core|romout[0][5]~13, casca, 1
 instance = comp, \u04|SERVO|Mult0|mult_core|padder|adder[0]|auto_generated|op_1~0 , u04|SERVO|Mult0|mult_core|padder|adder[0]|auto_generated|op_1~0, casca, 1
 instance = comp, \u04|SERVO|Mult0|mult_core|padder|adder[0]|auto_generated|op_1~2 , u04|SERVO|Mult0|mult_core|padder|adder[0]|auto_generated|op_1~2, casca, 1
@@ -852,6 +1109,52 @@ instance = comp, \u04|SERVO|duty_cycle[12]~27 , u04|SERVO|duty_cycle[12]~27, cas
 instance = comp, \u04|SERVO|duty_cycle[13]~29 , u04|SERVO|duty_cycle[13]~29, casca, 1
 instance = comp, \u04|SERVO|duty_cycle[14]~31 , u04|SERVO|duty_cycle[14]~31, casca, 1
 instance = comp, \u04|SERVO|duty_cycle[14] , u04|SERVO|duty_cycle[14], casca, 1
+<<<<<<< HEAD
+instance = comp, \u04|SERVO|counter[0]~18 , u04|SERVO|counter[0]~18, casca, 1
+instance = comp, \u04|SERVO|counter[14]~46 , u04|SERVO|counter[14]~46, casca, 1
+instance = comp, \u04|SERVO|counter[15]~52 , u04|SERVO|counter[15]~52, casca, 1
+instance = comp, \u04|SERVO|counter[15] , u04|SERVO|counter[15], casca, 1
+instance = comp, \u04|SERVO|counter[12]~48 , u04|SERVO|counter[12]~48, casca, 1
+instance = comp, \u04|SERVO|counter[16]~54 , u04|SERVO|counter[16]~54, casca, 1
+instance = comp, \u04|SERVO|counter[16] , u04|SERVO|counter[16], casca, 1
+instance = comp, \u04|SERVO|counter[17]~56 , u04|SERVO|counter[17]~56, casca, 1
+instance = comp, \u04|SERVO|counter[17] , u04|SERVO|counter[17], casca, 1
+instance = comp, \u04|SERVO|counter[12]~49 , u04|SERVO|counter[12]~49, casca, 1
+instance = comp, \u04|SERVO|counter[12]~50 , u04|SERVO|counter[12]~50, casca, 1
+instance = comp, \u04|SERVO|LessThan0~1 , u04|SERVO|LessThan0~1, casca, 1
+instance = comp, \u04|SERVO|LessThan0~0 , u04|SERVO|LessThan0~0, casca, 1
+instance = comp, \u04|SERVO|LessThan0~2 , u04|SERVO|LessThan0~2, casca, 1
+instance = comp, \u04|SERVO|counter[12]~51 , u04|SERVO|counter[12]~51, casca, 1
+instance = comp, \u04|SERVO|counter[0] , u04|SERVO|counter[0], casca, 1
+instance = comp, \u04|SERVO|counter[1]~20 , u04|SERVO|counter[1]~20, casca, 1
+instance = comp, \u04|SERVO|counter[1] , u04|SERVO|counter[1], casca, 1
+instance = comp, \u04|SERVO|counter[2]~22 , u04|SERVO|counter[2]~22, casca, 1
+instance = comp, \u04|SERVO|counter[2] , u04|SERVO|counter[2], casca, 1
+instance = comp, \u04|SERVO|counter[3]~24 , u04|SERVO|counter[3]~24, casca, 1
+instance = comp, \u04|SERVO|counter[3] , u04|SERVO|counter[3], casca, 1
+instance = comp, \u04|SERVO|counter[4]~26 , u04|SERVO|counter[4]~26, casca, 1
+instance = comp, \u04|SERVO|counter[4] , u04|SERVO|counter[4], casca, 1
+instance = comp, \u04|SERVO|counter[5]~28 , u04|SERVO|counter[5]~28, casca, 1
+instance = comp, \u04|SERVO|counter[5] , u04|SERVO|counter[5], casca, 1
+instance = comp, \u04|SERVO|counter[6]~30 , u04|SERVO|counter[6]~30, casca, 1
+instance = comp, \u04|SERVO|counter[6] , u04|SERVO|counter[6], casca, 1
+instance = comp, \u04|SERVO|counter[7]~32 , u04|SERVO|counter[7]~32, casca, 1
+instance = comp, \u04|SERVO|counter[7] , u04|SERVO|counter[7], casca, 1
+instance = comp, \u04|SERVO|counter[8]~34 , u04|SERVO|counter[8]~34, casca, 1
+instance = comp, \u04|SERVO|counter[8] , u04|SERVO|counter[8], casca, 1
+instance = comp, \u04|SERVO|counter[9]~36 , u04|SERVO|counter[9]~36, casca, 1
+instance = comp, \u04|SERVO|counter[9] , u04|SERVO|counter[9], casca, 1
+instance = comp, \u04|SERVO|counter[10]~38 , u04|SERVO|counter[10]~38, casca, 1
+instance = comp, \u04|SERVO|counter[10] , u04|SERVO|counter[10], casca, 1
+instance = comp, \u04|SERVO|counter[11]~40 , u04|SERVO|counter[11]~40, casca, 1
+instance = comp, \u04|SERVO|counter[11] , u04|SERVO|counter[11], casca, 1
+instance = comp, \u04|SERVO|counter[12]~42 , u04|SERVO|counter[12]~42, casca, 1
+instance = comp, \u04|SERVO|counter[12] , u04|SERVO|counter[12], casca, 1
+instance = comp, \u04|SERVO|counter[13]~44 , u04|SERVO|counter[13]~44, casca, 1
+instance = comp, \u04|SERVO|counter[13] , u04|SERVO|counter[13], casca, 1
+instance = comp, \u04|SERVO|counter[14] , u04|SERVO|counter[14], casca, 1
+=======
+>>>>>>> main
 instance = comp, \u04|SERVO|duty_cycle[13] , u04|SERVO|duty_cycle[13], casca, 1
 instance = comp, \u04|SERVO|duty_cycle[12] , u04|SERVO|duty_cycle[12], casca, 1
 instance = comp, \u04|SERVO|duty_cycle[11] , u04|SERVO|duty_cycle[11], casca, 1
@@ -882,12 +1185,20 @@ instance = comp, \u04|SERVO|LessThan1~21 , u04|SERVO|LessThan1~21, casca, 1
 instance = comp, \u04|SERVO|LessThan1~23 , u04|SERVO|LessThan1~23, casca, 1
 instance = comp, \u04|SERVO|LessThan1~25 , u04|SERVO|LessThan1~25, casca, 1
 instance = comp, \u04|SERVO|LessThan1~26 , u04|SERVO|LessThan1~26, casca, 1
+<<<<<<< HEAD
+instance = comp, \u04|SERVO|pwm~0 , u04|SERVO|pwm~0, casca, 1
+=======
+>>>>>>> main
 instance = comp, \u04|SERVO|pwm~1 , u04|SERVO|pwm~1, casca, 1
 instance = comp, \u04|SERVO|pwm , u04|SERVO|pwm, casca, 1
 instance = comp, \led1~reg0 , led1~reg0, casca, 1
 instance = comp, \led2~0 , led2~0, casca, 1
 instance = comp, \led2~reg0feeder , led2~reg0feeder, casca, 1
+<<<<<<< HEAD
+instance = comp, \u05|SERVO|counter[0]~18 , u05|SERVO|counter[0]~18, casca, 1
+=======
 instance = comp, \u05|RESET|sreg[0]~feeder , u05|RESET|sreg[0]~feeder, casca, 1
+>>>>>>> main
 instance = comp, \u05|RESET|sreg[0] , u05|RESET|sreg[0], casca, 1
 instance = comp, \u05|RESET|sreg[1]~feeder , u05|RESET|sreg[1]~feeder, casca, 1
 instance = comp, \u05|RESET|sreg[1] , u05|RESET|sreg[1], casca, 1
@@ -895,6 +1206,20 @@ instance = comp, \u05|RESET|sreg[2]~feeder , u05|RESET|sreg[2]~feeder, casca, 1
 instance = comp, \u05|RESET|sreg[2] , u05|RESET|sreg[2], casca, 1
 instance = comp, \u05|RESET|sreg[3] , u05|RESET|sreg[3], casca, 1
 instance = comp, \u05|RESET|Equal0~0 , u05|RESET|Equal0~0, casca, 1
+<<<<<<< HEAD
+instance = comp, \u05|SERVO|counter[16]~48 , u05|SERVO|counter[16]~48, casca, 1
+instance = comp, \u05|SERVO|counter[15]~52 , u05|SERVO|counter[15]~52, casca, 1
+instance = comp, \u05|SERVO|counter[16]~54 , u05|SERVO|counter[16]~54, casca, 1
+instance = comp, \u05|SERVO|counter[16] , u05|SERVO|counter[16], casca, 1
+instance = comp, \u05|SERVO|counter[17]~56 , u05|SERVO|counter[17]~56, casca, 1
+instance = comp, \u05|SERVO|counter[17] , u05|SERVO|counter[17], casca, 1
+instance = comp, \u05|SERVO|counter[16]~49 , u05|SERVO|counter[16]~49, casca, 1
+instance = comp, \u05|SERVO|LessThan0~1 , u05|SERVO|LessThan0~1, casca, 1
+instance = comp, \u05|SERVO|LessThan0~0 , u05|SERVO|LessThan0~0, casca, 1
+instance = comp, \u05|SERVO|LessThan0~2 , u05|SERVO|LessThan0~2, casca, 1
+instance = comp, \u05|SERVO|counter[16]~50 , u05|SERVO|counter[16]~50, casca, 1
+instance = comp, \u05|SERVO|counter[16]~51 , u05|SERVO|counter[16]~51, casca, 1
+=======
 instance = comp, \u05|SERVO|counter[0]~18 , u05|SERVO|counter[0]~18, casca, 1
 instance = comp, \u05|SERVO|counter[6]~52 , u05|SERVO|counter[6]~52, casca, 1
 instance = comp, \u05|SERVO|counter[6]~49 , u05|SERVO|counter[6]~49, casca, 1
@@ -906,6 +1231,7 @@ instance = comp, \u05|SERVO|counter[17]~59 , u05|SERVO|counter[17]~59, casca, 1
 instance = comp, \u05|SERVO|counter[17] , u05|SERVO|counter[17], casca, 1
 instance = comp, \u05|SERVO|counter[6]~53 , u05|SERVO|counter[6]~53, casca, 1
 instance = comp, \u05|SERVO|counter[6]~54 , u05|SERVO|counter[6]~54, casca, 1
+>>>>>>> main
 instance = comp, \u05|SERVO|counter[0] , u05|SERVO|counter[0], casca, 1
 instance = comp, \u05|SERVO|counter[1]~20 , u05|SERVO|counter[1]~20, casca, 1
 instance = comp, \u05|SERVO|counter[1] , u05|SERVO|counter[1], casca, 1
@@ -935,9 +1261,13 @@ instance = comp, \u05|SERVO|counter[13]~44 , u05|SERVO|counter[13]~44, casca, 1
 instance = comp, \u05|SERVO|counter[13] , u05|SERVO|counter[13], casca, 1
 instance = comp, \u05|SERVO|counter[14]~46 , u05|SERVO|counter[14]~46, casca, 1
 instance = comp, \u05|SERVO|counter[14] , u05|SERVO|counter[14], casca, 1
+<<<<<<< HEAD
+instance = comp, \u05|SERVO|counter[15] , u05|SERVO|counter[15], casca, 1
+=======
 instance = comp, \u05|SERVO|counter[15]~55 , u05|SERVO|counter[15]~55, casca, 1
 instance = comp, \u05|SERVO|counter[15] , u05|SERVO|counter[15], casca, 1
 instance = comp, \u05|SERVO|counter[16] , u05|SERVO|counter[16], casca, 1
+>>>>>>> main
 instance = comp, \u05|SERVO|pwm~0 , u05|SERVO|pwm~0, casca, 1
 instance = comp, \u05|COUNTER|counter_i[0]~25 , u05|COUNTER|counter_i[0]~25, casca, 1
 instance = comp, \u05|COUNTER|counter_i[0] , u05|COUNTER|counter_i[0], casca, 1
@@ -1002,8 +1332,13 @@ instance = comp, \u05|SERVO|Mult0|mult_core|romout[1][4]~7 , u05|SERVO|Mult0|mul
 instance = comp, \u05|SERVO|Mult0|mult_core|romout[0][8]~8 , u05|SERVO|Mult0|mult_core|romout[0][8]~8, casca, 1
 instance = comp, \u05|SERVO|Mult0|mult_core|romout[1][3]~9 , u05|SERVO|Mult0|mult_core|romout[1][3]~9, casca, 1
 instance = comp, \u05|SERVO|Mult0|mult_core|romout[0][7]~10 , u05|SERVO|Mult0|mult_core|romout[0][7]~10, casca, 1
+<<<<<<< HEAD
+instance = comp, \u05|SERVO|Mult0|mult_core|romout[0][6]~12 , u05|SERVO|Mult0|mult_core|romout[0][6]~12, casca, 1
+instance = comp, \u05|SERVO|Mult0|mult_core|romout[1][2]~11 , u05|SERVO|Mult0|mult_core|romout[1][2]~11, casca, 1
+=======
 instance = comp, \u05|SERVO|Mult0|mult_core|romout[1][2]~11 , u05|SERVO|Mult0|mult_core|romout[1][2]~11, casca, 1
 instance = comp, \u05|SERVO|Mult0|mult_core|romout[0][6]~12 , u05|SERVO|Mult0|mult_core|romout[0][6]~12, casca, 1
+>>>>>>> main
 instance = comp, \u05|SERVO|Mult0|mult_core|romout[0][5]~13 , u05|SERVO|Mult0|mult_core|romout[0][5]~13, casca, 1
 instance = comp, \u05|SERVO|Mult0|mult_core|padder|adder[0]|auto_generated|op_1~0 , u05|SERVO|Mult0|mult_core|padder|adder[0]|auto_generated|op_1~0, casca, 1
 instance = comp, \u05|SERVO|Mult0|mult_core|padder|adder[0]|auto_generated|op_1~2 , u05|SERVO|Mult0|mult_core|padder|adder[0]|auto_generated|op_1~2, casca, 1
@@ -1063,6 +1398,8 @@ instance = comp, \u05|SERVO|pwm , u05|SERVO|pwm, casca, 1
 instance = comp, \led2~reg0 , led2~reg0, casca, 1
 instance = comp, \led3~0 , led3~0, casca, 1
 instance = comp, \led3~reg0feeder , led3~reg0feeder, casca, 1
+<<<<<<< HEAD
+=======
 instance = comp, \u06|SERVO|counter[0]~18 , u06|SERVO|counter[0]~18, casca, 1
 instance = comp, \u06|SERVO|counter[1]~49 , u06|SERVO|counter[1]~49, casca, 1
 instance = comp, \u06|SERVO|counter[1]~50 , u06|SERVO|counter[1]~50, casca, 1
@@ -1076,6 +1413,7 @@ instance = comp, \u06|SERVO|counter[17]~59 , u06|SERVO|counter[17]~59, casca, 1
 instance = comp, \u06|SERVO|counter[17] , u06|SERVO|counter[17], casca, 1
 instance = comp, \u06|SERVO|counter[1]~53 , u06|SERVO|counter[1]~53, casca, 1
 instance = comp, \u06|RESET|sreg[0]~feeder , u06|RESET|sreg[0]~feeder, casca, 1
+>>>>>>> main
 instance = comp, \u06|RESET|sreg[0] , u06|RESET|sreg[0], casca, 1
 instance = comp, \u06|RESET|sreg[1]~feeder , u06|RESET|sreg[1]~feeder, casca, 1
 instance = comp, \u06|RESET|sreg[1] , u06|RESET|sreg[1], casca, 1
@@ -1083,7 +1421,23 @@ instance = comp, \u06|RESET|sreg[2]~feeder , u06|RESET|sreg[2]~feeder, casca, 1
 instance = comp, \u06|RESET|sreg[2] , u06|RESET|sreg[2], casca, 1
 instance = comp, \u06|RESET|sreg[3] , u06|RESET|sreg[3], casca, 1
 instance = comp, \u06|RESET|Equal0~0 , u06|RESET|Equal0~0, casca, 1
+<<<<<<< HEAD
+instance = comp, \u06|SERVO|counter[0]~18 , u06|SERVO|counter[0]~18, casca, 1
+instance = comp, \u06|SERVO|counter[11]~48 , u06|SERVO|counter[11]~48, casca, 1
+instance = comp, \u06|SERVO|LessThan0~0 , u06|SERVO|LessThan0~0, casca, 1
+instance = comp, \u06|SERVO|LessThan0~1 , u06|SERVO|LessThan0~1, casca, 1
+instance = comp, \u06|SERVO|counter[11]~49 , u06|SERVO|counter[11]~49, casca, 1
+instance = comp, \u06|SERVO|counter[11]~50 , u06|SERVO|counter[11]~50, casca, 1
+instance = comp, \u06|SERVO|counter[15]~53 , u06|SERVO|counter[15]~53, casca, 1
+instance = comp, \u06|SERVO|counter[16]~55 , u06|SERVO|counter[16]~55, casca, 1
+instance = comp, \u06|SERVO|counter[16] , u06|SERVO|counter[16], casca, 1
+instance = comp, \u06|SERVO|counter[17]~57 , u06|SERVO|counter[17]~57, casca, 1
+instance = comp, \u06|SERVO|counter[17] , u06|SERVO|counter[17], casca, 1
+instance = comp, \u06|SERVO|counter[11]~51 , u06|SERVO|counter[11]~51, casca, 1
+instance = comp, \u06|SERVO|counter[11]~52 , u06|SERVO|counter[11]~52, casca, 1
+=======
 instance = comp, \u06|SERVO|counter[1]~54 , u06|SERVO|counter[1]~54, casca, 1
+>>>>>>> main
 instance = comp, \u06|SERVO|counter[0] , u06|SERVO|counter[0], casca, 1
 instance = comp, \u06|SERVO|counter[1]~20 , u06|SERVO|counter[1]~20, casca, 1
 instance = comp, \u06|SERVO|counter[1] , u06|SERVO|counter[1], casca, 1
@@ -1172,8 +1526,13 @@ instance = comp, \u06|SERVO|Mult0|mult_core|romout[1][8]~2 , u06|SERVO|Mult0|mul
 instance = comp, \u06|SERVO|Mult0|mult_core|romout[1][7]~3 , u06|SERVO|Mult0|mult_core|romout[1][7]~3, casca, 1
 instance = comp, \u06|SERVO|Mult0|mult_core|romout[1][6]~4 , u06|SERVO|Mult0|mult_core|romout[1][6]~4, casca, 1
 instance = comp, \u06|SERVO|Mult0|mult_core|romout[0][10]~5 , u06|SERVO|Mult0|mult_core|romout[0][10]~5, casca, 1
+<<<<<<< HEAD
+instance = comp, \u06|SERVO|Mult0|mult_core|romout[1][5]~6 , u06|SERVO|Mult0|mult_core|romout[1][5]~6, casca, 1
+instance = comp, \u06|SERVO|Mult0|mult_core|romout[0][9] , u06|SERVO|Mult0|mult_core|romout[0][9], casca, 1
+=======
 instance = comp, \u06|SERVO|Mult0|mult_core|romout[0][9] , u06|SERVO|Mult0|mult_core|romout[0][9], casca, 1
 instance = comp, \u06|SERVO|Mult0|mult_core|romout[1][5]~6 , u06|SERVO|Mult0|mult_core|romout[1][5]~6, casca, 1
+>>>>>>> main
 instance = comp, \u06|SERVO|Mult0|mult_core|romout[1][4]~7 , u06|SERVO|Mult0|mult_core|romout[1][4]~7, casca, 1
 instance = comp, \u06|SERVO|Mult0|mult_core|romout[0][8]~8 , u06|SERVO|Mult0|mult_core|romout[0][8]~8, casca, 1
 instance = comp, \u06|SERVO|Mult0|mult_core|romout[0][7]~10 , u06|SERVO|Mult0|mult_core|romout[0][7]~10, casca, 1
@@ -1239,7 +1598,20 @@ instance = comp, \u06|SERVO|pwm , u06|SERVO|pwm, casca, 1
 instance = comp, \led3~reg0 , led3~reg0, casca, 1
 instance = comp, \led4~0 , led4~0, casca, 1
 instance = comp, \led4~reg0feeder , led4~reg0feeder, casca, 1
+<<<<<<< HEAD
+instance = comp, \u07|SERVO|counter[0]~18 , u07|SERVO|counter[0]~18, casca, 1
+instance = comp, \u07|SERVO|counter[0]~50 , u07|SERVO|counter[0]~50, casca, 1
+instance = comp, \u07|SERVO|counter[16]~55 , u07|SERVO|counter[16]~55, casca, 1
+instance = comp, \u07|SERVO|counter[17]~57 , u07|SERVO|counter[17]~57, casca, 1
+instance = comp, \u07|SERVO|counter[17] , u07|SERVO|counter[17], casca, 1
+instance = comp, \u07|SERVO|counter[0]~51 , u07|SERVO|counter[0]~51, casca, 1
+instance = comp, \u07|SERVO|counter[0]~48 , u07|SERVO|counter[0]~48, casca, 1
+instance = comp, \u07|SERVO|LessThan0~0 , u07|SERVO|LessThan0~0, casca, 1
+instance = comp, \u07|SERVO|LessThan0~1 , u07|SERVO|LessThan0~1, casca, 1
+instance = comp, \u07|SERVO|counter[0]~49 , u07|SERVO|counter[0]~49, casca, 1
+=======
 instance = comp, \u07|COUNTER|counter_i[0]~25 , u07|COUNTER|counter_i[0]~25, casca, 1
+>>>>>>> main
 instance = comp, \u07|RESET|sreg[0] , u07|RESET|sreg[0], casca, 1
 instance = comp, \u07|RESET|sreg[1]~feeder , u07|RESET|sreg[1]~feeder, casca, 1
 instance = comp, \u07|RESET|sreg[1] , u07|RESET|sreg[1], casca, 1
@@ -1247,6 +1619,44 @@ instance = comp, \u07|RESET|sreg[2]~feeder , u07|RESET|sreg[2]~feeder, casca, 1
 instance = comp, \u07|RESET|sreg[2] , u07|RESET|sreg[2], casca, 1
 instance = comp, \u07|RESET|sreg[3] , u07|RESET|sreg[3], casca, 1
 instance = comp, \u07|RESET|Equal0~0 , u07|RESET|Equal0~0, casca, 1
+<<<<<<< HEAD
+instance = comp, \u07|SERVO|counter[0]~52 , u07|SERVO|counter[0]~52, casca, 1
+instance = comp, \u07|SERVO|counter[0] , u07|SERVO|counter[0], casca, 1
+instance = comp, \u07|SERVO|counter[1]~20 , u07|SERVO|counter[1]~20, casca, 1
+instance = comp, \u07|SERVO|counter[1] , u07|SERVO|counter[1], casca, 1
+instance = comp, \u07|SERVO|counter[2]~22 , u07|SERVO|counter[2]~22, casca, 1
+instance = comp, \u07|SERVO|counter[2] , u07|SERVO|counter[2], casca, 1
+instance = comp, \u07|SERVO|counter[3]~24 , u07|SERVO|counter[3]~24, casca, 1
+instance = comp, \u07|SERVO|counter[3] , u07|SERVO|counter[3], casca, 1
+instance = comp, \u07|SERVO|counter[4]~26 , u07|SERVO|counter[4]~26, casca, 1
+instance = comp, \u07|SERVO|counter[4] , u07|SERVO|counter[4], casca, 1
+instance = comp, \u07|SERVO|counter[5]~28 , u07|SERVO|counter[5]~28, casca, 1
+instance = comp, \u07|SERVO|counter[5] , u07|SERVO|counter[5], casca, 1
+instance = comp, \u07|SERVO|counter[6]~30 , u07|SERVO|counter[6]~30, casca, 1
+instance = comp, \u07|SERVO|counter[6] , u07|SERVO|counter[6], casca, 1
+instance = comp, \u07|SERVO|counter[7]~32 , u07|SERVO|counter[7]~32, casca, 1
+instance = comp, \u07|SERVO|counter[7] , u07|SERVO|counter[7], casca, 1
+instance = comp, \u07|SERVO|counter[8]~34 , u07|SERVO|counter[8]~34, casca, 1
+instance = comp, \u07|SERVO|counter[8] , u07|SERVO|counter[8], casca, 1
+instance = comp, \u07|SERVO|counter[9]~36 , u07|SERVO|counter[9]~36, casca, 1
+instance = comp, \u07|SERVO|counter[9] , u07|SERVO|counter[9], casca, 1
+instance = comp, \u07|SERVO|counter[10]~38 , u07|SERVO|counter[10]~38, casca, 1
+instance = comp, \u07|SERVO|counter[10] , u07|SERVO|counter[10], casca, 1
+instance = comp, \u07|SERVO|counter[11]~40 , u07|SERVO|counter[11]~40, casca, 1
+instance = comp, \u07|SERVO|counter[11] , u07|SERVO|counter[11], casca, 1
+instance = comp, \u07|SERVO|counter[12]~42 , u07|SERVO|counter[12]~42, casca, 1
+instance = comp, \u07|SERVO|counter[12] , u07|SERVO|counter[12], casca, 1
+instance = comp, \u07|SERVO|counter[13]~44 , u07|SERVO|counter[13]~44, casca, 1
+instance = comp, \u07|SERVO|counter[13] , u07|SERVO|counter[13], casca, 1
+instance = comp, \u07|SERVO|counter[14]~46 , u07|SERVO|counter[14]~46, casca, 1
+instance = comp, \u07|SERVO|counter[14] , u07|SERVO|counter[14], casca, 1
+instance = comp, \u07|SERVO|counter[15]~53 , u07|SERVO|counter[15]~53, casca, 1
+instance = comp, \u07|SERVO|counter[15] , u07|SERVO|counter[15], casca, 1
+instance = comp, \u07|SERVO|counter[16] , u07|SERVO|counter[16], casca, 1
+instance = comp, \u07|SERVO|pwm~0 , u07|SERVO|pwm~0, casca, 1
+instance = comp, \u07|COUNTER|counter_i[0]~25 , u07|COUNTER|counter_i[0]~25, casca, 1
+=======
+>>>>>>> main
 instance = comp, \u07|COUNTER|counter_i[0] , u07|COUNTER|counter_i[0], casca, 1
 instance = comp, \u07|COUNTER|counter_i[1]~27 , u07|COUNTER|counter_i[1]~27, casca, 1
 instance = comp, \u07|COUNTER|counter_i[1] , u07|COUNTER|counter_i[1], casca, 1
@@ -1309,8 +1719,13 @@ instance = comp, \u07|SERVO|Mult0|mult_core|romout[1][4]~7 , u07|SERVO|Mult0|mul
 instance = comp, \u07|SERVO|Mult0|mult_core|romout[0][8]~8 , u07|SERVO|Mult0|mult_core|romout[0][8]~8, casca, 1
 instance = comp, \u07|SERVO|Mult0|mult_core|romout[1][3]~9 , u07|SERVO|Mult0|mult_core|romout[1][3]~9, casca, 1
 instance = comp, \u07|SERVO|Mult0|mult_core|romout[0][7]~10 , u07|SERVO|Mult0|mult_core|romout[0][7]~10, casca, 1
+<<<<<<< HEAD
+instance = comp, \u07|SERVO|Mult0|mult_core|romout[1][2]~11 , u07|SERVO|Mult0|mult_core|romout[1][2]~11, casca, 1
+instance = comp, \u07|SERVO|Mult0|mult_core|romout[0][6]~12 , u07|SERVO|Mult0|mult_core|romout[0][6]~12, casca, 1
+=======
 instance = comp, \u07|SERVO|Mult0|mult_core|romout[0][6]~12 , u07|SERVO|Mult0|mult_core|romout[0][6]~12, casca, 1
 instance = comp, \u07|SERVO|Mult0|mult_core|romout[1][2]~11 , u07|SERVO|Mult0|mult_core|romout[1][2]~11, casca, 1
+>>>>>>> main
 instance = comp, \u07|SERVO|Mult0|mult_core|romout[0][5]~13 , u07|SERVO|Mult0|mult_core|romout[0][5]~13, casca, 1
 instance = comp, \u07|SERVO|Mult0|mult_core|padder|adder[0]|auto_generated|op_1~0 , u07|SERVO|Mult0|mult_core|padder|adder[0]|auto_generated|op_1~0, casca, 1
 instance = comp, \u07|SERVO|Mult0|mult_core|padder|adder[0]|auto_generated|op_1~2 , u07|SERVO|Mult0|mult_core|padder|adder[0]|auto_generated|op_1~2, casca, 1
@@ -1335,6 +1750,8 @@ instance = comp, \u07|SERVO|duty_cycle[12]~27 , u07|SERVO|duty_cycle[12]~27, cas
 instance = comp, \u07|SERVO|duty_cycle[13]~29 , u07|SERVO|duty_cycle[13]~29, casca, 1
 instance = comp, \u07|SERVO|duty_cycle[14]~31 , u07|SERVO|duty_cycle[14]~31, casca, 1
 instance = comp, \u07|SERVO|duty_cycle[14] , u07|SERVO|duty_cycle[14], casca, 1
+<<<<<<< HEAD
+=======
 instance = comp, \u07|SERVO|counter[0]~18 , u07|SERVO|counter[0]~18, casca, 1
 instance = comp, \u07|SERVO|counter[14]~51 , u07|SERVO|counter[14]~51, casca, 1
 instance = comp, \u07|SERVO|counter[14]~50 , u07|SERVO|counter[14]~50, casca, 1
@@ -1378,6 +1795,7 @@ instance = comp, \u07|SERVO|counter[12] , u07|SERVO|counter[12], casca, 1
 instance = comp, \u07|SERVO|counter[13]~44 , u07|SERVO|counter[13]~44, casca, 1
 instance = comp, \u07|SERVO|counter[13] , u07|SERVO|counter[13], casca, 1
 instance = comp, \u07|SERVO|counter[14] , u07|SERVO|counter[14], casca, 1
+>>>>>>> main
 instance = comp, \u07|SERVO|duty_cycle[13] , u07|SERVO|duty_cycle[13], casca, 1
 instance = comp, \u07|SERVO|duty_cycle[12] , u07|SERVO|duty_cycle[12], casca, 1
 instance = comp, \u07|SERVO|duty_cycle[11] , u07|SERVO|duty_cycle[11], casca, 1
@@ -1408,6 +1826,29 @@ instance = comp, \u07|SERVO|LessThan1~21 , u07|SERVO|LessThan1~21, casca, 1
 instance = comp, \u07|SERVO|LessThan1~23 , u07|SERVO|LessThan1~23, casca, 1
 instance = comp, \u07|SERVO|LessThan1~25 , u07|SERVO|LessThan1~25, casca, 1
 instance = comp, \u07|SERVO|LessThan1~26 , u07|SERVO|LessThan1~26, casca, 1
+<<<<<<< HEAD
+instance = comp, \u07|SERVO|pwm~1 , u07|SERVO|pwm~1, casca, 1
+instance = comp, \u07|SERVO|pwm , u07|SERVO|pwm, casca, 1
+instance = comp, \led4~reg0 , led4~reg0, casca, 1
+instance = comp, \display|disp_7seg_o[6]~66 , display|disp_7seg_o[6]~66, casca, 1
+instance = comp, \display|disp_7seg_o[6]~53 , display|disp_7seg_o[6]~53, casca, 1
+instance = comp, \display|disp_7seg_o[5]~14 , display|disp_7seg_o[5]~14, casca, 1
+instance = comp, \display|disp_7seg_o[5]~11 , display|disp_7seg_o[5]~11, casca, 1
+instance = comp, \display|disp_7seg_o[5]~67 , display|disp_7seg_o[5]~67, casca, 1
+instance = comp, \display|disp_7seg_o[4]~55 , display|disp_7seg_o[4]~55, casca, 1
+instance = comp, \display|disp_7seg_o[4]~56 , display|disp_7seg_o[4]~56, casca, 1
+instance = comp, \display|disp_7seg_o[4]~57 , display|disp_7seg_o[4]~57, casca, 1
+instance = comp, \display|disp_7seg_o[3]~58 , display|disp_7seg_o[3]~58, casca, 1
+instance = comp, \display|disp_7seg_o[3]~59 , display|disp_7seg_o[3]~59, casca, 1
+instance = comp, \display|disp_7seg_o[3]~60 , display|disp_7seg_o[3]~60, casca, 1
+instance = comp, \display|disp_7seg_o[3]~61 , display|disp_7seg_o[3]~61, casca, 1
+instance = comp, \display|disp_7seg_o[2]~63 , display|disp_7seg_o[2]~63, casca, 1
+instance = comp, \display|disp_7seg_o[1]~65 , display|disp_7seg_o[1]~65, casca, 1
+instance = comp, \display|disp_7seg_o[1]~64 , display|disp_7seg_o[1]~64, casca, 1
+instance = comp, \display|disp_7seg_o[0]~36 , display|disp_7seg_o[0]~36, casca, 1
+instance = comp, \display|disp_7seg_o[0]~33 , display|disp_7seg_o[0]~33, casca, 1
+instance = comp, \display|disp_7seg_o[0]~68 , display|disp_7seg_o[0]~68, casca, 1
+=======
 instance = comp, \u07|SERVO|pwm~0 , u07|SERVO|pwm~0, casca, 1
 instance = comp, \u07|SERVO|pwm~1 , u07|SERVO|pwm~1, casca, 1
 instance = comp, \u07|SERVO|pwm , u07|SERVO|pwm, casca, 1
@@ -2706,3 +3147,4 @@ instance = comp, \auto_hub|jtag_hub_gen:sld_jtag_hub_inst|tdo~_wirecell , auto_h
 instance = comp, \auto_hub|~GND , auto_hub|~GND, casca, 1
 instance = comp, \auto_hub|jtag_hub_gen:sld_jtag_hub_inst|clr_reg~_wirecell , auto_hub|\jtag_hub_gen:sld_jtag_hub_inst|clr_reg~_wirecell, casca, 1
 instance = comp, \auto_hub|jtag_hub_gen:sld_jtag_hub_inst|shadow_jsm|state[0]~_wirecell , auto_hub|\jtag_hub_gen:sld_jtag_hub_inst|shadow_jsm|state[0]~_wirecell, casca, 1
+>>>>>>> main

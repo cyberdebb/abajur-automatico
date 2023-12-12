@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP3C16F484) Path("C:/Users/debor/OneDrive/Documentos/projetosHDL/trabalhofinal/prj/output_files/") File("trabalhofinal.sof") MfrSpec(OpMask(1));
+		Device PartName(EP3C16F484) Path("C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/output_files/") File("trabalhofinal.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

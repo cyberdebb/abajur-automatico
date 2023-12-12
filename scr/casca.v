@@ -19,9 +19,12 @@ output reg pwm_casca3,
 output reg led1,
 output reg led2,
 output reg led3,
-output reg led4
+output reg led4,
+output wire a, b, c, d, e, f, g // Saídas para os segmentos do display
 );
 
+// motores
+wire c0_sig1, c0_sig2, c0_sig3; 
 // motores
 wire c0_sig1, c0_sig2, c0_sig3; 
 reg pwm_output1, pwm_output2, pwm_output3;
@@ -30,6 +33,14 @@ reg pwm_output1, pwm_output2, pwm_output3;
 wire c0_sig4, c0_sig5, c0_sig6, c0_sig7; 
 reg pwm_output4, pwm_output5, pwm_output6, pwm_output7;
 
+
+wire [6:0] disp_7seg_o; // Saída para o display de 7 segmentos
+wire [3:0] data_i; // Saída para o display de 7 segmentos
+
+display_7seg display (
+    .data_i(data_i),
+    .disp_7seg_o(disp_7seg_o),
+);
 
 pllcanhao p1 (
     .inclk0 (clk_50MHz),
@@ -109,6 +120,18 @@ top u07 (
 );
 
 reg [23:0] counter; // Contador para a piscagem dos LEDs
+// Mapeia os switches para data_i
+assign data_i = SW9 ? 4'b1001 :
+                 SW8 ? 4'b1000 :
+                 SW7 ? 4'b0111 :
+                 SW6 ? 4'b0110 :
+                 SW5 ? 4'b0101 :
+                 SW4 ? 4'b0100 :
+                 SW3 ? 4'b0011 :
+                 SW2 ? 4'b0010 :
+                 SW1 ? 4'b0001 :
+                 SW0 ? 4'b0000 : 4'b1010; // Hífen para nenhum switch
+assign {a, b, c, d, e, f, g} = disp_7seg_o;
 
 always @ (posedge clk_50MHz) 
 begin

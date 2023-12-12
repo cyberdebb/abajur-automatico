@@ -1,5 +1,9 @@
 Analysis & Synthesis report for trabalhofinal
+<<<<<<< HEAD
+Thu Dec 07 19:46:20 2023
+=======
 Wed Dec 06 18:53:17 2023
+>>>>>>> main
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -16,6 +20,66 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
   8. Analysis & Synthesis RAM Summary
   9. Analysis & Synthesis IP Cores Summary
  10. Registers Removed During Synthesis
+<<<<<<< HEAD
+ 11. General Register Statistics
+ 12. Registers Packed Into Inferred Megafunctions
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Source assignments for top:u01|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_0uv:auto_generated
+ 15. Source assignments for top:u02|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_1uv:auto_generated
+ 16. Source assignments for top:u03|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_2uv:auto_generated
+ 17. Source assignments for top:u04|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_3uv:auto_generated
+ 18. Source assignments for top:u05|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_4uv:auto_generated
+ 19. Source assignments for top:u06|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_5uv:auto_generated
+ 20. Source assignments for top:u07|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_6uv:auto_generated
+ 21. Parameter Settings for User Entity Instance: pllcanhao:p1|altpll:altpll_component
+ 22. Parameter Settings for User Entity Instance: pllcanhao:p2|altpll:altpll_component
+ 23. Parameter Settings for User Entity Instance: pllcanhao:p3|altpll:altpll_component
+ 24. Parameter Settings for User Entity Instance: pllcanhao:p4|altpll:altpll_component
+ 25. Parameter Settings for User Entity Instance: pllcanhao:p5|altpll:altpll_component
+ 26. Parameter Settings for User Entity Instance: pllcanhao:p6|altpll:altpll_component
+ 27. Parameter Settings for User Entity Instance: pllcanhao:p7|altpll:altpll_component
+ 28. Parameter Settings for User Entity Instance: top:u01|servo:SERVO
+ 29. Parameter Settings for User Entity Instance: top:u01|counter:COUNTER
+ 30. Parameter Settings for User Entity Instance: top:u01|sine_rom:SINE_ROM
+ 31. Parameter Settings for User Entity Instance: top:u02|servo:SERVO
+ 32. Parameter Settings for User Entity Instance: top:u02|counter:COUNTER
+ 33. Parameter Settings for User Entity Instance: top:u02|sine_rom:SINE_ROM
+ 34. Parameter Settings for User Entity Instance: top:u03|servo:SERVO
+ 35. Parameter Settings for User Entity Instance: top:u03|counter:COUNTER
+ 36. Parameter Settings for User Entity Instance: top:u03|sine_rom:SINE_ROM
+ 37. Parameter Settings for User Entity Instance: top:u04|servo:SERVO
+ 38. Parameter Settings for User Entity Instance: top:u04|counter:COUNTER
+ 39. Parameter Settings for User Entity Instance: top:u04|sine_rom:SINE_ROM
+ 40. Parameter Settings for User Entity Instance: top:u05|servo:SERVO
+ 41. Parameter Settings for User Entity Instance: top:u05|counter:COUNTER
+ 42. Parameter Settings for User Entity Instance: top:u05|sine_rom:SINE_ROM
+ 43. Parameter Settings for User Entity Instance: top:u06|servo:SERVO
+ 44. Parameter Settings for User Entity Instance: top:u06|counter:COUNTER
+ 45. Parameter Settings for User Entity Instance: top:u06|sine_rom:SINE_ROM
+ 46. Parameter Settings for User Entity Instance: top:u07|servo:SERVO
+ 47. Parameter Settings for User Entity Instance: top:u07|counter:COUNTER
+ 48. Parameter Settings for User Entity Instance: top:u07|sine_rom:SINE_ROM
+ 49. Parameter Settings for Inferred Entity Instance: top:u01|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0
+ 50. Parameter Settings for Inferred Entity Instance: top:u02|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0
+ 51. Parameter Settings for Inferred Entity Instance: top:u03|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0
+ 52. Parameter Settings for Inferred Entity Instance: top:u04|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0
+ 53. Parameter Settings for Inferred Entity Instance: top:u05|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0
+ 54. Parameter Settings for Inferred Entity Instance: top:u06|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0
+ 55. Parameter Settings for Inferred Entity Instance: top:u07|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0
+ 56. Parameter Settings for Inferred Entity Instance: top:u01|servo:SERVO|lpm_mult:Mult0
+ 57. Parameter Settings for Inferred Entity Instance: top:u02|servo:SERVO|lpm_mult:Mult0
+ 58. Parameter Settings for Inferred Entity Instance: top:u03|servo:SERVO|lpm_mult:Mult0
+ 59. Parameter Settings for Inferred Entity Instance: top:u04|servo:SERVO|lpm_mult:Mult0
+ 60. Parameter Settings for Inferred Entity Instance: top:u05|servo:SERVO|lpm_mult:Mult0
+ 61. Parameter Settings for Inferred Entity Instance: top:u06|servo:SERVO|lpm_mult:Mult0
+ 62. Parameter Settings for Inferred Entity Instance: top:u07|servo:SERVO|lpm_mult:Mult0
+ 63. altpll Parameter Settings by Entity Instance
+ 64. altsyncram Parameter Settings by Entity Instance
+ 65. lpm_mult Parameter Settings by Entity Instance
+ 66. Port Connectivity Checks: "top:u01|counter:COUNTER"
+ 67. Elapsed Time Per Partition
+ 68. Analysis & Synthesis Messages
+=======
  11. Removed Registers Triggering Further Register Optimizations
  12. General Register Statistics
  13. Inverted Register Statistics
@@ -79,6 +143,7 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
  71. Elapsed Time Per Partition
  72. Connections to In-System Debugging Instance "auto_signaltap_0"
  73. Analysis & Synthesis Messages
+>>>>>>> main
 
 
 
@@ -104,11 +169,24 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
+<<<<<<< HEAD
+; Analysis & Synthesis Status        ; Successful - Thu Dec 07 19:46:20 2023      ;
+=======
 ; Analysis & Synthesis Status        ; Successful - Wed Dec 06 18:53:17 2023      ;
+>>>>>>> main
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; trabalhofinal                              ;
 ; Top-level Entity Name              ; casca                                      ;
 ; Family                             ; Cyclone III                                ;
+<<<<<<< HEAD
+; Total logic elements               ; 834                                        ;
+;     Total combinational functions  ; 806                                        ;
+;     Dedicated logic registers      ; 465                                        ;
+; Total registers                    ; 465                                        ;
+; Total pins                         ; 28                                         ;
+; Total virtual pins                 ; 0                                          ;
+; Total memory bits                  ; 14,336                                     ;
+=======
 ; Total logic elements               ; 1,637                                      ;
 ;     Total combinational functions  ; 1,318                                      ;
 ;     Dedicated logic registers      ; 1,067                                      ;
@@ -116,6 +194,7 @@ applicable agreement for further details.
 ; Total pins                         ; 21                                         ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 63,488                                     ;
+>>>>>>> main
 ; Embedded Multiplier 9-bit elements ; 0                                          ;
 ; Total PLLs                         ; 7                                          ;
 +------------------------------------+--------------------------------------------+
@@ -213,14 +292,273 @@ applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 12          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 3           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
+<<<<<<< HEAD
+;     Processor 2            ; < 0.1%      ;
+;     Processors 3-16        ;   0.0%      ;
++----------------------------+-------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                 ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                             ; Library ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------+---------+
+; ../scr/casca.v                   ; yes             ; User Verilog HDL File        ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/scr/casca.v               ;         ;
+; ../scr/display_7seg.vhd          ; yes             ; User VHDL File               ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/scr/display_7seg.vhd      ;         ;
+; ../scr/top.vhd                   ; yes             ; User VHDL File               ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/scr/top.vhd               ;         ;
+; ../scr/sine_rom.vhd              ; yes             ; User VHDL File               ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/scr/sine_rom.vhd          ;         ;
+; ../scr/servo.vhd                 ; yes             ; User VHDL File               ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/scr/servo.vhd             ;         ;
+; ../scr/reset.vhd                 ; yes             ; User VHDL File               ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/scr/reset.vhd             ;         ;
+; ../scr/counter.vhd               ; yes             ; User VHDL File               ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/scr/counter.vhd           ;         ;
+; pllcanhao.v                      ; yes             ; User Wizard-Generated File   ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/pllcanhao.v           ;         ;
+; altpll.tdf                       ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altpll.tdf                ;         ;
+; aglobal131.inc                   ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/aglobal131.inc            ;         ;
+; stratix_pll.inc                  ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/stratix_pll.inc           ;         ;
+; stratixii_pll.inc                ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/stratixii_pll.inc         ;         ;
+; cycloneii_pll.inc                ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/cycloneii_pll.inc         ;         ;
+; db/pllcanhao_altpll.v            ; yes             ; Auto-Generated Megafunction  ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/pllcanhao_altpll.v ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altsyncram.tdf            ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/stratix_ram_block.inc     ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_mux.inc               ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_decode.inc            ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/a_rdenreg.inc             ;         ;
+; altrom.inc                       ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altrom.inc                ;         ;
+; altram.inc                       ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altram.inc                ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altdpram.inc              ;         ;
+; db/altsyncram_0uv.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/altsyncram_0uv.tdf ;         ;
+; db/altsyncram_1uv.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/altsyncram_1uv.tdf ;         ;
+; db/altsyncram_2uv.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/altsyncram_2uv.tdf ;         ;
+; db/altsyncram_3uv.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/altsyncram_3uv.tdf ;         ;
+; db/altsyncram_4uv.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/altsyncram_4uv.tdf ;         ;
+; db/altsyncram_5uv.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/altsyncram_5uv.tdf ;         ;
+; db/altsyncram_6uv.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/altsyncram_6uv.tdf ;         ;
+; lpm_mult.tdf                     ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_mult.tdf              ;         ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_add_sub.inc           ;         ;
+; multcore.inc                     ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/multcore.inc              ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/bypassff.inc              ;         ;
+; altshift.inc                     ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altshift.inc              ;         ;
+; multcore.tdf                     ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/multcore.tdf              ;         ;
+; csa_add.inc                      ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/csa_add.inc               ;         ;
+; mpar_add.inc                     ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/mpar_add.inc              ;         ;
+; muleabz.inc                      ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/muleabz.inc               ;         ;
+; mul_lfrg.inc                     ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/mul_lfrg.inc              ;         ;
+; mul_boothc.inc                   ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/mul_boothc.inc            ;         ;
+; alt_ded_mult.inc                 ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/alt_ded_mult.inc          ;         ;
+; alt_ded_mult_y.inc               ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/alt_ded_mult_y.inc        ;         ;
+; dffpipe.inc                      ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/dffpipe.inc               ;         ;
+; mpar_add.tdf                     ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/mpar_add.tdf              ;         ;
+; lpm_add_sub.tdf                  ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_add_sub.tdf           ;         ;
+; addcore.inc                      ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/addcore.inc               ;         ;
+; look_add.inc                     ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/look_add.inc              ;         ;
+; alt_stratix_add_sub.inc          ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/alt_stratix_add_sub.inc   ;         ;
+; db/add_sub_bfh.tdf               ; yes             ; Auto-Generated Megafunction  ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/db/add_sub_bfh.tdf    ;         ;
+; altshift.tdf                     ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altshift.tdf              ;         ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------+---------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                                                                         ;
++---------------------------------------------+---------------------------------------------------------------------------------------+
+; Resource                                    ; Usage                                                                                 ;
++---------------------------------------------+---------------------------------------------------------------------------------------+
+; Estimated Total logic elements              ; 834                                                                                   ;
+;                                             ;                                                                                       ;
+; Total combinational functions               ; 806                                                                                   ;
+; Logic element usage by number of LUT inputs ;                                                                                       ;
+;     -- 4 input functions                    ; 183                                                                                   ;
+;     -- 3 input functions                    ; 158                                                                                   ;
+;     -- <=2 input functions                  ; 465                                                                                   ;
+;                                             ;                                                                                       ;
+; Logic elements by mode                      ;                                                                                       ;
+;     -- normal mode                          ; 272                                                                                   ;
+;     -- arithmetic mode                      ; 534                                                                                   ;
+;                                             ;                                                                                       ;
+; Total registers                             ; 465                                                                                   ;
+;     -- Dedicated logic registers            ; 465                                                                                   ;
+;     -- I/O registers                        ; 0                                                                                     ;
+;                                             ;                                                                                       ;
+; I/O pins                                    ; 28                                                                                    ;
+; Total memory bits                           ; 14336                                                                                 ;
+; Embedded Multiplier 9-bit elements          ; 0                                                                                     ;
+; Total PLLs                                  ; 7                                                                                     ;
+;     -- PLLs                                 ; 7                                                                                     ;
+;                                             ;                                                                                       ;
+; Maximum fan-out node                        ; pllcanhao:p1|altpll:altpll_component|pllcanhao_altpll:auto_generated|wire_pll1_clk[0] ;
+; Maximum fan-out                             ; 71                                                                                    ;
+; Total fan-out                               ; 4057                                                                                  ;
+; Average fan-out                             ; 2.92                                                                                  ;
++---------------------------------------------+---------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                         ;
++---------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node                        ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                          ; Library Name ;
++---------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------+--------------+
+; |casca                                            ; 806 (36)          ; 465 (31)     ; 14336       ; 0            ; 0       ; 0         ; 28   ; 0            ; |casca                                                                                                                       ; work         ;
+;    |display_7seg:display|                         ; 21 (21)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|display_7seg:display                                                                                                  ; work         ;
+;    |pllcanhao:p1|                                 ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p1                                                                                                          ; work         ;
+;       |altpll:altpll_component|                   ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p1|altpll:altpll_component                                                                                  ; work         ;
+;          |pllcanhao_altpll:auto_generated|        ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p1|altpll:altpll_component|pllcanhao_altpll:auto_generated                                                  ; work         ;
+;    |pllcanhao:p2|                                 ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p2                                                                                                          ; work         ;
+;       |altpll:altpll_component|                   ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p2|altpll:altpll_component                                                                                  ; work         ;
+;          |pllcanhao_altpll:auto_generated|        ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p2|altpll:altpll_component|pllcanhao_altpll:auto_generated                                                  ; work         ;
+;    |pllcanhao:p3|                                 ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p3                                                                                                          ; work         ;
+;       |altpll:altpll_component|                   ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p3|altpll:altpll_component                                                                                  ; work         ;
+;          |pllcanhao_altpll:auto_generated|        ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p3|altpll:altpll_component|pllcanhao_altpll:auto_generated                                                  ; work         ;
+;    |pllcanhao:p4|                                 ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p4                                                                                                          ; work         ;
+;       |altpll:altpll_component|                   ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p4|altpll:altpll_component                                                                                  ; work         ;
+;          |pllcanhao_altpll:auto_generated|        ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p4|altpll:altpll_component|pllcanhao_altpll:auto_generated                                                  ; work         ;
+;    |pllcanhao:p5|                                 ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p5                                                                                                          ; work         ;
+;       |altpll:altpll_component|                   ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p5|altpll:altpll_component                                                                                  ; work         ;
+;          |pllcanhao_altpll:auto_generated|        ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p5|altpll:altpll_component|pllcanhao_altpll:auto_generated                                                  ; work         ;
+;    |pllcanhao:p6|                                 ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p6                                                                                                          ; work         ;
+;       |altpll:altpll_component|                   ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p6|altpll:altpll_component                                                                                  ; work         ;
+;          |pllcanhao_altpll:auto_generated|        ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p6|altpll:altpll_component|pllcanhao_altpll:auto_generated                                                  ; work         ;
+;    |pllcanhao:p7|                                 ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p7                                                                                                          ; work         ;
+;       |altpll:altpll_component|                   ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p7|altpll:altpll_component                                                                                  ; work         ;
+;          |pllcanhao_altpll:auto_generated|        ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|pllcanhao:p7|altpll:altpll_component|pllcanhao_altpll:auto_generated                                                  ; work         ;
+;    |top:u01|                                      ; 107 (0)           ; 62 (0)       ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u01                                                                                                               ; work         ;
+;       |counter:COUNTER|                           ; 25 (25)           ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u01|counter:COUNTER                                                                                               ; work         ;
+;       |reset:RESET|                               ; 1 (1)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u01|reset:RESET                                                                                                   ; work         ;
+;       |servo:SERVO|                               ; 81 (55)           ; 33 (33)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u01|servo:SERVO                                                                                                   ; work         ;
+;          |lpm_mult:Mult0|                         ; 26 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u01|servo:SERVO|lpm_mult:Mult0                                                                                    ; work         ;
+;             |multcore:mult_core|                  ; 26 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u01|servo:SERVO|lpm_mult:Mult0|multcore:mult_core                                                                 ; work         ;
+;                |mpar_add:padder|                  ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u01|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder                                                 ; work         ;
+;                   |lpm_add_sub:adder[0]|          ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u01|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]                            ; work         ;
+;                      |add_sub_bfh:auto_generated| ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u01|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]|add_sub_bfh:auto_generated ; work         ;
+;       |sine_rom:SINE_ROM|                         ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u01|sine_rom:SINE_ROM                                                                                             ; work         ;
+;          |altsyncram:Mux7_rtl_0|                  ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u01|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0                                                                       ; work         ;
+;             |altsyncram_0uv:auto_generated|       ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u01|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_0uv:auto_generated                                         ; work         ;
+;    |top:u02|                                      ; 107 (0)           ; 62 (0)       ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u02                                                                                                               ; work         ;
+;       |counter:COUNTER|                           ; 25 (25)           ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u02|counter:COUNTER                                                                                               ; work         ;
+;       |reset:RESET|                               ; 1 (1)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u02|reset:RESET                                                                                                   ; work         ;
+;       |servo:SERVO|                               ; 81 (55)           ; 33 (33)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u02|servo:SERVO                                                                                                   ; work         ;
+;          |lpm_mult:Mult0|                         ; 26 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u02|servo:SERVO|lpm_mult:Mult0                                                                                    ; work         ;
+;             |multcore:mult_core|                  ; 26 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u02|servo:SERVO|lpm_mult:Mult0|multcore:mult_core                                                                 ; work         ;
+;                |mpar_add:padder|                  ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u02|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder                                                 ; work         ;
+;                   |lpm_add_sub:adder[0]|          ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u02|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]                            ; work         ;
+;                      |add_sub_bfh:auto_generated| ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u02|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]|add_sub_bfh:auto_generated ; work         ;
+;       |sine_rom:SINE_ROM|                         ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u02|sine_rom:SINE_ROM                                                                                             ; work         ;
+;          |altsyncram:Mux7_rtl_0|                  ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u02|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0                                                                       ; work         ;
+;             |altsyncram_1uv:auto_generated|       ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u02|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_1uv:auto_generated                                         ; work         ;
+;    |top:u03|                                      ; 107 (0)           ; 62 (0)       ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u03                                                                                                               ; work         ;
+;       |counter:COUNTER|                           ; 25 (25)           ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u03|counter:COUNTER                                                                                               ; work         ;
+;       |reset:RESET|                               ; 1 (1)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u03|reset:RESET                                                                                                   ; work         ;
+;       |servo:SERVO|                               ; 81 (55)           ; 33 (33)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u03|servo:SERVO                                                                                                   ; work         ;
+;          |lpm_mult:Mult0|                         ; 26 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u03|servo:SERVO|lpm_mult:Mult0                                                                                    ; work         ;
+;             |multcore:mult_core|                  ; 26 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u03|servo:SERVO|lpm_mult:Mult0|multcore:mult_core                                                                 ; work         ;
+;                |mpar_add:padder|                  ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u03|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder                                                 ; work         ;
+;                   |lpm_add_sub:adder[0]|          ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u03|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]                            ; work         ;
+;                      |add_sub_bfh:auto_generated| ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u03|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]|add_sub_bfh:auto_generated ; work         ;
+;       |sine_rom:SINE_ROM|                         ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u03|sine_rom:SINE_ROM                                                                                             ; work         ;
+;          |altsyncram:Mux7_rtl_0|                  ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u03|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0                                                                       ; work         ;
+;             |altsyncram_2uv:auto_generated|       ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u03|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_2uv:auto_generated                                         ; work         ;
+;    |top:u04|                                      ; 107 (0)           ; 62 (0)       ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u04                                                                                                               ; work         ;
+;       |counter:COUNTER|                           ; 25 (25)           ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u04|counter:COUNTER                                                                                               ; work         ;
+;       |reset:RESET|                               ; 1 (1)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u04|reset:RESET                                                                                                   ; work         ;
+;       |servo:SERVO|                               ; 81 (55)           ; 33 (33)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u04|servo:SERVO                                                                                                   ; work         ;
+;          |lpm_mult:Mult0|                         ; 26 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u04|servo:SERVO|lpm_mult:Mult0                                                                                    ; work         ;
+;             |multcore:mult_core|                  ; 26 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u04|servo:SERVO|lpm_mult:Mult0|multcore:mult_core                                                                 ; work         ;
+;                |mpar_add:padder|                  ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u04|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder                                                 ; work         ;
+;                   |lpm_add_sub:adder[0]|          ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u04|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]                            ; work         ;
+;                      |add_sub_bfh:auto_generated| ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u04|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]|add_sub_bfh:auto_generated ; work         ;
+;       |sine_rom:SINE_ROM|                         ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u04|sine_rom:SINE_ROM                                                                                             ; work         ;
+;          |altsyncram:Mux7_rtl_0|                  ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u04|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0                                                                       ; work         ;
+;             |altsyncram_3uv:auto_generated|       ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u04|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_3uv:auto_generated                                         ; work         ;
+;    |top:u05|                                      ; 107 (0)           ; 62 (0)       ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u05                                                                                                               ; work         ;
+;       |counter:COUNTER|                           ; 25 (25)           ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u05|counter:COUNTER                                                                                               ; work         ;
+;       |reset:RESET|                               ; 1 (1)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u05|reset:RESET                                                                                                   ; work         ;
+;       |servo:SERVO|                               ; 81 (55)           ; 33 (33)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u05|servo:SERVO                                                                                                   ; work         ;
+;          |lpm_mult:Mult0|                         ; 26 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u05|servo:SERVO|lpm_mult:Mult0                                                                                    ; work         ;
+;             |multcore:mult_core|                  ; 26 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u05|servo:SERVO|lpm_mult:Mult0|multcore:mult_core                                                                 ; work         ;
+;                |mpar_add:padder|                  ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u05|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder                                                 ; work         ;
+;                   |lpm_add_sub:adder[0]|          ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u05|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]                            ; work         ;
+;                      |add_sub_bfh:auto_generated| ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u05|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]|add_sub_bfh:auto_generated ; work         ;
+;       |sine_rom:SINE_ROM|                         ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u05|sine_rom:SINE_ROM                                                                                             ; work         ;
+;          |altsyncram:Mux7_rtl_0|                  ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u05|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0                                                                       ; work         ;
+;             |altsyncram_4uv:auto_generated|       ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u05|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_4uv:auto_generated                                         ; work         ;
+;    |top:u06|                                      ; 107 (0)           ; 62 (0)       ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u06                                                                                                               ; work         ;
+;       |counter:COUNTER|                           ; 25 (25)           ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u06|counter:COUNTER                                                                                               ; work         ;
+;       |reset:RESET|                               ; 1 (1)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u06|reset:RESET                                                                                                   ; work         ;
+;       |servo:SERVO|                               ; 81 (55)           ; 33 (33)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u06|servo:SERVO                                                                                                   ; work         ;
+;          |lpm_mult:Mult0|                         ; 26 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u06|servo:SERVO|lpm_mult:Mult0                                                                                    ; work         ;
+;             |multcore:mult_core|                  ; 26 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u06|servo:SERVO|lpm_mult:Mult0|multcore:mult_core                                                                 ; work         ;
+;                |mpar_add:padder|                  ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u06|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder                                                 ; work         ;
+;                   |lpm_add_sub:adder[0]|          ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u06|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]                            ; work         ;
+;                      |add_sub_bfh:auto_generated| ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u06|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]|add_sub_bfh:auto_generated ; work         ;
+;       |sine_rom:SINE_ROM|                         ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u06|sine_rom:SINE_ROM                                                                                             ; work         ;
+;          |altsyncram:Mux7_rtl_0|                  ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u06|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0                                                                       ; work         ;
+;             |altsyncram_5uv:auto_generated|       ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u06|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_5uv:auto_generated                                         ; work         ;
+;    |top:u07|                                      ; 107 (0)           ; 62 (0)       ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u07                                                                                                               ; work         ;
+;       |counter:COUNTER|                           ; 25 (25)           ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u07|counter:COUNTER                                                                                               ; work         ;
+;       |reset:RESET|                               ; 1 (1)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u07|reset:RESET                                                                                                   ; work         ;
+;       |servo:SERVO|                               ; 81 (55)           ; 33 (33)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u07|servo:SERVO                                                                                                   ; work         ;
+;          |lpm_mult:Mult0|                         ; 26 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u07|servo:SERVO|lpm_mult:Mult0                                                                                    ; work         ;
+;             |multcore:mult_core|                  ; 26 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u07|servo:SERVO|lpm_mult:Mult0|multcore:mult_core                                                                 ; work         ;
+;                |mpar_add:padder|                  ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u07|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder                                                 ; work         ;
+;                   |lpm_add_sub:adder[0]|          ; 10 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u07|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]                            ; work         ;
+;                      |add_sub_bfh:auto_generated| ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u07|servo:SERVO|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]|add_sub_bfh:auto_generated ; work         ;
+;       |sine_rom:SINE_ROM|                         ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u07|sine_rom:SINE_ROM                                                                                             ; work         ;
+;          |altsyncram:Mux7_rtl_0|                  ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u07|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0                                                                       ; work         ;
+;             |altsyncram_6uv:auto_generated|       ; 0 (0)             ; 0 (0)        ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |casca|top:u07|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_6uv:auto_generated                                         ; work         ;
++---------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                         ;
++------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+------+------------------------------+
+; Name                                                                                     ; Type ; Mode ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF                          ;
++------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+------+------------------------------+
+; top:u01|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_0uv:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 256          ; 8            ; --           ; --           ; 2048 ; trabalhofinal.casca0.rtl.mif ;
+; top:u02|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_1uv:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 256          ; 8            ; --           ; --           ; 2048 ; trabalhofinal.casca1.rtl.mif ;
+; top:u03|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_2uv:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 256          ; 8            ; --           ; --           ; 2048 ; trabalhofinal.casca2.rtl.mif ;
+; top:u04|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_3uv:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 256          ; 8            ; --           ; --           ; 2048 ; trabalhofinal.casca3.rtl.mif ;
+; top:u05|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_4uv:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 256          ; 8            ; --           ; --           ; 2048 ; trabalhofinal.casca4.rtl.mif ;
+; top:u06|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_5uv:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 256          ; 8            ; --           ; --           ; 2048 ; trabalhofinal.casca5.rtl.mif ;
+; top:u07|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0|altsyncram_6uv:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 256          ; 8            ; --           ; --           ; 2048 ; trabalhofinal.casca6.rtl.mif ;
++------------------------------------------------------------------------------------------+------+------+--------------+--------------+--------------+--------------+------+------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                ;
++--------+--------------+---------+--------------+--------------+---------------------+----------------------------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance     ; IP Include File                                                ;
++--------+--------------+---------+--------------+--------------+---------------------+----------------------------------------------------------------+
+; Altera ; ALTPLL       ; 13.1    ; N/A          ; N/A          ; |casca|pllcanhao:p1 ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/pllcanhao.v ;
+; Altera ; ALTPLL       ; 13.1    ; N/A          ; N/A          ; |casca|pllcanhao:p2 ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/pllcanhao.v ;
+; Altera ; ALTPLL       ; 13.1    ; N/A          ; N/A          ; |casca|pllcanhao:p3 ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/pllcanhao.v ;
+; Altera ; ALTPLL       ; 13.1    ; N/A          ; N/A          ; |casca|pllcanhao:p4 ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/pllcanhao.v ;
+; Altera ; ALTPLL       ; 13.1    ; N/A          ; N/A          ; |casca|pllcanhao:p5 ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/pllcanhao.v ;
+; Altera ; ALTPLL       ; 13.1    ; N/A          ; N/A          ; |casca|pllcanhao:p6 ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/pllcanhao.v ;
+; Altera ; ALTPLL       ; 13.1    ; N/A          ; N/A          ; |casca|pllcanhao:p7 ; C:/Users/mathe/Documents/HDL/projeto-final-hdl/prj/pllcanhao.v ;
++--------+--------------+---------+--------------+--------------+---------------------+----------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                             ;
++---------------------------------------+----------------------------------------+
+; Register name                         ; Reason for Removal                     ;
++---------------------------------------+----------------------------------------+
+; top:u07|servo:SERVO|duty_cycle[0]     ; Stuck at GND due to stuck port data_in ;
+; top:u06|servo:SERVO|duty_cycle[0]     ; Stuck at GND due to stuck port data_in ;
+; top:u05|servo:SERVO|duty_cycle[0]     ; Stuck at GND due to stuck port data_in ;
+; top:u04|servo:SERVO|duty_cycle[0]     ; Stuck at GND due to stuck port data_in ;
+; top:u03|servo:SERVO|duty_cycle[0]     ; Stuck at GND due to stuck port data_in ;
+; top:u02|servo:SERVO|duty_cycle[0]     ; Stuck at GND due to stuck port data_in ;
+; top:u01|servo:SERVO|duty_cycle[0]     ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 7 ;                                        ;
++---------------------------------------+----------------------------------------+
+=======
 ;     Processors 2-3         ; < 0.1%      ;
 ;     Processors 4-8         ;   0.0%      ;
 +----------------------------+-------------+
@@ -640,6 +978,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|serial_crc_16:\tdo_crc_gen:tdo_crc_calc|lfsr[15] ; Stuck at GND              ; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|serial_crc_16:\tdo_crc_gen:tdo_crc_calc|lfsr[14], ;
 ;                                                                                                                                                              ; due to stuck port data_in ; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|serial_crc_16:\tdo_crc_gen:tdo_crc_calc|lfsr[13]  ;
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+>>>>>>> main
 
 
 +------------------------------------------------------+
@@ -647,12 +986,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
+<<<<<<< HEAD
+; Total registers                              ; 465   ;
+; Number of registers using Synchronous Clear  ; 325   ;
+; Number of registers using Synchronous Load   ; 81    ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 24    ;
+=======
 ; Total registers                              ; 1067  ;
 ; Number of registers using Synchronous Clear  ; 369   ;
 ; Number of registers using Synchronous Load   ; 145   ;
 ; Number of registers using Asynchronous Clear ; 246   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 404   ;
+>>>>>>> main
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -698,6 +1046,26 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------------+--------------------------------------+------+
 
 
+<<<<<<< HEAD
++----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------+
+; 3:1                ; 24 bits   ; 48 LEs        ; 24 LEs               ; 24 LEs                 ; Yes        ; |casca|counter[23]                         ;
+; 3:1                ; 18 bits   ; 36 LEs        ; 18 LEs               ; 18 LEs                 ; Yes        ; |casca|top:u01|servo:SERVO|counter[17]     ;
+; 3:1                ; 18 bits   ; 36 LEs        ; 18 LEs               ; 18 LEs                 ; Yes        ; |casca|top:u02|servo:SERVO|counter[6]      ;
+; 3:1                ; 18 bits   ; 36 LEs        ; 18 LEs               ; 18 LEs                 ; Yes        ; |casca|top:u03|servo:SERVO|counter[14]     ;
+; 3:1                ; 18 bits   ; 36 LEs        ; 18 LEs               ; 18 LEs                 ; Yes        ; |casca|top:u04|servo:SERVO|counter[12]     ;
+; 3:1                ; 18 bits   ; 36 LEs        ; 18 LEs               ; 18 LEs                 ; Yes        ; |casca|top:u05|servo:SERVO|counter[16]     ;
+; 3:1                ; 18 bits   ; 36 LEs        ; 18 LEs               ; 18 LEs                 ; Yes        ; |casca|top:u06|servo:SERVO|counter[11]     ;
+; 3:1                ; 18 bits   ; 36 LEs        ; 18 LEs               ; 18 LEs                 ; Yes        ; |casca|top:u07|servo:SERVO|counter[0]      ;
+; 5:1                ; 4 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |casca|led4~reg0                           ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |casca|data_i[1]                           ;
+; 16:1               ; 2 bits    ; 20 LEs        ; 16 LEs               ; 4 LEs                  ; No         ; |casca|display_7seg:display|disp_7seg_o[6] ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |casca|data_i                              ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------+
+=======
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                                                                                           ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -727,6 +1095,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 34:1               ; 4 bits    ; 88 LEs        ; 64 LEs               ; 24 LEs                 ; Yes        ; |casca|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|design_hash_reg[0]                                                                                    ;
 ; 20:1               ; 4 bits    ; 52 LEs        ; 32 LEs               ; 20 LEs                 ; Yes        ; |casca|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg|WORD_SR[0]                                                                    ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+>>>>>>> main
 
 
 +------------------------------------------------------------------------------------------------------+
@@ -3655,6 +4024,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
+<<<<<<< HEAD
+=======
 +------------------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0                                        ;
 +-------------------------------------------------+-----------------------------------------------------+----------------+
@@ -3715,6 +4086,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
+>>>>>>> main
 +--------------------------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: top:u01|sine_rom:SINE_ROM|altsyncram:Mux7_rtl_0 ;
 +------------------------------------+------------------------------+------------------------------+
@@ -4693,30 +5065,54 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+<<<<<<< HEAD
+    Info: Processing started: Thu Dec 07 19:46:18 2023
+=======
     Info: Processing started: Wed Dec 06 18:53:10 2023
+>>>>>>> main
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off trabalhofinal -c trabalhofinal
-Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
-Info (12021): Found 2 design units, including 1 entities, in source file /users/debor/onedrive/documentos/projetoshdl/trabalhofinal/scr/top.vhd
+Info (11104): Parallel Compilation has detected 16 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 12 of the 12 physical processors detected instead.
+Warning (10275): Verilog HDL Module Instantiation warning at casca.v(41): ignored dangling comma in List of Port Connections
+Info (12021): Found 1 design units, including 1 entities, in source file /users/mathe/documents/hdl/projeto-final-hdl/scr/casca.v
+    Info (12023): Found entity 1: casca
+Info (12021): Found 2 design units, including 1 entities, in source file /users/mathe/documents/hdl/projeto-final-hdl/scr/top_level.vhd
+    Info (12022): Found design unit 1: top_level-Behavioral
+    Info (12023): Found entity 1: top_level
+Info (12021): Found 2 design units, including 1 entities, in source file /users/mathe/documents/hdl/projeto-final-hdl/scr/display_7seg.vhd
+    Info (12022): Found design unit 1: display_7seg-behavior
+    Info (12023): Found entity 1: display_7seg
+Warning (12019): Can't analyze file -- file ../scr/disp7seg.vhd is missing
+Info (12021): Found 2 design units, including 1 entities, in source file /users/mathe/documents/hdl/projeto-final-hdl/scr/top.vhd
     Info (12022): Found design unit 1: top-str
     Info (12023): Found entity 1: top
-Info (12021): Found 2 design units, including 1 entities, in source file /users/debor/onedrive/documentos/projetoshdl/trabalhofinal/scr/sine_rom.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/mathe/documents/hdl/projeto-final-hdl/scr/sine_rom.vhd
     Info (12022): Found design unit 1: sine_rom-rtl
     Info (12023): Found entity 1: sine_rom
-Info (12021): Found 2 design units, including 1 entities, in source file /users/debor/onedrive/documentos/projetoshdl/trabalhofinal/scr/servo.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/mathe/documents/hdl/projeto-final-hdl/scr/servo.vhd
     Info (12022): Found design unit 1: servo-rtl
     Info (12023): Found entity 1: servo
-Info (12021): Found 2 design units, including 1 entities, in source file /users/debor/onedrive/documentos/projetoshdl/trabalhofinal/scr/reset.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/mathe/documents/hdl/projeto-final-hdl/scr/reset.vhd
     Info (12022): Found design unit 1: reset-rtl
     Info (12023): Found entity 1: reset
-Info (12021): Found 2 design units, including 1 entities, in source file /users/debor/onedrive/documentos/projetoshdl/trabalhofinal/scr/counter.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/mathe/documents/hdl/projeto-final-hdl/scr/counter.vhd
     Info (12022): Found design unit 1: counter-rtl
     Info (12023): Found entity 1: counter
 Info (12021): Found 1 design units, including 1 entities, in source file pllcanhao.v
     Info (12023): Found entity 1: pllcanhao
-Info (12021): Found 1 design units, including 1 entities, in source file /users/debor/onedrive/documentos/projetoshdl/trabalhofinal/scr/casca.v
-    Info (12023): Found entity 1: casca
 Info (12127): Elaborating entity "casca" for the top level hierarchy
+<<<<<<< HEAD
+Warning (10230): Verilog HDL assignment warning at casca.v(213): truncated value with size 32 to match size of target (24)
+Info (12128): Elaborating entity "display_7seg" for hierarchy "display_7seg:display"
+Info (10041): Inferred latch for "disp_7seg_o[0]" at display_7seg.vhd(22)
+Info (10041): Inferred latch for "disp_7seg_o[1]" at display_7seg.vhd(22)
+Info (10041): Inferred latch for "disp_7seg_o[2]" at display_7seg.vhd(22)
+Info (10041): Inferred latch for "disp_7seg_o[3]" at display_7seg.vhd(22)
+Info (10041): Inferred latch for "disp_7seg_o[4]" at display_7seg.vhd(22)
+Info (10041): Inferred latch for "disp_7seg_o[5]" at display_7seg.vhd(22)
+Info (10041): Inferred latch for "disp_7seg_o[6]" at display_7seg.vhd(22)
+=======
 Warning (10230): Verilog HDL assignment warning at casca.v(192): truncated value with size 32 to match size of target (24)
+>>>>>>> main
 Info (12128): Elaborating entity "pllcanhao" for hierarchy "pllcanhao:p1"
 Info (12128): Elaborating entity "altpll" for hierarchy "pllcanhao:p1|altpll:altpll_component"
 Info (12130): Elaborated megafunction instantiation "pllcanhao:p1|altpll:altpll_component"
@@ -4784,6 +5180,8 @@ Info (12129): Elaborating entity "servo" using architecture "A:rtl" for hierarch
 Info (12129): Elaborating entity "counter" using architecture "A:rtl" for hierarchy "top:u01|counter:COUNTER"
 Info (12129): Elaborating entity "sine_rom" using architecture "A:rtl" for hierarchy "top:u01|sine_rom:SINE_ROM"
 Warning (10542): VHDL Variable Declaration warning at math_real.vhd(3004): used initial value expression for variable "NEGATIVE" because variable was never assigned a value
+<<<<<<< HEAD
+=======
 Info (12021): Found 1 design units, including 1 entities, in source file db/sld_ela_trigger_f8p.tdf
     Info (12023): Found entity 1: sld_ela_trigger_f8p
 Info (12021): Found 1 design units, including 1 entities, in source file db/sld_reserved_trabalhofinal_auto_signaltap_0_1_8357.v
@@ -4809,6 +5207,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/cntr
 Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_efc.tdf
     Info (12023): Found entity 1: cmpr_efc
 Info (12033): Analysis and Synthesis generated SignalTap II or debug node instance "auto_signaltap_0"
+>>>>>>> main
 Info (19000): Inferred 7 megafunctions from design logic
     Info (276031): Inferred altsyncram megafunction from the following design logic: "top:u01|sine_rom:SINE_ROM|Mux7_rtl_0"
         Info (286033): Parameter OPERATION_MODE set to ROM
@@ -4981,6 +5380,19 @@ Info (286031): Timing-Driven Synthesis is running on partition "sld_hub:auto_hub
 Critical Warning (35025): Partially connected in-system debug instance "auto_signaltap_0" to 19 of its 25 required data inputs, trigger inputs, acquisition clocks, and dynamic pins.  There were 0 illegal, 0 inaccessible, and 6 missing sources or connections.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 7 node(s), including 0 DDIO, 7 PLL, 0 transceiver and 0 LCELL
+<<<<<<< HEAD
+Info (21057): Implemented 925 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 14 input pins
+    Info (21059): Implemented 14 output pins
+    Info (21061): Implemented 834 logic cells
+    Info (21064): Implemented 56 RAM segments
+    Info (21065): Implemented 7 PLLs
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4733 megabytes
+    Info: Processing ended: Thu Dec 07 19:46:20 2023
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+=======
 Info (21057): Implemented 1756 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 17 input pins
     Info (21059): Implemented 8 output pins
@@ -4992,5 +5404,6 @@ Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 6 warning
     Info: Processing ended: Wed Dec 06 18:53:17 2023
     Info: Elapsed time: 00:00:07
     Info: Total CPU time (on all processors): 00:00:03
+>>>>>>> main
 
 
