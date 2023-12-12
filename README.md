@@ -1,5 +1,5 @@
 # Abajur Automático com Controle de Motores e LEDs
-Este projeto consiste em simular um abajur automático com funcionalidades distintas para o controle de motores e LEDs. São oferecidos 3 modos de operação para os motores (horizontal, vertical e giratório) e 3 modos para os LEDs (ligado, pisca e fade). O projeto foi implementado utilizando uma base em VHD com uma casca em Verilog, permitindo o funcionamento completo do dispositivo simulado. Os testes e projeções foram feitos no software da Intel: Quartus II 13.1.
+Este projeto foi projetado como trabalho final da disciplina de Linguagem de Descrição de Hardware(HDL) e consiste em simular um abajur automático com funcionalidades distintas para o controle de motores e LEDs. São oferecidos 3 modos de operação para os motores (horizontal, vertical e giratório) e 3 modos para os LEDs (ligado, pisca e fade). O projeto foi implementado utilizando uma base em VHD com uma casca em Verilog, permitindo o funcionamento completo do dispositivo simulado. Os testes e projeções foram feitos no software da Intel: Quartus II 13.1.
 
 ## Funcionalidades
 ### Controle dos Motores
